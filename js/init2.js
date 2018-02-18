@@ -55,7 +55,7 @@ $(function(){
 });
 
 function displayDoc(){
-	generateDocSite(DOC_CONFIG.core,'#ul_listCore',4);
+	generateDocSite(DOC_CONFIG.wiki,'#ul_listwiki',4);
 	generateDocSite(DOC_CONFIG.plugin,'#ul_listPlugin',4);
 	generateDocSite(DOC_CONFIG.howto,'#ul_listHowTo',4);
 	generateDocSite(DOC_CONFIG.presentation,'#ul_listFirstStep0');
