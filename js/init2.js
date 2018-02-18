@@ -55,11 +55,7 @@ $(function(){
 });
 
 function displayDoc(){
-<<<<<<< HEAD
 	generateDocSite(DOC_CONFIG.wiki,'#ul_listWiki',4);
-=======
-	generateDocSite(DOC_CONFIG.wiki,'#ul_listwiki',4);
->>>>>>> 9fecd446f4d76e46f01c739445373ebe641ea51a
 	generateDocSite(DOC_CONFIG.plugin,'#ul_listPlugin',4);
 	generateDocSite(DOC_CONFIG.howto,'#ul_listHowTo',4);
 	generateDocSite(DOC_CONFIG.presentation,'#ul_listFirstStep0');
