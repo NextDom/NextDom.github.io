@@ -17,6 +17,7 @@ exclude:
 - vendor
 plugins:
 - jekyll-seo-tag
+- jekyll-feed
 title: "Documentation Jeedom-Plugins-Extra"
 description: "Ceci est la documentation de la team Jeedom-Plugins-Extra."
 author: "Jeedom-Plugins-Extra"
