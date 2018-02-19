@@ -23,7 +23,7 @@ p {
   color: #40535E !important;
 }
 .collection a.collection-item {
-  color: #85a835 !important;
+  color: #40535E !important;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
@@ -53,5 +53,5 @@ main {
 }
 
 .tabs .tab a:hover {
-  color: #d2ef8b !important;
+  color: #B0C3CE !important;
 }
