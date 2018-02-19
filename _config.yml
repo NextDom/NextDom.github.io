@@ -11,19 +11,19 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 gems:
+- jekyll-feed
 - jekyll-paginate
 - jekyll-seo-tag
-- jekyll-feed
 exclude:
 - vendor
 plugins:
-- jekyll-seo-tag
 - jekyll-feed
+- jekyll-seo-tag
 title: "Documentation Jeedom-Plugins-Extra"
 description: "Ceci est la documentation de la team Jeedom-Plugins-Extra."
 author: "Jeedom-Plugins-Extra"
 image: https://avatars1.githubusercontent.com/u/36200380?s=200&v=4
 social:
   name: Jeedom-Plugin-Extra
-  links:
-    - https://github.com/jeedom-Plugins-Extra
+links:
+- https://github.com/jeedom-Plugins-Extra
