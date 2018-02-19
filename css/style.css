@@ -16,11 +16,11 @@ p {
 }
 
 .jeedomcolorbg {
-  background-color: #95C12B !important;
+  background-color: #40535E !important;
 }
 
 .jeedomcolor {
-  color: #95C12B !important;
+  color: #40535E !important;
 }
 .collection a.collection-item {
   color: #85a835 !important;
@@ -46,10 +46,10 @@ main {
   box-sizing : unset !important;
 }
 .tabs .tab a {
-  color: #95C12B !important;
+  color: #40535E !important;
 }
 .tabs .indicator {
-  background-color: #95C12B !important;
+  background-color: #40535E !important;
 }
 
 .tabs .tab a:hover {
