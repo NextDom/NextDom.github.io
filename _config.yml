@@ -13,6 +13,7 @@ highlighter: rouge
 gems:
 - jekyll-paginate
 - jekyll-seo-tag
+- jekyll-feed
 exclude:
 - vendor
 plugins:
@@ -22,8 +23,6 @@ title: "Documentation Jeedom-Plugins-Extra"
 description: "Ceci est la documentation de la team Jeedom-Plugins-Extra."
 author: "Jeedom-Plugins-Extra"
 image: https://avatars1.githubusercontent.com/u/36200380?s=200&v=4
-twitter:
-  username: Jeedom_domotic
 social:
   name: Jeedom-Plugin-Extra
   links:
