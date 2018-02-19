@@ -57,23 +57,6 @@ $(function(){
 function displayDoc(){
 	generateDocSite(DOC_CONFIG.wiki,'#ul_listWiki',4);
 	generateDocSite(DOC_CONFIG.plugin,'#ul_listPlugin',4);
-	generateDocSite(DOC_CONFIG.howto,'#ul_listHowTo',4);
-	generateDocSite(DOC_CONFIG.presentation,'#ul_listFirstStep0');
-	generateDocSite(DOC_CONFIG.installation,'#ul_listFirstStep1');
-	generateDocSite(DOC_CONFIG['premiers-pas'],'#ul_listFirstStep2');
-	generateDocSite(DOC_CONFIG.compatibility,'#ul_listFirstStep3');
-	generateDocSite(DOC_CONFIG.rfxcom,'#ul_listRfxcom',4);
-	generateDocSite(DOC_CONFIG.edisio,'#ul_listEdisio',4);
-	generateDocSite(DOC_CONFIG.camera,'#ul_listCamera',4);
-	generateDocSite(DOC_CONFIG.blea,'#ul_listBlea',4);
-	generateDocSite(DOC_CONFIG.zwave,'#ul_listZwave',4);
-	generateDocSite(DOC_CONFIG.enocean,'#ul_listEnOcean',4);
-	$('#bt_eqCompZwave').attr('href','zwave/fr_FR/equipement.compatible'.replace('#language#',$('#sel_language').val()));
-	$('#bt_eqCompEnOcean').attr('href','enocean/fr_FR/equipement.compatible'.replace('#language#',$('#sel_language').val()));
-	$('#bt_eqCompRfxcom').attr('href','rfxcom/fr_FR/equipement.compatible'.replace('#language#',$('#sel_language').val()));
-	$('#bt_eqCompEdisio').attr('href','edisio/fr_FR/equipement.compatible'.replace('#language#',$('#sel_language').val()));
-	$('#bt_eqCompBlea').attr('href','blea/fr_FR/equipement.compatible'.replace('#language#',$('#sel_language').val()));
-	$('#bt_eqCompCamera').attr('href','camera/fr_FR/equipement.compatible'.replace('#language#',$('#sel_language').val()));
 }
 
 
