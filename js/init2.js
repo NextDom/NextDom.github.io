@@ -109,7 +109,7 @@ function generateThirdSite(_data){
 		return 0;
 	});
 	for(var i in _data.third_plugin.docs){
-		colNb=i % 4;
-		$('#ul_listPluginThird'+colNb).append('<a class="collection-item waves-effect waves-jeedom" target="_blank" href="'+_data.third_plugin.docs[i].url.replace('#language#',$('#sel_language').val())+'">'+convertCase(_data.third_plugin.docs[i].name)+'</a>');
+		$('#ul_listPluginThird0').append('<div class="col s8 m4"><div class="card sticky-action"><span class="card-title">'+_data.third_plugin.docs[i].name+'</span><div class="card-text"><img src="'+_data.third_plugin.docs[i].url+'"/plugin_info/'+_data.third_plugin.docs[i].name+'_icon.png width="80" height="85" class="center"><p>'+_data.third_plugin.docs[i].description+'</p></div><div class="card-action"><a href="'+_data.third_plugin.docs[i].url.replace('#language#',$('#sel_language').val())+'">Doc</a><a href="'+_data.third_plugin.docs[i].url+'"/issues>Issues</a></div></div></div></div>');
+
 	}
 }
