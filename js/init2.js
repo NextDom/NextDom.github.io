@@ -109,7 +109,7 @@ function generateThirdSite(_data){
 		return 0;
 	});
 	for(var i in _data.third_plugin.docs){
-		$('#ul_listPluginThird0').append('<div class="col s8 m4"><div class="card sticky-action"><span class="card-title">'+_data.third_plugin.docs[i].name+'</span><div class="card-text"><img src=https://github.com/Jeedom-Plugins-Extra/plugin-"'+_data.third_plugin.docs[i].name+'/blob/master/plugin_info/'+_data.third_plugin.docs[i].name+'_icon.png?raw=true" width="80" height="85" class="center"><p>'+_data.third_plugin.docs[i].description+'</p></div><div class="card-action"><a href="'+_data.third_plugin.docs[i].url+'/fr_FR">Doc</a><a href=https://github.com/Jeedom-Plugins-Extra/plugin-"'+_data.third_plugin.docs[i].name+'/issues">Issues</a></div></div></div></div>');
+		$('#ul_listPluginThird0').append('<div class="col s8 m4"><div class="card sticky-action"><span class="card-title">'+_data.third_plugin.docs[i].name+'</span><div class="card-text"><img src=https://github.com/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'/blob/master/plugin_info/'+_data.third_plugin.docs[i].name+'_icon.png?raw=true" width="80" height="85" class="center"><p>'+_data.third_plugin.docs[i].description+'</p></div><div class="card-action"><a href="'+_data.third_plugin.docs[i].url+'/fr_FR">Doc</a><a href=https://github.com/Jeedom-Plugins-Extra/plugin-"'+_data.third_plugin.docs[i].name+'/issues">Issues</a></div></div></div></div>');
 
 	}
 }
