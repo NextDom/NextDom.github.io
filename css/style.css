@@ -55,3 +55,10 @@ main {
 .tabs .tab a:hover {
   color: #B0C3CE !important;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
