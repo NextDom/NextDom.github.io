@@ -1,5 +1,5 @@
 {"third_plugin": {"docs": [
-  {"url": "https://jeedom-plugins-extra.github.io/plugin-AndroidRemoteControl", "name": "AndroidRemoteControl", "description": "Permet de piloter les appareils android"},
+  {"url": "https://jeedom-plugins-extra.github.io","url2": "https://github.com/Jeedom-Plugins-Extra", "name": "AndroidRemoteControl", "description": "Permet de piloter les appareils android"},
   {"url": "https://jeedom-plugins-extra.github.io/plugin-Opening", "name": "Opening"},
   {"url": "https://jeedom-plugins-extra.github.io/plugin-pulseaudio", "name": "pulseaudio"},
   {"url": "https://jeedom-plugins-extra.github.io/plugin-veolia_eau", "name": "veolia_eau"},
