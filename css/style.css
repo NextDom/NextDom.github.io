@@ -81,8 +81,9 @@ main {
  }
 
 .card-text {
-    padding-left: 10px;
-    padding-right: 10px;
+	align:center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .btn {
