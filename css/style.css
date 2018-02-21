@@ -88,7 +88,8 @@ main {
 .btn {
 	height: 30px;
     line-height: 30px;
-    padding: 0 0.5rem;	
+    padding: 0 0.5rem;
+    padding-bottom: 0 0.5rem;	
 }
 
 .titre{
