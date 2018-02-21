@@ -1,0 +1,7 @@
+{"developer": {"docs": [
+  {"url": "phpdoc/index.html", "name": "Documentation du code du core"},
+  {"url": "https://jeedom.github.io/plugin-template/fr_FR/", "name": "Documentation développement plugin"},
+  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki", "name": "Documentations développement plugin supplémentaires  "},
+  {"url": "https://github.com/jeedom/plugin-template", "name": "Plugin template officiel"},
+  {"url": "https://github.com/Jeedom-Plugins-Extra/plugin-template", "name": "Plugin template Jeedom-Plugins-Extra"}
+  ]}}

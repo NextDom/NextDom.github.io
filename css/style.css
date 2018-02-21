@@ -6,9 +6,18 @@
  * Made By MaterializeCSS.com
  */
 
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
  nav ul a, nav {
   color: #444;
   background-color: #fff;
+  height: 90px;
 }
 
 p {
@@ -42,8 +51,8 @@ body {
 main {
   flex: 1 0 auto;
 }
-#div_googleSearch, #div_googleSearch:before, #div_googleSearch:after {
-  box-sizing : unset !important;
+#ul_listPluginThird, #ul_listWiki, #ul_listChat{
+  background-color: #eeeeee !important;
 }
 .tabs .tab a {
   color: #40535E !important;
@@ -56,9 +65,29 @@ main {
   color: #B0C3CE !important;
 }
 
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.card-title {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.btn {
+	height: 30px;
+    line-height: 30px;
+    padding: 0 0.5rem;	
+}
+
+.titre{
+line-height: 90px;
+padding-left: 90px;
+font-size: 18px;
 }

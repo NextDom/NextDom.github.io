@@ -3,11 +3,11 @@
  <head>
  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
- 	<meta name="description" content="Documentation de la team Jeedom-Plugins-Extra" />
+ 	<meta name="description" content="Site officiel de la team Jeedom-Plugins-Extra" />
  	<meta property="og:title" content="Jeedom-Plugins-Extra" />
  	<meta property="og:type" content="Domotique" />
  	<meta property="og:url" content="https://jeedom-plugins-extra.github.io/" />
- 	<meta property="og:image" content="https://www.jeedom.com/doc/img/logo.png" />
+ 	<meta property="og:image" content="https://jeedom-plugins-extra.github.io/img/logo.png" />
  	<link rel="icon" href="favicon.ico"/>
  	<title>Jeedom-Plugins-Extra</title>
 
@@ -16,17 +16,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
  	<!--Import materialize.css-->
+
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
  	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
  	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
  	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
  </head>
+ 
  <body>
  	<div>
  		<nav>
  			<div class="nav-wrapper container">
- 				<a id="logo-container" href="https://jeedom-plugins-extra.github.io/" class="brand-logo center"><img src="img/logo.png" style="height:50px;margin-top:5px"></a>
- 				<ul class="left hide-on-med-and-down">
- 					<li>Jeedom-Plugins-Extra Documentation</li>
+ 				<a id="logo-container" href="https://jeedom-plugins-extra.github.io/" class="brand-logo left"><img src="img/logo.png" style="height:80px;margin-top:5px"></a>
+ 				<ul class="titre">
+ 					<li>Jeedom-Plugins-Extra</li>
  				</ul>
  				<a href="https://jeedom-plugins-extra.github.io/" data-activates="nav-mobile" class="button-collapse btn-floating btn-large waves-effect waves-light jeedomcolorbg"><i class="material-icons">menu</i></a>
  				<ul class="right hide-on-med-and-down">
@@ -43,50 +47,9 @@
  	</div>
 
 
- 	<div class="parallax-container valign-wrapper" style="height:275px">
- 		<div class="parallax"><img src="img/background5.jpg"></div>
- 		<div class="container">
- 			<div class="section">
 
- 				<div class="row">
- 					<div class="input-field col s12 m3 offset-m11">
- 						<br/>
- 						<br/>
- 						<select class="icons white-text" id="sel_language">
- 							<option value="en_US" data-icon="img/flag/flag_en.png" class="left circle">English</option>
- 							<option value="es_ES" data-icon="img/flag/flag_es.png" class="left circle">Español</option>
- 							<option value="fr_FR" data-icon="img/flag/flag_fr.png" class="left circle" selected>Français</option>
- 						</select>
- 						<label class="white-text" style="font-size:1.2rem"><i class="material-icons jeedomcolor circle" style="background-color:white;">language</i> Choisissez votre langue<br/><i style="font-size:1rem">Choose your language</i></label>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
 
- 	<div class="container" id="div_googleSearch">
- 		<div>
- 			<script>
- 				(function() {
- 					var cx = '007992890294536312136:75s0-jhumye';
- 					var gcse = document.createElement('script');
- 					gcse.type = 'text/javascript';
- 					gcse.async = true;
- 					gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
- 					var s = document.getElementsByTagName('script')[0];
- 					s.parentNode.insertBefore(gcse, s);
- 				})();
-     window.onload = function(){
-      $('#gsc-i-id1').removeAttr( 'style' );
-      $('#gsc-i-id1').attr('style','width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; outline: none; background-image: url(https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png); text-indent: 48px; background-position: left center; background-repeat: no-repeat no-repeat;');
-      $('#gsc-i-id1').attr('placeholder','Rechercher sur la documentation');
-     };
- 			</script>
- 			<gcse:search></gcse:search>
- 		</div>
- 	</div>
-
- 	<div class="container">
+ 	<div class="container ">
  		<div class="section">
  			<div class="row">
  				<div class="col s12">
@@ -94,6 +57,7 @@
  						<li class="tab col s2"><a class="active" href="#home">Accueil</a></li>
  						<li class="tab col s2"><a href="#wiki">Wiki</a></li>
  						<li class="tab col s2"><a href="#plugin">Plugins</a></li>
+ 						<li class="tab col s2"><a href="#chat">Chat</a></li>
  						<li class="tab col s2"><a href="#developer">Développeurs</a></li>
  					</ul>
  				</div>
@@ -126,18 +90,18 @@
  									<span class="card-title">Qui sommes-nous ?</span>
  									<p>Nous sommes un regroupement de développeurs, passionnés, adeptes de la solution Open Source de domotique Jeedom réalisé par une équipe géniale ! Nous n'avons aucun lien commercial ou autre avec Jeedom SAS, hormis la volonté de faire grandir la solution.</br>
                     Pour plus de détails le mieux est de jeter un coup d’œil à la page suivante.</br>
-                    Voici les membres la team : <a href="https://github.com/orgs/Jeedom-Plugins-Extra/teams/jeedom-plugins-extra-team">ici</a>
+                    Voici les membres la team : <a href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team">presentation membres</a>
  									</p>
  								</div>
  							</div>
  						</div>
-            <div class="col s6">
+                        <div class="col s6">
  							<div class="card blue-grey darken-1">
  								<div class="card-content white-text">
  									<span class="card-title">Liens utiles ?</span>
  									<p>
-                  <a class="white-text" style="font-size:1.2rem"><i class="fab fa-wikipedia-w"></i> <a class="white-text" style="font-size:1.2rem" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki">Wiki</a></br>
-                  <a class="white-text" style="font-size:1.2rem"><i class="fa fa-github"></i> <a class="white-text" style="font-size:1.2rem" href="https://github.com/Jeedom-Plugins-Extra">Plugins</a></br>
+                                      <a class="white-text" style="font-size:1.2rem"><i class="fab fa-wikipedia-w"></i> <a class="white-text" style="font-size:1.2rem" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki">Wiki</a></br>
+                                      <a class="white-text" style="font-size:1.2rem"><i class="fas fa-puzzle-piece"></i> <a class="white-text" style="font-size:1.2rem" href="https://github.com/Jeedom-Plugins-Extra">liste Plugins & Roadmap</a></br>
  									</p>
  								</div>
  							</div>
@@ -152,19 +116,8 @@
  							<p>Ici vous retrouverez toutes les infos et expériences que nous avons compilé et regroupé sous forme de wikis.</p>
  						</div>
  					</div>
- 					<div class="row" style="max-height:600px;overflow-y: auto;">
- 						<div class="input-field col s12 m3" >
- 							<ul class="collection" id='ul_listWiki0'></ul>
- 						</div>
- 						<div class="input-field col s12 m3">
- 							<ul class="collection" id='ul_listWiki1'></ul>
- 						</div>
- 						<div class="input-field col s12 m3">
- 							<ul class="collection" id='ul_listWiki2'></ul>
- 						</div>
- 						<div class="input-field col s12 m3">
- 							<ul class="collection" id='ul_listWiki3'></ul>
- 						</div>
+ 					<div id="wiki">
+ 						<ul class="collection" id='ul_listWiki'></ul>
  					</div>
  				</div>
 
@@ -175,8 +128,20 @@
  							<p>Vous ne savez pas comment utiliser votre nouveau plugin ? Pas d'inquiétude vous êtes au bon endroit pour apprendre !</p>
  						</div>
  					</div>
-          <div id="plugin_thirdparty">
- 							<ul class="collection" id='ul_listPluginThird0'></ul>
+        			<div id="plugin_thirdparty">
+ 							<ul class="collection" id='ul_listPluginThird'></ul>
+ 					</div>
+ 				</div>
+ 				
+ 				<div id="chat" class="col s12">
+ 					<div class="card blue-grey darken-1">
+ 						<div class="card-content white-text">
+ 							<span class="card-title">Chat</span>
+ 							<p>Ici les différents salon de discutiton organiser par themes, n'hesitez pas a venir nous parler!</p>
+ 						</div>
+ 					</div>
+        			<div id="chat">
+ 							<ul class="collection" id='ul_listChat'></ul>
  					</div>
  				</div>
 
@@ -185,32 +150,40 @@
  						<div class="card-content white-text">
  							<span class="card-title">Développeurs</span>
  							<p>Vous voulez développer un plugin pour Jeedom et vous avez besoin d'aides? rejoingnez nous en envoyant un mail a</p>
-              <a href="mailto:jeedompluginsextra@gmail.com">Jeedom-Plugins-Extra</a>
+                            <a href="mailto:jeedompluginsextra@gmail.com">Jeedom-Plugins-Extra</a>
  						</div>
  					</div>
- 					Accès documentation du code du core <a href="phpdoc/index.html">ici</a><br/>
- 					Documentation développement plugin <a href="https://jeedom.github.io/plugin-template/fr_FR/">ici</a><br/>
-          Documentations développement plugin supplémentaires <a href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki">ici</a><br/>
- 					Plugin template officiel <a href="https://github.com/jeedom/plugin-template">ici</a><br/>
-          Plugin template Jeedom-Plugins-Extra <a href="https://github.com/Jeedom-Plugins-Extra/plugin-template">ici</a>
+ 					<div id="developer">
+ 							<ul class="collection" id='ul_listDeveloper'></ul>
+ 					</div>
  				</div>
+ 				
  			</div>
  		</div>
  	</div>
+
  	<footer class="page-footer" style="background-color:#454449">
- 		<div class="container">
- 			<div class="row">
- 				<div class="col l6 s12">
- 				</div>
- 				<div class="col l3 s12 offset-l3">
- 					<h5 class="white-text"><i class="material-icons">person_pin</i> Social</h5>
- 					<ul>
- 						<li><a class="white-text" href="https://github.com/jeedom-plugins-extra"><i class="fa fa-github"></i> github</a></li>
- 					</ul>
- 				</div>
- 			</div>
- 		</div>
- 	</footer>
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s8">
+                <h5 class="white-text">Jeedom-Plugin-Extra</h5>
+              </div>
+              <div class="col l2 offset-l2 s8">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra">Github</a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Jeedom-Plugin-Extra
+            </div>
+          </div>
+        </footer>
+        
  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
  	<script type="text/javascript" src="js/init2.js"></script>
  	<script type="text/javascript" src="js/materialize.min.js"></script>
