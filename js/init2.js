@@ -76,7 +76,7 @@ function generatePlugins(_data){
 						<p>'+_data.third_plugin.docs[i].description+'</p>\
 					</div>\
 					<div class="card-action center-align">\
-						<a class="waves-effect waves-light btn" href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/03-Liste-Plugins-&-Roadmap#'+_data.third_plugin.docs[i].name>Présentation</a>\
+						<a class="waves-effect waves-light btn" href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/03-Liste-Plugins-&-Roadmap#'+_data.third_plugin.docs[i].name+'>Présentation</a>\
 						<a class="waves-effect waves-light btn" href=https://jeedom-plugins-extra.github.io/plugin-'+_data.third_plugin.docs[i].name+'/fr_FR>Doc</a>\
 						<a class="waves-effect waves-light btn" href=https://github.com/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'/issues>Issues</a>\
 						<a class="waves-effect waves-light btn" href=https://jeedom-plugins-extra.github.io/plugin-'+_data.third_plugin.docs[i].name+'/fr_FR/changelog>Changelog</a>\
