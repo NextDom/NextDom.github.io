@@ -68,7 +68,7 @@ function generateOrga(){
                 var location   = json.location;
                 var followersnum = json.followers;
                 var followingnum = json.following;
-                var reposnum     = json.public_repos;
+                var reposnum     = json.public_repos-3;
 
                 $('#repodata').html('<font size="5">'+reposnum+'</font>');
 
