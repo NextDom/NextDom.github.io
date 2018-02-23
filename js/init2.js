@@ -70,8 +70,7 @@ function generateOrga(){
                 var followingnum = json.following;
                 var reposnum     = json.public_repos;
 
-                 // $('#issuesdata').html('<font size="4">'+nbrissues+'</font>');
-                  $('#repodata').html('<font size="4">'+reposnum+'</font>');
+                $('#repodata').html('<font size="5">'+reposnum+'</font>');
 
             }); // end requestJSON Ajax call
 }
@@ -101,8 +100,7 @@ var nbrissues =0;
 														nbrissues = nbrissues + data[i].open_issues;
 
             });
-             // $('#issuesdata').html('<font size="4">'+nbrissues+'</font>');
-                  $('#issuesdata').html('<font size="4">'+nbrissues+'</font>');
+            $('#issuesdata').html('<font size="5">'+nbrissues+'</font>');
         }); // end requestJSON Ajax call
 }
 
@@ -121,7 +119,7 @@ function generateTeam(){
 		                        </div>');
 														nbrmembres = nbrmembres + 1;
             });
-             $('#membersdata').html('<font size="4">'+nbrmembres+'</font>');
+            $('#membersdata').html('<font size="5">'+nbrmembres+'</font>');
         }); // end requestJSON Ajax call
 }
 
