@@ -101,8 +101,8 @@ var nbrissues =0;
 														nbrissues = nbrissues + data[i].open_issues;
 
             });
-             // $('#issuesdata').html('<font size="6">'+nbrissues+'</font>');
-                  $('#issuesdata').html('<font size="6">'+nbrissues+'</font>');
+             // $('#issuesdata').html('<font size="4">'+nbrissues+'</font>');
+                  $('#issuesdata').html('<font size="4">'+nbrissues+'</font>');
         }); // end requestJSON Ajax call
 }
 
@@ -121,7 +121,7 @@ function generateTeam(){
 		                        </div>');
 														nbrmembres = nbrmembres + 1;
             });
-             $('#membersdata').html('<font size="5">'+nbrmembres+'</font>');
+             $('#membersdata').html('<font size="4">'+nbrmembres+'</font>');
         }); // end requestJSON Ajax call
 }
 
