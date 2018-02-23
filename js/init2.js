@@ -80,7 +80,9 @@ function generatePlugins(_data){
 						<a class="waves-effect waves-light btn" href=https://jeedom-plugins-extra.github.io/plugin-'+_data.third_plugin.docs[i].name+'/fr_FR>Doc</a>\
 						<a class="waves-effect waves-light btn" href=https://github.com/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'/issues>Issues</a>\
 						<a class="waves-effect waves-light btn" href=https://jeedom-plugins-extra.github.io/plugin-'+_data.third_plugin.docs[i].name+'/fr_FR/changelog>Changelog</a>\
-						<img src=https://badge.waffle.io/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'.svg?columns=all" class="center">\
+					</div>\
+					<div class="card-action center-align">\
+						<a href=https://waffle.io/Jeedom-Plugins-Extra/'+_data.third_plugin.docs[i].description+'><img src=https://badge.waffle.io/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'.svg?columns=all" class="center"></a>\
 					</div>\
 				</div>\
 			</div>\
