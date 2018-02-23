@@ -90,10 +90,10 @@ var nbrissues =0;
 						                    <ul>\
 					                    </div>\
 					                        <div class="card-action center-align">\
-					                            <a class = "btn-floating waves-effect waves-light blue"  href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
-					                            <a class = "btn-floating waves-effect waves-light red" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-exclamation"></i></a>\
-                                      <a class = "btn-floating waves-effect waves-light green"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR><i class = "material-icons">library_books</i></a>\
-						                        	<a class = "btn-floating waves-effect waves-light grey"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-code"></i></a>\
+					                            <a class = "btn-floating waves-effect waves-light blue-grey"  href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
+					                            <a class = "btn-floating waves-effect waves-light orange" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-bug"></i></a>\
+                                      <a class = "btn-floating waves-effect waves-light light-green"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR><i class = "fas fa-book"></i></a>\
+						                        	<a class = "btn-floating waves-effect waves-light grey"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-history"></i></a>\
 				                        	</div>\
 				                        </div>\
 			                        </div>\
@@ -114,14 +114,14 @@ function generateTeam(){
 		                	        <div class="card hoverable sticky-action">\
 				                        <span class="card-title center-align">'+data[i].login+'</span>\
 					                    <div class="card-text">\
-						                    <a  href='+data[i].html_url+'><img src="'+data[i].avatar_url+'" width="110" height="110" class="center"></a>\
+						                    <a  href='+data[i].html_url+'><img src="'+data[i].avatar_url+'" width="90" height="90" class="center"></a>\
 								    <br>\
 						                   </div>\
 			                        </div>\
 		                        </div>');
 														nbrmembres = nbrmembres + 1;
             });
-             $('#membersdata').html('<font size="6">'+nbrmembres+'</font>');
+             $('#membersdata').html('<font size="5">'+nbrmembres+'</font>');
         }); // end requestJSON Ajax call
 }
 
