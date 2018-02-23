@@ -110,11 +110,12 @@ function generateTeam(){
 		var nbrmembres = 0;
         requestJSON("json/members.json", function(data) {
 					$.each(data, function(i) {$('#ul_listMembers').append('\
-		                        <div class="col s8 m4">\
+		                        <div class="col m2">\
 		                	        <div class="card small hoverable sticky-action">\
 				                        <span class="card-title center-align">'+data[i].login+'</span>\
 					                    <div class="card-text">\
-						                    <a  href='+data[i].html_url+'><img src="'+data[i].avatar_url+'" width="120" height="120" class="center"></a>\
+						                    <a  href='+data[i].html_url+'><img src="'+data[i].avatar_url+'" width="110" height="110" class="center"></a>\
+								    <br>\
 						                   </div>\
 			                        </div>\
 		                        </div>');
