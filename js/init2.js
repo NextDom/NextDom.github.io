@@ -70,8 +70,8 @@ function generateOrga(){
                 var followingnum = json.following;
                 var reposnum     = json.public_repos;
 
-                 // $('#issuesdata').html('<font size="6">'+nbrissues+'</font>');
-                  $('#repodata').html('<font size="6">'+reposnum+'</font>');
+                 // $('#issuesdata').html('<font size="4">'+nbrissues+'</font>');
+                  $('#repodata').html('<font size="4">'+reposnum+'</font>');
 
             }); // end requestJSON Ajax call
 }
