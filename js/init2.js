@@ -90,7 +90,7 @@ var nbrissues =0;
 					                    </div>\
 					                        <div class="card-action center-align">\
 					                            <a class = "btn-floating waves-effect waves-light blue-grey"  href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
-					                            <a class = "btn-floating waves-effect waves-light orange" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-bug">'+data[i].open_issues+'</i></a>\
+					                            <a class = "btn-floating waves-effect waves-light orange" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-bug"></i></a>\
                                       <a class = "btn-floating waves-effect waves-light light-green"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR><i class = "fas fa-book"></i></a>\
 						                        	<a class = "btn-floating waves-effect waves-light grey"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-history"></i></a>\
 				                        	</div>\
