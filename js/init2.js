@@ -73,9 +73,8 @@ function generatePlugins(_data){
 				<span class="card-title center-align">'+_data.third_plugin.docs[i].name+'</span>\
 					<div class="card-text">\
 						<img src=https://github.com/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'/blob/master/plugin_info/'+_data.third_plugin.docs[i].name+'_icon.png?raw=true" width="80" height="85" class="center">\
-						<p>'+_data.third_plugin.docs[i].description+'</p>\
-						<img src=https://badge.waffle.io/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'.svg?columns=all">\
-						
+						<p align="center">'+_data.third_plugin.docs[i].description+'</p>\
+						<img src=https://badge.waffle.io/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'.svg?columns=all class="center">\
 					</div>\
 					<div class="card-action center-align">\
 						<a class="waves-effect waves-light btn" href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/03-Liste-Plugins-&-Roadmap#plugin-'+_data.third_plugin.docs[i].name+'>Présentation</a>\
