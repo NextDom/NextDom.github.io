@@ -56,38 +56,7 @@ function convertCase(_string){
 }
 
 
-<<<<<<< HEAD
 function generateOrga(){
-=======
-function generatePlugins(_data){
-	$('#ul_listPluginThird').empty();
-	_data.third_plugin.docs.sort(function (a, b) {
-		if (a.name.toLowerCase() > b.name.toLowerCase())
-			return 1;
-		if (a.name.toLowerCase() < b.name.toLowerCase())
-			return -1;
-		return 0;
-	});
-	for(var i in _data.third_plugin.docs){
-		$('#ul_listPluginThird').append('\
-		<div class="col s8 m4">\
-			<div class="card medium hoverable sticky-action">\
-				<span class="card-title center-align">'+_data.third_plugin.docs[i].name+'</span>\
-					<div class="card-text">\
-						<img src=https://github.com/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'/blob/master/plugin_info/'+_data.third_plugin.docs[i].name+'_icon.png?raw=true" width="80" height="85" class="center">\
-						<p align="center">'+_data.third_plugin.docs[i].description+'</p>\
-					</div>\
-					<div class="card-action center-align">\
-						<a class="waves-effect waves-light btn" href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/03-Liste-Plugins-&-Roadmap#plugin-'+_data.third_plugin.docs[i].name+'>Présentation</a>\
-						<a class="waves-effect waves-light btn" href=https://jeedom-plugins-extra.github.io/plugin-'+_data.third_plugin.docs[i].name+'/fr_FR>Doc</a>\
-						<a class="waves-effect waves-light btn" href=https://github.com/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'/issues>Issues</a>\
-						<a class="waves-effect waves-light btn" href=https://jeedom-plugins-extra.github.io/plugin-'+_data.third_plugin.docs[i].name+'/fr_FR/changelog>Changelog</a>\
-						<a href=https://waffle.io/Jeedom-Plugins-Extra/'+_data.third_plugin.docs[i].name+'><img src=https://badge.waffle.io/Jeedom-Plugins-Extra/plugin-'+_data.third_plugin.docs[i].name+'.svg?columns=To%20Do,In%20Progress,Done class="center"></a>\
-					</div>\
-				</div>\
-			</div>\
-		</div>');
->>>>>>> 5cd0f7a40b62d5b1646f9fb3b751cc72a96e363d
 
             requestJSON("json/organization.json", function(json) {
 
