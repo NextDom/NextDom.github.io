@@ -1,5 +1,5 @@
-[  
-    {
+[
+  {
     "login": "abarrau",
     "id": 13674762,
     "avatar_url": "https://avatars1.githubusercontent.com/u/13674762?v=4",
@@ -433,6 +433,25 @@
     "repos_url": "https://api.github.com/users/redbug26/repos",
     "events_url": "https://api.github.com/users/redbug26/events{/privacy}",
     "received_events_url": "https://api.github.com/users/redbug26/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "rjullien",
+    "id": 22872207,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/rjullien",
+    "html_url": "https://github.com/rjullien",
+    "followers_url": "https://api.github.com/users/rjullien/followers",
+    "following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+    "gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+    "organizations_url": "https://api.github.com/users/rjullien/orgs",
+    "repos_url": "https://api.github.com/users/rjullien/repos",
+    "events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/rjullien/received_events",
     "type": "User",
     "site_admin": false
   },

@@ -1,8 +1,3 @@
-var WIKI_CONFIG={}
-var CHAT_CONFIG={}
-var DEVELOPER_CONFIG={}
-
-
 $(function(){
 	$('.button-collapse').sideNav();
 	$('.parallax').parallax();
@@ -29,24 +24,20 @@ $(function(){
 		setTimeout(function(){ $('#developer a.active').click(); }, 500);
 	});
 
-	use='online';
+	use='offline';
 	if (use=='online'){
+		generateRepos("https://api.github.com/orgs/jeedom-plugins-extra/repos");
+		generateTeam("json/members.json");
+		generateWiki("json/wiki.json");
+		generateChat("json/chat.json");
+		generateDeveloper("json/developer.json");
 
-		$.getJSON("json/wiki.json",function(data){
-			generateWiki(data);
-		});
-
-		generateOrga();
-		generateRepos();
-		generateTeam();
-
-		$.getJSON("json/chat.json",function(data){
-			generateChat(data);
-		});
-		$.getJSON("json/developer.json",function(data){
-			generateDeveloper(data);
-		});
-
+	} else {
+		generateRepos("json/repos.json");
+		generateTeam("json/members.json");
+		generateWiki("json/wiki.json");
+		generateChat("json/chat.json");
+		generateDeveloper("json/developer.json");
 	}
 
 });
@@ -55,33 +46,17 @@ function convertCase(_string){
 	return _string.charAt(0).toUpperCase()+_string.substr(1).toLowerCase();
 }
 
-
-function generateOrga(){
-
-            requestJSON("json/organization.json", function(json) {
-
-                // else we have a user and we display their info
-                var fullname   = json.name;
-                var username   = json.login;
-                var aviurl     = json.avatar_url;
-                var profileurl = json.html_url;
-                var location   = json.location;
-                var followersnum = json.followers;
-                var followingnum = json.following;
-                var reposnum     = json.public_repos-3;
-
-                $('#repodata').html('<font size="5">'+reposnum+'</font>');
-
-            }); // end requestJSON Ajax call
-}
-
-function generateRepos(){
+function generateRepos(_json){
 var nbrissues =0;
-        requestJSON("json/repos.json", function(data) {
+var nbrrepos = 0;
+        requestJSON(_json, function(data) {
 
-               $.each(data, function(i) {$('#ul_listPluginThird').append('\
+               $.each(data, function(i) {
+								 if (data[i].name !='Jeedom-Plugins-Extra.github.io' && data[i].name !='Jeedom-Plugins-Extra' && data[i].name !='custom-jeedom'){
+
+								 $('#ul_listPluginThird').append('\
 		                        <div class="col s8 m4">\
-		                	        <div class="card medium hoverable sticky-action">\
+		                	        <div class="card small hoverable sticky-action">\
 				                        <span class="card-title center-align">'+data[i].name.substr(7)+'</span>\
 					                    <div class="card-text">\
 						                    <img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="80" height="85" class="center">\
@@ -98,15 +73,18 @@ var nbrissues =0;
 			                        </div>\
 		                        </div>');
 														nbrissues = nbrissues + data[i].open_issues;
-
+														nbrrepos = nbrrepos + 1;
+										}
             });
+
             $('#issuesdata').html('<font size="5">'+nbrissues+'</font>');
+						$('#repodata').html('<font size="5">'+nbrrepos+'</font>');
         }); // end requestJSON Ajax call
 }
 
-function generateTeam(){
+function generateTeam(_json){
 		var nbrmembres = 0;
-        requestJSON("json/members.json", function(data) {
+        requestJSON(_json, function(data) {
 					$.each(data, function(i) {$('#ul_listMembers').append('\
 		                        <div class="col m2">\
 		                	        <div class="card hoverable sticky-action">\
@@ -123,48 +101,54 @@ function generateTeam(){
         }); // end requestJSON Ajax call
 }
 
-function generateWiki(_data){
+function generateWiki(_json){
+	requestJSON(_json, function(data) {
 	$('#ul_listWiki').empty();
-	_data.wiki.docs.sort(function (a, b) {
+	data.wiki.docs.sort(function (a, b) {
 		if (a.name.toLowerCase() > b.name.toLowerCase())
 			return 1;
 		if (a.name.toLowerCase() < b.name.toLowerCase())
 			return -1;
 		return 0;
 	});
-	for(var i in _data.wiki.docs){
-		$('#ul_listWiki').append('<div class="col s4 m4"><div class="card horizontal hoverable sticky-action"><div class="card-text center-align"><p><a href="'+_data.wiki.docs[i].url+'" style="color:black; text-align:center; display:block">'+_data.wiki.docs[i].name+'</a></p></div></div></div></div>');
+	for(var i in data.wiki.docs){
+		$('#ul_listWiki').append('<div class="col s4 m4"><div class="card horizontal hoverable sticky-action"><div class="card-text center-align"><p><a href="'+data.wiki.docs[i].url+'" style="color:black; text-align:center; display:block">'+data.wiki.docs[i].name+'</a></p></div></div></div></div>');
 	}
+	});
 }
 
-function generateChat(_data){
+function generateChat(_json){
+	requestJSON(_json, function(data) {
 	$('#ul_listChat').empty();
-	_data.chat.docs.sort(function (a, b) {
+	data.chat.docs.sort(function (a, b) {
 		if (a.name.toLowerCase() > b.name.toLowerCase())
 			return 1;
 		if (a.name.toLowerCase() < b.name.toLowerCase())
 			return -1;
 		return 0;
 	});
-	for(var i in _data.chat.docs){
-		$('#ul_listChat').append('<div class="col s4 m4"><div class="card horizontal hoverable sticky-action"><div class="card-text"><p><a href="'+_data.chat.docs[i].url+'" style="color:black; text-align:center; display:block">'+_data.chat.docs[i].name+'</a></p></div></div></div></div>');
+	for(var i in data.chat.docs){
+		$('#ul_listChat').append('<div class="col s4 m4"><div class="card horizontal hoverable sticky-action"><div class="card-text"><p><a href="'+data.chat.docs[i].url+'" style="color:black; text-align:center; display:block">'+data.chat.docs[i].name+'</a></p></div></div></div></div>');
 
 	}
+	});
 }
 
-function generateDeveloper(_data){
+function generateDeveloper(_json){
+	requestJSON(_json, function(data) {
 	$('#ul_listDeveloper').empty();
-	_data.developer.docs.sort(function (a, b) {
+	data.developer.docs.sort(function (a, b) {
 		if (a.name.toLowerCase() > b.name.toLowerCase())
 			return 1;
 		if (a.name.toLowerCase() < b.name.toLowerCase())
 			return -1;
 		return 0;
 	});
-	for(var i in _data.developer.docs){
-		$('#ul_listDeveloper').append('<div class="col s4 m4"><div class="card horizontal hoverable sticky-action"><div class="card-text"><p><a href="'+_data.developer.docs[i].url+'" style="color:black; text-align:center; display:block">'+_data.developer.docs[i].name+'</a></p></div></div></div></div>');
+	for(var i in data.developer.docs){
+		$('#ul_listDeveloper').append('<div class="col s4 m4"><div class="card horizontal hoverable sticky-action"><div class="card-text"><p><a href="'+data.developer.docs[i].url+'" style="color:black; text-align:center; display:block">'+data.developer.docs[i].name+'</a></p></div></div></div></div>');
 
 	}
+	});
 }
 
           function requestJSON(url, callback) {

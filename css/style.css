@@ -83,6 +83,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
+    font-size: 18px;
  }
 
 .card-text {
@@ -118,7 +119,7 @@ font-size: 18px;
         color: #fff !important; }
 
         .bg-green {
-          background-color: #4CAF50 !important;
+        /*  background-color: #4CAF50 !important;*/
           color: #fff; }
           .bg-green .content .text,
           .bg-green .content .number {
