@@ -24,7 +24,7 @@ $(function(){
 		setTimeout(function(){ $('#developer a.active').click(); }, 500);
 	});
 
-	use='offline';
+	use='online';
 	if (use=='online'){
 		generateRepos("https://api.github.com/orgs/Jeedom-Plugins-Extra/repos?per_page=100");
 		generateTeam("json/members.json");
