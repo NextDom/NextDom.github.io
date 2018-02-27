@@ -88,6 +88,12 @@ main {
     font-size: 18px !important;
  }
 
+.card-title-2 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
 .card-text {
     position: relative;
     margin-left: 10px;
