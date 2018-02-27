@@ -380,6 +380,25 @@
     "site_admin": false
   },
   {
+    "login": "megastorage",
+    "id": 17706535,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17706535?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/megastorage",
+    "html_url": "https://github.com/megastorage",
+    "followers_url": "https://api.github.com/users/megastorage/followers",
+    "following_url": "https://api.github.com/users/megastorage/following{/other_user}",
+    "gists_url": "https://api.github.com/users/megastorage/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/megastorage/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/megastorage/subscriptions",
+    "organizations_url": "https://api.github.com/users/megastorage/orgs",
+    "repos_url": "https://api.github.com/users/megastorage/repos",
+    "events_url": "https://api.github.com/users/megastorage/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/megastorage/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
     "login": "melankh",
     "id": 1100938,
     "avatar_url": "https://avatars1.githubusercontent.com/u/1100938?v=4",

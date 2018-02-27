@@ -55,7 +55,7 @@ var nbrrepos = 0;
 				$('#ul_listPluginThird').append('\
                 	<div class="col s8 m4">\
         	        	<div class="card medium hoverable sticky-action">\
-                        	<span class="card-title center-align"><img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="50%" height="50%" class="center">\</a></span>\
+                        	<span class="card-title center-align"><a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'><img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="50%" height="50%" class="center">\</a></span>\
 		                    <div class="card-text">\
 		                    	'+data[i].description+'\
 		                    </div>\
