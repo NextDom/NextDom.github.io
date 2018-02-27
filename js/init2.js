@@ -62,10 +62,10 @@ var nbrrepos = 0;
                         	<div style="margin:15px" class="card-action center-align">\
                         	    <a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><img src=https://img.shields.io/github/issues/Jeedom-Plugins-Extra/'+data[i].name+'.svg?longCache=true&style=flat-square></a>\
 		                    	 <img src=https://img.shields.io/github/stars/Jeedom-Plugins-Extra/'+data[i].name+'.svg?longCache=true&style=flat-square><br>\
-                            	<a class = "btn-floating waves-effect waves-light blue-grey"  href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
-                            	<a class = "btn-floating waves-effect waves-light bg-orange" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-bug"></i></a>\
-								<a class = "btn-floating waves-effect waves-light light-green"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR><i class = "fas fa-book"></i></a>\
-	                        	<a class = "btn-floating waves-effect waves-light grey"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-history"></i></a>\
+                            	<a class = "btn-floating btn-large waves-effect waves-light blue-grey"  href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
+                            	<a class = "btn-floating btn-large waves-effect waves-light bg-orange" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-bug"></i></a>\
+								<a class = "btn-floating btn-large waves-effect waves-light light-green"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR><i class = "fas fa-book"></i></a>\
+	                        	<a class = "btn-floating btn-large waves-effect waves-light grey"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-history"></i></a>\
     		                   </div>\
                         </div>\
                 </div>');
@@ -90,8 +90,8 @@ function generateTeam(_json){
 					    <br>\
 	                   	</div>\
 	                   		<div style="margin:5px" class="card-action center-align">\
-	                   		    <a class = "btn-floating waves-effect waves-light blue-grey"  href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team#'+data[i].login+'><i class ="fas fa-user"></i></a>\
-                                <a class = "btn-floating waves-effect waves-light light-green" href=https://paypal.me/'+data[i].login+'><i class="fas fa-beer"></i></a>\
+	                   		    <a class = "btn-floating btn-large waves-effect waves-light blue-grey"  href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team#'+data[i].login+'><i class ="fas fa-user"></i></a>\
+                                <a class = "btn-floating btn-large waves-effect waves-light light-green" href=https://paypal.me/'+data[i].login+'><i class="fas fa-beer"></i></a>\
 	                   		</div>\
                     </div>\
                 </div>');
