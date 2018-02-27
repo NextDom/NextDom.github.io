@@ -54,12 +54,12 @@ var nbrrepos = 0;
 			if (data[i].name !='Jeedom-Plugins-Extra.github.io' && data[i].name !='Jeedom-Plugins-Extra' && data[i].name !='custom-jeedom'){
 				$('#ul_listPluginThird').append('\
                 	<div class="col s8 m4">\
-        	        	<div class="card medium hoverable sticky-action">\
-                        	<span class="card-title center-align"><a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'><img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="50%" height="50%" class="center">\</a></span>\
+        	        	<div style="padding:10px" class="card medium hoverable sticky-action">\
+                        	<span class="card-title center-align"><a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'><img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="45%" height="45%" class="center">\</a></span>\
 		                    <div class="card-text">\
 		                    	'+data[i].description+'\
 		                    </div>\
-                        	<div class="card-action center-align">\
+                        	<div style="margin:15px" class="card-action center-align">\
                         	    <a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><img src=https://img.shields.io/github/issues/Jeedom-Plugins-Extra/'+data[i].name+'.svg?longCache=true&style=flat-square></a>\
 		                    	 <img src=https://img.shields.io/github/stars/Jeedom-Plugins-Extra/'+data[i].name+'.svg?longCache=true&style=flat-square><br>\
                             	<a class = "btn-floating waves-effect waves-light blue-grey"  href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
@@ -89,7 +89,7 @@ function generateTeam(_json){
 	                    	<a href='+data[i].html_url+'><img src="'+data[i].avatar_url+'" width="90" height="90" class="center"></a>\
 					    <br>\
 	                   	</div>\
-	                   		<div class="card-action center-align">\
+	                   		<div style="margin:15px" class="card-action center-align">\
 	                   		    <a class = "btn-floating waves-effect waves-light blue-grey"  href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team#'+data[i].login+'><i class ="fas fa-user"></i></a>\
                                 <a class = "btn-floating waves-effect waves-light light-green" href=https://paypal.me/'+data[i].login+'><i class="fas fa-beer"></i></a>\
 	                   		</div>\
