@@ -1,258 +1,269 @@
- <!DOCTYPE html>
- <html>
- <head>
- 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
- 	<meta name="description" content="Site officiel de la team Jeedom-Plugins-Extra" />
- 	<meta property="og:title" content="Jeedom-Plugins-Extra" />
- 	<meta property="og:type" content="Domotique" />
- 	<meta property="og:url" content="https://jeedom-plugins-extra.github.io/" />
- 	<meta property="og:image" content="https://jeedom-plugins-extra.github.io/img/logo.png" />
-  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
- 	<link rel="icon" href="favicon.ico"/>
- 	<title>Jeedom-Plugins-Extra</title>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="Site officiel de la team Jeedom-Plugins-Extra" />
+    <meta property="og:title" content="Jeedom-Plugins-Extra" />
+    <meta property="og:type" content="Domotique" />
+    <meta property="og:url" content="https://jeedom-plugins-extra.github.io/" />
+    <meta property="og:image" content="https://jeedom-plugins-extra.github.io/img/logo.png" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/init2.js"></script>
+    <link rel="icon" href="favicon.ico"/>
+    <title>Jeedom-Plugins-Extra</title>
 
- 	<!--Import Google Icon Font-->
- 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
- 	<!--Import materialize.css-->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!--Import materialize.css-->
 
     <!-- Material Design icon font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
- 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
- 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
- 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
- </head>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
 
- <body>
- 	<div>
- 		<nav style="background-color:#eee">
- 			<div class="nav-wrapper container">
- 				<a id="logo-container" href="https://jeedom-plugins-extra.github.io/" class="brand-logo left"><img src="img/logoblue.png" style="height:80px;margin-top:5px"></a>
- 				<ul class="titre">
- 					<li><h4 style="margin-bottom:0px">Jeedom-Plugins-Extra</h4><h6>Car à plusieurs on est plus fort et ensemble on codera plus propre</h6></li>
- 				</ul>
- 				<a href="https://jeedom-plugins-extra.github.io/" data-activates="nav-mobile" class="button-collapse btn-floating btn-large waves-effect waves-light jeedomcolorbg"><i class="material-icons">menu</i></a>
- 				<ul class="right hide-on-med-and-down">
- 					<li class="active"><a style="background-color:#eee" href="https://jeedom-plugins-extra.github.io/">Site</a></li>
- 				</ul>
- 				<ul class="side-nav" id="nav-mobile">
- 					<li><a href="https://jeedom-plugins-extra.github.io/">Site</a></li>
- 				</ul>
- 			</div>
- 		</nav>
- 	</div>
+<body>
+    <div>
+        <nav style="background-color:#eee">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="https://jeedom-plugins-extra.github.io/" class="brand-logo left"><img src="img/logoblue.png" style="height:80px;margin-top:5px"></a>
+                <ul class="titre">
+                    <li><h4 style="margin-bottom:0px">Jeedom-Plugins-Extra</h4><h6>Car à plusieurs on est plus fort et ensemble on codera plus propre</h6></li>
+                </ul>
+                <a href="https://jeedom-plugins-extra.github.io/" data-activates="nav-mobile" class="button-collapse btn-floating btn-large waves-effect waves-light jeedomcolorbg"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="active"><a style="background-color:#eee" href="https://jeedom-plugins-extra.github.io/">Site</a></li>
+                </ul>
+                <ul class="side-nav" id="nav-mobile">
+                    <li><a href="https://jeedom-plugins-extra.github.io/">Site</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <section class="content">
-<div class="container">
-              <div class="block-header">
-                  <br>
-              </div>
-              <div class="row clearfix">
-                             <a class="col s4" href="https://github.com/Jeedom-Plugins-Extra">
-                                 <div class="info-box blue-grey darken-1 hoverable">
-                                     <div class="icon">
-                                         <i class="fab fa-github-square"></i>
-                                     </div>
-                                     <div class="content white-text">
-                                         <div class="text white-text">REPOS</div>
-                                          <div id="repodata"></div>
-                                     </div>
-                                 </div>
-                             </a>
-                             <a class="col s4" href="https://github.com/orgs/Jeedom-Plugins-Extra/projects">
-                                 <div class="info-box bg-orange hoverable">
-                                     <div class="icon">
-                                         <i class="fas fa-bug"></i>
-                                     </div>
-                                     <div class="content white-text">
-                                         <div class="text white-text">ISSUES</div>
-                                        <div id="issuesdata"></div>
-                                     </div>
-                                 </div>
-                             </a>
-                             <a class="col s4" href="https://github.com/orgs/Jeedom-Plugins-Extra/teams/jeedom-plugins-extra-team">
-                                 <div class="info-box light-green hoverable">
-                                     <div class="icon">
-                                         <i class="fas fa-users"></i>
-                                     </div>
-                                     <div class="content white-text">
-                                         <div class="text white-text">MEMBERS</div>
-                                         <div id="membersdata"></div>
-                                     </div>
-                                 </div>
-                             </a>
+        <div class="container">
+            <div class="block-header">
+                <br>
+            </div>
+            <div class="row clearfix">
+                <a class="col s4" href="https://github.com/Jeedom-Plugins-Extra">
+                    <div class="info-box blue-grey darken-1 hoverable">
+                        <div class="icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="content white-text">
+                            <div class="text white-text">REPOS</div>
+                            <div id="repodata"></div>
+                        </div>
+                    </div>
+                </a>
+                <a class="col s4" href="https://github.com/orgs/Jeedom-Plugins-Extra/projects">
+                    <div class="info-box bg-orange hoverable">
+                        <div class="icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <div class="content white-text">
+                            <div class="text white-text">ISSUES</div>
+                            <div id="issuesdata"></div>
+                        </div>
+                    </div>
+                </a>
+                <a class="col s4" href="https://github.com/orgs/Jeedom-Plugins-Extra/teams/jeedom-plugins-extra-team">
+                    <div class="info-box light-green hoverable">
+                        <div class="icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="content white-text">
+                            <div class="text white-text">MEMBERS</div>
+                            <div id="membersdata"></div>
+                        </div>
+                    </div>
+                </a>
 
-                         </div>
-                         <!-- #END# Widgets -->
+            </div>
+            <!-- #END# Widgets -->
 
-                       </div>
-                  </section>
-        <div class="container ">
- 		<div class="section">
- 			<div class="row">
- 				<div class="col s12">
- 					<ul class="tabs">
- 						<li class="tab col s2"><a class="active" href="#home">Accueil</a></li>
- 						<li class="tab col s2"><a href="#wiki">Wikis</a></li>
- 						<li class="tab col s2"><a href="#plugin">Plugins</a></li>
- 						<li class="tab col s2"><a href="#chat">Chat</a></li>
-       <li class="tab col s2"><a href="#members">Membres</a></li>
-       <li class="tab col s2"><a href="#developpement">Développeurs</a></li>
+        </div>
+    </section>
+    <div class="container ">
+        <div class="section">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s2"><a class="active" href="#home">Accueil</a></li>
+                        <li class="tab col s2"><a href="#wiki">Wikis</a></li>
+                        <li class="tab col s2"><a href="#plugin">Plugins</a></li>
+                        <li class="tab col s2"><a href="#chat">Chat</a></li>
+                        <li class="tab col s2"><a href="#members">Membres</a></li>
+                        <li class="tab col s2"><a href="#developpement">Développeurs</a></li>
                         <li class="tab col s2"><a href="#tutos">Tutos</a></li>
- 					</ul>
- 				</div>
+                    </ul>
+                </div>
 
                 <div id="home" class="col s12">
- 					<div class="row">
- 						<div class="col s6">
- 							<div class="card light-green darken-1">
- 								<div class="card-content white-text">
- 									<span class="card-title">Accueil</span>
- 									<p>Bienvenue sur le site de la team Jeedom-Plugins-Extra. </br>
-                                    Vous retrouverez toutes les documentations relatives à nos plugins.</br>
- 					                Ainsi que tous nos Wikis.</p>
- 								</div>
- 							</div>
- 						</div>
+                    <div class="row">
                         <div class="col s6">
- 							<div class="card blue-grey darken-1">
- 								<div class="card-content white-text">
- 									<span class="card-title">Liens utiles ?</span>
- 									<p>
-                                    <a class="white-text" style="font-size:1.2rem"><i class="fab fa-wikipedia-w"></i> <a class="white-text" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki">Wiki complet</a></br>
-                                    <a class="white-text" style="font-size:1.2rem"><i class="fas fa-puzzle-piece"></i> <a class="white-text" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/03-Liste-Plugins-&-Roadmap">  Liste Plugins & Roadmap</a></br>
- 	                                <a class="white-text" style="font-size:1.2rem"><i class="fas fa-lightbulb"></i> <a class="white-text" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/05-Id%C3%A9es-%C3%A0-faire-na%C3%AEtre">  Idées à faire naîtres</a></br>
-                                    </p>
- 								</div>
- 							</div>
- 						</div>
+                            <div class="card light-green darken-1">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Accueil</span>
+                                    <p>Bienvenue sur le site de la team Jeedom-Plugins-Extra. </br>
+                                        Vous retrouverez toutes les documentations relatives à nos plugins.</br>
+                                        Ainsi que tous nos Wikis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s6">
+                                <div class="card blue-grey darken-1">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Liens utiles ?</span>
+                                        <p>
+                                            <a class="white-text" style="font-size:1.2rem"><i class="fab fa-wikipedia-w"></i> <a class="white-text" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki">Wiki complet</a></br>
+                                            <a class="white-text" style="font-size:1.2rem"><i class="fas fa-puzzle-piece"></i> <a class="white-text" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/03-Liste-Plugins-&-Roadmap">  Liste Plugins & Roadmap</a></br>
+                                            <a class="white-text" style="font-size:1.2rem"><i class="fas fa-lightbulb"></i> <a class="white-text" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/05-Id%C3%A9es-%C3%A0-faire-na%C3%AEtre">  Idées à faire naîtres</a></br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s6">
+                                <div class="card light-green darken-1">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Qui sommes-nous ?</span>
+                                        <p>Nous sommes un regroupement de développeurs, passionnés, adeptes de la solution Open Source de domotique Jeedom réalisé par une équipe géniale ! </br>
+                                            Nous n'avons aucun lien commercial ou autre avec Jeedom SAS, hormis la volonté de faire grandir la solution.</br>
+                                            Pour plus de détails le mieux est de jeter un coup d’œil à la page suivante :</br>
+                                            <a class="white-text" style="font-size:1.2rem"><i class="fas fa-user-circle"></i> <a class="white-text" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team">Membres de la Team</a></br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s6">
+                                <div class="card blue-grey darken-1">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Actualité</span>
+                                        <p>Developpement de deux nouveaux plugins aux couleurs de Jeedom-Plugins-Extra :</br>
+                                            <li> AndroidRemoteControl</li>
+                                            <li> Opening</li>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col s12">
+                                <div class="card blue-grey darken-1">
+                                    <div class="card-content white-text">
+                                        <span class="card-title">Evénenements</span>
+                                              <div id="eventsdata"></div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div id="wiki" class="col s12">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Wikis</span>
+                                <p>Ici vous retrouverez toutes les infos et expériences que nous avons compilées et regroupées sous forme de Wikis.</p>
+                            </div>
+                        </div>
+                        <div id="wiki">
+                            <ul class="collection" id='ul_listWiki'></ul>
+                        </div>
+                    </div>
+
+                    <div id="plugin" class="col s12">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Plugins</span>
+                                <p>Vous ne savez pas comment utiliser votre nouveau plugin ? Pas d'inquiétude vous êtes au bon endroit pour apprendre !</p>
+                            </div>
+                        </div>
+                        <div id="plugin_thirdparty">
+                            <ul class="collection" id='ul_listPluginThird'></ul>
+                        </div>
+                    </div>
+
+                    <div id="chat" class="col s12">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Chat</span>
+                                <p>Ici les différents salon de discussion organisés par thèmes, n'hésitez pas à venir nous parler et échanger !</p>
+                            </div>
+                        </div>
+                        <div id="chat">
+                            <ul class="collection" id='ul_listChat'></ul>
+                        </div>
+                    </div>
+
+                    <div id="developpement" class="col s12">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Développeur ?</span>
+                                <p>Vous voulez développer un plugin pour Jeedom et vous avez besoin d'aides ? Rejoignez-nous en envoyant un mail à
+                                    <u><a class="white-text" href="mailto:jeedompluginsextra@gmail.com">Jeedom-Plugins-Extra</a></u></p>
+                                </div>
+                            </div>
+                            <div id="developpement">
+                                <ul class="collection" id='ul_listDeveloper'></ul>
+                            </div>
+                        </div>
+
+                        <div id="members" class="col s12">
+                            <div class="card blue-grey darken-1">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Membres</span>
+                                    <p>Voici les membres de l'équipe Jeedom-Plugins-Extra</p>
+                                </div>
+                            </div>
+                            <div id="members">
+                                <ul class="collection" id='ul_listMembers'></ul>
+                            </div>
+                        </div>
+
+                        <div id="tutos" class="col s12">
+                            <div class="card blue-grey darken-1">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Tutos</span>
+                                    <p>On est sympa on va vous éviter des heures de recherche grace a nos tutos ;)</p>
+                                </div>
+                            </div>
+                            <div id="tutos">
+                                <ul class="collection" id='ul_listTutos'></ul>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="row">
- 						<div class="col s6">
- 							<div class="card light-green darken-1">
- 								<div class="card-content white-text">
- 									<span class="card-title">Qui sommes-nous ?</span>
- 									<p>Nous sommes un regroupement de développeurs, passionnés, adeptes de la solution Open Source de domotique Jeedom réalisé par une équipe géniale ! </br>
-                                    Nous n'avons aucun lien commercial ou autre avec Jeedom SAS, hormis la volonté de faire grandir la solution.</br>
-                                    Pour plus de détails le mieux est de jeter un coup d’œil à la page suivante :</br>
-                                    <a class="white-text" style="font-size:1.2rem"><i class="fas fa-user-circle"></i> <a class="white-text" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team">Membres de la Team</a></br>
- 									</p>
- 								</div>
- 							</div>
- 						</div>
-                        <div class="col s6">
- 							<div class="card blue-grey darken-1">
- 								<div class="card-content white-text">
- 									<span class="card-title">Actualité</span>
- 									<p>Developpement de deux nouveaux plugins aux couleurs de Jeedom-Plugins-Extra :</br>
-                                    <li> AndroidRemoteControl</li>
-                                    <li> Opening</li>
- 									</p>
- 								</div>
- 							</div>
- 						</div>
- 					</div>
- 				</div>
+                        <div class="row">
+                        </div>
+                    </div>
 
- 				<div id="wiki" class="col s12">
- 					<div class="card blue-grey darken-1">
- 						<div class="card-content white-text">
- 							<span class="card-title">Wikis</span>
- 							<p>Ici vous retrouverez toutes les infos et expériences que nous avons compilées et regroupées sous forme de Wikis.</p>
- 						</div>
- 					</div>
- 					<div id="wiki">
- 						<ul class="collection" id='ul_listWiki'></ul>
- 					</div>
- 				</div>
-
- 				<div id="plugin" class="col s12">
- 					<div class="card blue-grey darken-1">
- 						<div class="card-content white-text">
- 							<span class="card-title">Plugins</span>
- 							<p>Vous ne savez pas comment utiliser votre nouveau plugin ? Pas d'inquiétude vous êtes au bon endroit pour apprendre !</p>
- 						</div>
- 					</div>
-        			<div id="plugin_thirdparty">
- 					    <ul class="collection" id='ul_listPluginThird'></ul>
- 					</div>
- 				</div>
-
- 				<div id="chat" class="col s12">
- 					<div class="card blue-grey darken-1">
- 						<div class="card-content white-text">
- 							<span class="card-title">Chat</span>
- 							<p>Ici les différents salon de discussion organisés par thèmes, n'hésitez pas à venir nous parler et échanger !</p>
- 						</div>
- 					</div>
-        			<div id="chat">
- 						<ul class="collection" id='ul_listChat'></ul>
- 					</div>
- 				</div>
-
- 				<div id="developpement" class="col s12">
- 					<div class="card blue-grey darken-1">
- 						<div class="card-content white-text">
- 							<span class="card-title">Développeur ?</span>
- 							<p>Vous voulez développer un plugin pour Jeedom et vous avez besoin d'aides ? Rejoignez-nous en envoyant un mail à
-                            <u><a class="white-text" href="mailto:jeedompluginsextra@gmail.com">Jeedom-Plugins-Extra</a></u></p>
- 						</div>
- 					</div>
- 					<div id="developpement">
- 						<ul class="collection" id='ul_listDeveloper'></ul>
- 					</div>
- 				</div>
-
-  				<div id="members" class="col s12">
- 					<div class="card blue-grey darken-1">
- 						<div class="card-content white-text">
- 							<span class="card-title">Membres</span>
- 							<p>Voici les membres de l'équipe Jeedom-Plugins-Extra</p>
- 						</div>
- 					</div>
-        			<div id="members">
- 					    <ul class="collection" id='ul_listMembers'></ul>
- 					</div>
- 				</div>
-
-                <div id="tutos" class="col s12">
- 					<div class="card blue-grey darken-1">
- 						<div class="card-content white-text">
- 							<span class="card-title">Tutos</span>
- 							<p>On est sympa on va vous éviter des heures de recherche grace a nos tutos ;)</p>
- 						</div>
- 					</div>
-        			<div id="tutos">
- 					    <ul class="collection" id='ul_listTutos'></ul>
- 					</div>
- 				</div>
-
- 			</div>
-    <div class="row">
-     <div class="row">
-  	  </div>
-   	</div>
-  
- 		</div>
- 	</div>
-
- 	<footer class="page-footer" style="background-color:#454449;position:fixed;bottom:0;left:0;width:100%;">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s8">
-                <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://creativecommons.org/images/deed/cc_blue_x2.png" height="24px" width="24px"><img src="https://creativecommons.org/images/deed/attribution_icon_blue_x2.png" height="24px" width="24px"><img src="https://creativecommons.org/images/deed/sa_blue_x2.png" height="24px" width="24px"></a>
-              </div>
-              <div class="col l2 offset-l2 s8">
-                <a class="grey-text text-lighten-3" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra">Github</a>
-              </div>
+                </div>
             </div>
-          </div>
-        </footer>
 
- 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
- 	<script type="text/javascript" src="js/init2.js"></script>
- 	<script type="text/javascript" src="js/materialize.min.js"></script>
- </body>
- </html>
+            <footer class="page-footer" style="background-color:#454449;position:fixed;bottom:0;left:0;width:100%;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s8">
+                            <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://creativecommons.org/images/deed/cc_blue_x2.png" height="24px" width="24px"><img src="https://creativecommons.org/images/deed/attribution_icon_blue_x2.png" height="24px" width="24px"><img src="https://creativecommons.org/images/deed/sa_blue_x2.png" height="24px" width="24px"></a>
+                        </div>
+                        <div class="col l2 offset-l2 s8">
+                            <a class="grey-text text-lighten-3" href="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            
+            <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

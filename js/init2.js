@@ -31,6 +31,7 @@ $(function(){
 		generateWiki("json/wiki.json");
 		generateChat("json/chat.json");
 		generateDeveloper("json/developer.json");
+		generateEvents("https://api.github.com/orgs/Jeedom-Plugins-Extra/events?per_page=40");
 
 	} else {
 		generateRepos("json/repos.json");
@@ -38,6 +39,7 @@ $(function(){
 		generateWiki("json/wiki.json");
 		generateChat("json/chat.json");
 		generateDeveloper("json/developer.json");
+		generateEvents("json/events.json");
 	}
 
 });
@@ -49,7 +51,7 @@ function convertCase(_string){
 function generateRepos(_json){
 var nbrissues = 0;
 var nbrrepos = 0;
-	requestJSON(_json, function(data) {
+	$.getJSON(_json,function(data){
 		$.each(data, function(i) {
 			if (data[i].name !='Jeedom-Plugins-Extra.github.io' && data[i].name !='Jeedom-Plugins-Extra' && data[i].name !='custom-jeedom'){
 				$('#ul_listPluginThird').append('\
@@ -61,11 +63,12 @@ var nbrrepos = 0;
 		                    </div>\
                         	<div style="margin:15px" class="card-action center-align">\
                         	    <a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><img src=https://img.shields.io/github/issues/Jeedom-Plugins-Extra/'+data[i].name+'.svg?longCache=true&style=flat-square></a>\
-		                    	 <img src=https://img.shields.io/github/stars/Jeedom-Plugins-Extra/'+data[i].name+'.svg?longCache=true&style=flat-square><br>\
-                            	<a class = "btn-floating btn-large waves-effect waves-light blue-grey"  href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
-                            	<a class = "btn-floating btn-large waves-effect waves-light bg-orange" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-bug"></i></a>\
-								<a class = "btn-floating btn-large waves-effect waves-light light-green"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR><i class = "fas fa-book"></i></a>\
-	                        	<a class = "btn-floating btn-large waves-effect waves-light grey"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-history"></i></a>\
+		                    	 <img src=https://img.shields.io/github/stars/Jeedom-Plugins-Extra/'+data[i].name+'.svg?longCache=true&style=flat-square>\
+					 <img src=https://img.shields.io/github/release/Jeedom-Plugins-Extra/'+data[i].name+'.svg?longCache=true&style=flat-square><br>\
+                            	<a class = "btn-floating btn waves-effect waves-light blue-grey"  href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
+                            	<a class = "btn-floating btn waves-effect waves-light bg-orange" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-bug"></i></a>\
+								<a class = "btn-floating btn waves-effect waves-light light-green"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR><i class = "fas fa-book"></i></a>\
+	                        	<a class = "btn-floating btn waves-effect waves-light grey"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-history"></i></a>\
     		                   </div>\
                         </div>\
                 </div>');
@@ -80,9 +83,9 @@ var nbrrepos = 0;
 
 function generateTeam(_json){
 	var nbrmembres = 0;
-        requestJSON(_json, function(data) {
+        $.getJSON(_json,function(data){
 			$.each(data, function(i) {$('#ul_listMembers').append('\
-            	<div class="col m2">\
+            	<div class="col m3">\
 	        		<div style="padding:5px" class="card hoverable sticky-action">\
                     	<span class="card-title-2 center-align">'+data[i].login+'</span>\
 	                    <div class="card-text ">\
@@ -90,8 +93,12 @@ function generateTeam(_json){
 					    <br>\
 	                   	</div>\
 	                   		<div style="margin:5px" class="card-action center-align">\
-	                   		    <a class = "btn-floating btn-large waves-effect waves-light blue-grey"  href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team#'+data[i].login+'><i class ="fas fa-user"></i></a>\
-                                <a class = "btn-floating btn-large waves-effect waves-light light-green" href=https://paypal.me/'+data[i].login+'><i class="fas fa-beer"></i></a>\
+					    <img src=https://img.shields.io/github/followers/'+data[i].login+'.svg?style=social&logo=github&label=Follow><br>\
+	                   		    <a class = "btn-floating btn waves-effect waves-light blue-grey" href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team#'+data[i].login+'><i class ="fas fa-user"></i></a>\
+					    <a class = "btn-floating btn waves-effect waves-light pink lighten-2" href=https://gitter.im/'+data[i].login+'><i class ="fab fa-gitter"></i></a>\
+					    <a class = "btn-floating btn waves-effect waves-light light-green" href=https://gitter.im/'+data[i].login+'><img src="img/Jeedom.png" style="height:45px"></img></a>\
+					    <a class = "btn-floating btn waves-effect waves-light grey" href=https://github.com/'+data[i].login+'><i class ="fab fa-github"></i></a>\
+                         		    <a class = "btn-floating btn waves-effect waves-light bg-orange" href=https://paypal.me/'+data[i].login+'><i class="fas fa-beer"></i></a>\
 	                   		</div>\
                     </div>\
                 </div>');
@@ -102,7 +109,9 @@ function generateTeam(_json){
 }
 
 function generateWiki(_json){
-	requestJSON(_json, function(data) {
+//	requestJSON(_json, function(data) {
+$.getJSON(_json,function(data){
+    
 		$('#ul_listWiki').empty();
 		data.wiki.docs.sort(function (a, b) {
 			if (a.name.toLowerCase() > b.name.toLowerCase())
@@ -127,7 +136,7 @@ function generateWiki(_json){
 }
 
 function generateChat(_json){
-	requestJSON(_json, function(data) {
+$.getJSON(_json,function(data){
 	$('#ul_listChat').empty();
 
 	for(var i in data.chat.docs){
@@ -147,7 +156,7 @@ function generateChat(_json){
 }
 
 function generateDeveloper(_json){
-	requestJSON(_json, function(data) {
+$.getJSON(_json,function(data){
 		$('#ul_listDeveloper').empty();
 		data.developer.docs.sort(function (a, b) {
 			if (a.name.toLowerCase() > b.name.toLowerCase())
@@ -172,11 +181,38 @@ function generateDeveloper(_json){
 	});
 }
 
-function requestJSON(url, callback) {
-	$.ajax({
-  		url: url,
-  		complete: function(xhr) {
-    		callback.call(null, xhr.responseJSON);
-      	}
-    });
+function generateEvents(_json){
+    var events ="";
+$.getJSON(_json,function(data){
+		$('#dataEvents').empty();
+		console.log(data);
+		$.each(data, function(i) {
+		    switch( data[i].type){
+		        case "PushEvent":
+		              events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="50" height="50" style="vertical-align:middle"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type + ' - ' + data[i].repo.name.substr(21) + ' </b><br>';  
+		        break;
+		        case "IssuesEvent":
+		            events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="50" height="50" style="vertical-align:middle"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type + ' - ' + data[i].repo.name.substr(21) + ' : </b>' + data[i].payload.issue.title + '<br>';
+		        break;
+		        case "GollumEvent":
+		            events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="50" height="50" style="vertical-align:middle"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type + ' - ' + data[i].repo.name.substr(21) + ' : </b>' + data[i].payload.pages[0].title + '<br>';
+		        break;
+		        case "DeleteEvent":
+		            events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="50" height="50" style="vertical-align:middle"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type + ' - ' + data[i].repo.name.substr(21) + ' : </b>' + data[i].payload.ref + ' <br>';
+		        break;
+		        case "IssueCommentEvent":
+		             events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="50" height="50" style="vertical-align:middle"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type + ' - ' + data[i].repo.name.substr(21) + ' : </b>' + data[i].payload.issue.title + '<br>';
+		        break;
+		        case "ForkEvent":
+		             events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="50" height="50" style="vertical-align:middle"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type + ' - ' + data[i].repo.name.substr(21) + ' : </b><br>';
+		        break;
+		         case "PullRequestEvent":
+		             events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="50" height="50" style="vertical-align:middle"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type + ' - ' + data[i].repo.name.substr(21) + ' : </b>' + data[i].payload.pull_request.title + '<br>';
+		        break;
+		        default:
+		            events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="50" height="50" style="vertical-align:middle"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type + ' - ' + data[i].repo.name.substr(21) + ' </b><br>';
+		    }
+            $('#eventsdata').html(events);
+		});
+	});
 }

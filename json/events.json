@@ -1,0 +1,3436 @@
+[
+{
+"id": "7314878096",
+"type": "GollumEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 120485912,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+},
+"payload": {
+"pages": [
+{
+"page_name": "Bonnes-pratiques-pour-les-plugins",
+"title": "Bonnes pratiques pour les plugins",
+"summary": null,
+"action": "edited",
+"sha": "cb836104e7a5415177f8269c7d7031af3ed9d4a7",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Bonnes-pratiques-pour-les-plugins"
+}
+]
+},
+"public": true,
+"created_at": "2018-03-01T09:07:20Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7314766835",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 85234455,
+"name": "Jeedom-Plugins-Extra/plugin-jpi",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi"
+},
+"payload": {
+"push_id": 2367858762,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "b3efd87512ec4dd9fce50c3670fad39de87fceeb",
+"before": "8729096bd0d241817107af14f0ac6fcf143752ea",
+"commits": [
+{
+"sha": "b3efd87512ec4dd9fce50c3670fad39de87fceeb",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "remove ?>\n\ninit('action') mériterai un switch case...",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi/commits/b3efd87512ec4dd9fce50c3670fad39de87fceeb"
+}
+]
+},
+"public": true,
+"created_at": "2018-03-01T08:43:13Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7314761188",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 85234455,
+"name": "Jeedom-Plugins-Extra/plugin-jpi",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi"
+},
+"payload": {
+"push_id": 2367855770,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "8729096bd0d241817107af14f0ac6fcf143752ea",
+"before": "3b05e767df0d0a1745ac62fdc7a90a1229433d90",
+"commits": [
+{
+"sha": "8729096bd0d241817107af14f0ac6fcf143752ea",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "indentation",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi/commits/8729096bd0d241817107af14f0ac6fcf143752ea"
+}
+]
+},
+"public": true,
+"created_at": "2018-03-01T08:41:55Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7314758608",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 85234455,
+"name": "Jeedom-Plugins-Extra/plugin-jpi",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi"
+},
+"payload": {
+"push_id": 2367854431,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "3b05e767df0d0a1745ac62fdc7a90a1229433d90",
+"before": "6aa1c45ef4c0ad30ced0f20d824496ec470780d7",
+"commits": [
+{
+"sha": "3b05e767df0d0a1745ac62fdc7a90a1229433d90",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "remove ?> and unecesary method",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi/commits/3b05e767df0d0a1745ac62fdc7a90a1229433d90"
+}
+]
+},
+"public": true,
+"created_at": "2018-03-01T08:41:16Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7314742720",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 55141744,
+"name": "Jeedom-Plugins-Extra/plugin-publiemeteo",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo"
+},
+"payload": {
+"push_id": 2367846510,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "532219d011a81c80760d27e31c2a9040183f06cb",
+"before": "bc9ecaf31e67165927a2cf8f652b7ac410823fb9",
+"commits": [
+{
+"sha": "532219d011a81c80760d27e31c2a9040183f06cb",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "remove ?> and indentation",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo/commits/532219d011a81c80760d27e31c2a9040183f06cb"
+}
+]
+},
+"public": true,
+"created_at": "2018-03-01T08:37:29Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7314725297",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 55141744,
+"name": "Jeedom-Plugins-Extra/plugin-publiemeteo",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo"
+},
+"payload": {
+"push_id": 2367837585,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "bc9ecaf31e67165927a2cf8f652b7ac410823fb9",
+"before": "6239d093da8fe4c0152cf26deef8718a27260a02",
+"commits": [
+{
+"sha": "bc9ecaf31e67165927a2cf8f652b7ac410823fb9",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "remove ?> indentation and \\",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo/commits/bc9ecaf31e67165927a2cf8f652b7ac410823fb9"
+}
+]
+},
+"public": true,
+"created_at": "2018-03-01T08:33:16Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7314717197",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 55141744,
+"name": "Jeedom-Plugins-Extra/plugin-publiemeteo",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo"
+},
+"payload": {
+"push_id": 2367833342,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "6239d093da8fe4c0152cf26deef8718a27260a02",
+"before": "32ea53c150c38d11cc05e4d08248ebbedf8b3bb0",
+"commits": [
+{
+"sha": "6239d093da8fe4c0152cf26deef8718a27260a02",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "remove ?> and https",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo/commits/6239d093da8fe4c0152cf26deef8718a27260a02"
+}
+]
+},
+"public": true,
+"created_at": "2018-03-01T08:31:13Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7312803171",
+"type": "IssueCommentEvent",
+"actor": {
+"id": 22872207,
+"login": "rjullien",
+"display_login": "rjullien",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"avatar_url": "https://avatars.githubusercontent.com/u/22872207?"
+},
+"repo": {
+"id": 121390193,
+"name": "Jeedom-Plugins-Extra/plugin-template",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template"
+},
+"payload": {
+"action": "created",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
+"id": 301153443,
+"number": 10,
+"title": "Template de doc",
+"user": {
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [
+{
+"id": 851862529,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/labels/in%20progress",
+"name": "in progress",
+"color": "ededed",
+"default": false
+}
+],
+"state": "open",
+"locked": false,
+"assignee": {
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+},
+"assignees": [
+{
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+}
+],
+"milestone": null,
+"comments": 1,
+"created_at": "2018-02-28T19:32:54Z",
+"updated_at": "2018-02-28T22:14:33Z",
+"closed_at": null,
+"author_association": "NONE",
+"pull_request": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
+"diff_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.diff",
+"patch_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.patch"
+},
+"body": "* Structurer la doc avec un index incluant\r\n** presentation.md\r\n** configuration.md\r\n** faq.md\r\n** changelog.md\r\nUn template pour chaque partie\r\nsuppression de sample_index.md et mv de index.md en index-template.md\r\n\r\nadaptation de index-template.md a docs et a ce template\r\n\r\nResultat: https://rjullien.github.io/testPluginTemplate/fr_FR/\r\n\r\nJe n'ai pas modifié la baniere en haut, juste le contenue, je regarderais plus tard\r\nDites moi ce que vous en pensez ?"
+},
+"comment": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/comments/369401913",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10#issuecomment-369401913",
+"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
+"id": 369401913,
+"user": {
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+},
+"created_at": "2018-02-28T22:14:33Z",
+"updated_at": "2018-02-28T22:14:33Z",
+"author_association": "NONE",
+"body": "> Je rajouterai en menu 4 bis la listes des equipements/commandes disponible.\r\nOk je regarde ca demain\r\nJ'aime bien un changelog detaillé mais si vous preferez la version tres épuré de @guenneguezt je peux simplifier le changelog. J avais mis les dates car c'est a peu pres le seul moyen de voir si tu as recuperé la bonne version, on ne voit pas la version dans Jeedom (sans aller regarder les fichiers, pour un utilisateur std)\r\nPlus le temps de coder on a 15cm de neige sur la cote d'azur, c'est l'heure de faire des photos :)"
+}
+},
+"public": true,
+"created_at": "2018-02-28T22:14:33Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7312588543",
+"type": "IssueCommentEvent",
+"actor": {
+"id": 2076674,
+"login": "guenneguezt",
+"display_login": "guenneguezt",
+"gravatar_id": "",
+"url": "https://api.github.com/users/guenneguezt",
+"avatar_url": "https://avatars.githubusercontent.com/u/2076674?"
+},
+"repo": {
+"id": 121390193,
+"name": "Jeedom-Plugins-Extra/plugin-template",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template"
+},
+"payload": {
+"action": "created",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
+"id": 301153443,
+"number": 10,
+"title": "Template de doc",
+"user": {
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [
+{
+"id": 851862529,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/labels/in%20progress",
+"name": "in progress",
+"color": "ededed",
+"default": false
+}
+],
+"state": "open",
+"locked": false,
+"assignee": {
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+},
+"assignees": [
+{
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+}
+],
+"milestone": null,
+"comments": 1,
+"created_at": "2018-02-28T19:32:54Z",
+"updated_at": "2018-02-28T21:30:25Z",
+"closed_at": null,
+"author_association": "NONE",
+"pull_request": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
+"diff_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.diff",
+"patch_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.patch"
+},
+"body": "* Structurer la doc avec un index incluant\r\n** presentation.md\r\n** configuration.md\r\n** faq.md\r\n** changelog.md\r\nUn template pour chaque partie\r\nsuppression de sample_index.md et mv de index.md en index-template.md\r\n\r\nadaptation de index-template.md a docs et a ce template\r\n\r\nResultat: https://rjullien.github.io/testPluginTemplate/fr_FR/\r\n\r\nJe n'ai pas modifié la baniere en haut, juste le contenue, je regarderais plus tard\r\nDites moi ce que vous en pensez ?"
+},
+"comment": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/comments/369389644",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10#issuecomment-369389644",
+"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
+"id": 369389644,
+"user": {
+"login": "guenneguezt",
+"id": 2076674,
+"avatar_url": "https://avatars2.githubusercontent.com/u/2076674?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/guenneguezt",
+"html_url": "https://github.com/guenneguezt",
+"followers_url": "https://api.github.com/users/guenneguezt/followers",
+"following_url": "https://api.github.com/users/guenneguezt/following{/other_user}",
+"gists_url": "https://api.github.com/users/guenneguezt/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/guenneguezt/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/guenneguezt/subscriptions",
+"organizations_url": "https://api.github.com/users/guenneguezt/orgs",
+"repos_url": "https://api.github.com/users/guenneguezt/repos",
+"events_url": "https://api.github.com/users/guenneguezt/events{/privacy}",
+"received_events_url": "https://api.github.com/users/guenneguezt/received_events",
+"type": "User",
+"site_admin": false
+},
+"created_at": "2018-02-28T21:30:25Z",
+"updated_at": "2018-02-28T21:30:25Z",
+"author_association": "NONE",
+"body": "Je rajouterai en menu 4 bis la listes des equipements/commandes disponible.\r\nPour la partie changelog, j'aime pas trop mettre date et version car la date c'est celle du push et le numero de version le tag release. Ca fait doublon donc risque de ne pas être à jour.\r\nJ'aime bien le changelog suivant\r\nhttps://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/blob/master/docs/fr_FR/changelog.md"
+}
+},
+"public": true,
+"created_at": "2018-02-28T21:31:07Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7312450377",
+"type": "ForkEvent",
+"actor": {
+"id": 957104,
+"login": "Sylvaner",
+"display_login": "Sylvaner",
+"gravatar_id": "",
+"url": "https://api.github.com/users/Sylvaner",
+"avatar_url": "https://avatars.githubusercontent.com/u/957104?"
+},
+"repo": {
+"id": 111082667,
+"name": "Jeedom-Plugins-Extra/plugin-Opening",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-Opening"
+},
+"payload": {
+"forkee": {
+"id": 123342077,
+"name": "plugin-Opening",
+"full_name": "Sylvaner/plugin-Opening",
+"owner": {
+"login": "Sylvaner",
+"id": 957104,
+"avatar_url": "https://avatars3.githubusercontent.com/u/957104?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/Sylvaner",
+"html_url": "https://github.com/Sylvaner",
+"followers_url": "https://api.github.com/users/Sylvaner/followers",
+"following_url": "https://api.github.com/users/Sylvaner/following{/other_user}",
+"gists_url": "https://api.github.com/users/Sylvaner/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/Sylvaner/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/Sylvaner/subscriptions",
+"organizations_url": "https://api.github.com/users/Sylvaner/orgs",
+"repos_url": "https://api.github.com/users/Sylvaner/repos",
+"events_url": "https://api.github.com/users/Sylvaner/events{/privacy}",
+"received_events_url": "https://api.github.com/users/Sylvaner/received_events",
+"type": "User",
+"site_admin": false
+},
+"private": false,
+"html_url": "https://github.com/Sylvaner/plugin-Opening",
+"description": "Gestion de tout éléments ouvrants",
+"fork": true,
+"url": "https://api.github.com/repos/Sylvaner/plugin-Opening",
+"forks_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/forks",
+"keys_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/keys{/key_id}",
+"collaborators_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/collaborators{/collaborator}",
+"teams_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/teams",
+"hooks_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/hooks",
+"issue_events_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/issues/events{/number}",
+"events_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/events",
+"assignees_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/assignees{/user}",
+"branches_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/branches{/branch}",
+"tags_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/tags",
+"blobs_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/git/blobs{/sha}",
+"git_tags_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/git/tags{/sha}",
+"git_refs_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/git/refs{/sha}",
+"trees_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/git/trees{/sha}",
+"statuses_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/statuses/{sha}",
+"languages_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/languages",
+"stargazers_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/stargazers",
+"contributors_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/contributors",
+"subscribers_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/subscribers",
+"subscription_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/subscription",
+"commits_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/commits{/sha}",
+"git_commits_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/git/commits{/sha}",
+"comments_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/comments{/number}",
+"issue_comment_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/issues/comments{/number}",
+"contents_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/contents/{+path}",
+"compare_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/compare/{base}...{head}",
+"merges_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/merges",
+"archive_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/{archive_format}{/ref}",
+"downloads_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/downloads",
+"issues_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/issues{/number}",
+"pulls_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/pulls{/number}",
+"milestones_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/milestones{/number}",
+"notifications_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/notifications{?since,all,participating}",
+"labels_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/labels{/name}",
+"releases_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/releases{/id}",
+"deployments_url": "https://api.github.com/repos/Sylvaner/plugin-Opening/deployments",
+"created_at": "2018-02-28T21:02:21Z",
+"updated_at": "2018-02-22T10:04:52Z",
+"pushed_at": "2018-02-26T15:43:54Z",
+"git_url": "git://github.com/Sylvaner/plugin-Opening.git",
+"ssh_url": "git@github.com:Sylvaner/plugin-Opening.git",
+"clone_url": "https://github.com/Sylvaner/plugin-Opening.git",
+"svn_url": "https://github.com/Sylvaner/plugin-Opening",
+"homepage": "",
+"size": 11169,
+"stargazers_count": 0,
+"watchers_count": 0,
+"language": null,
+"has_issues": false,
+"has_projects": true,
+"has_downloads": true,
+"has_wiki": true,
+"has_pages": false,
+"forks_count": 0,
+"mirror_url": null,
+"archived": false,
+"open_issues_count": 0,
+"license": null,
+"forks": 0,
+"open_issues": 0,
+"watchers": 0,
+"default_branch": "master",
+"public": true
+}
+},
+"public": true,
+"created_at": "2018-02-28T21:02:21Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7311998932",
+"type": "PullRequestEvent",
+"actor": {
+"id": 22872207,
+"login": "rjullien",
+"display_login": "rjullien",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"avatar_url": "https://avatars.githubusercontent.com/u/22872207?"
+},
+"repo": {
+"id": 121390193,
+"name": "Jeedom-Plugins-Extra/plugin-template",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template"
+},
+"payload": {
+"action": "opened",
+"number": 10,
+"pull_request": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10",
+"id": 172050246,
+"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
+"diff_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.diff",
+"patch_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.patch",
+"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
+"number": 10,
+"state": "open",
+"locked": false,
+"title": "Template de doc",
+"user": {
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+},
+"body": "* Structurer la doc avec un index incluant\r\n** presentation.md\r\n** configuration.md\r\n** faq.md\r\n** changelog.md\r\nUn template pour chaque partie\r\nsuppression de sample_index.md et mv de index.md en index-template.md\r\n\r\nadaptation de index-template.md a docs et a ce template\r\n\r\nResultat: https://rjullien.github.io/testPluginTemplate/fr_FR/\r\n\r\nJe n'ai pas modifié la baniere en haut, juste le contenue, je regarderais plus tard\r\nDites moi ce que vous en pensez ?",
+"created_at": "2018-02-28T19:32:54Z",
+"updated_at": "2018-02-28T19:32:54Z",
+"closed_at": null,
+"merged_at": null,
+"merge_commit_sha": null,
+"assignee": null,
+"assignees": [],
+"requested_reviewers": [],
+"requested_teams": [],
+"labels": [],
+"milestone": null,
+"commits_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10/commits",
+"review_comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10/comments",
+"review_comment_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/comments{/number}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/comments",
+"statuses_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/statuses/4963400358cc17b1f29c16c4b424af915f188dc3",
+"head": {
+"label": "rjullien:develop",
+"ref": "develop",
+"sha": "4963400358cc17b1f29c16c4b424af915f188dc3",
+"user": {
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+},
+"repo": {
+"id": 123329086,
+"name": "plugin-template",
+"full_name": "rjullien/plugin-template",
+"owner": {
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+},
+"private": false,
+"html_url": "https://github.com/rjullien/plugin-template",
+"description": "Plugin Template",
+"fork": true,
+"url": "https://api.github.com/repos/rjullien/plugin-template",
+"forks_url": "https://api.github.com/repos/rjullien/plugin-template/forks",
+"keys_url": "https://api.github.com/repos/rjullien/plugin-template/keys{/key_id}",
+"collaborators_url": "https://api.github.com/repos/rjullien/plugin-template/collaborators{/collaborator}",
+"teams_url": "https://api.github.com/repos/rjullien/plugin-template/teams",
+"hooks_url": "https://api.github.com/repos/rjullien/plugin-template/hooks",
+"issue_events_url": "https://api.github.com/repos/rjullien/plugin-template/issues/events{/number}",
+"events_url": "https://api.github.com/repos/rjullien/plugin-template/events",
+"assignees_url": "https://api.github.com/repos/rjullien/plugin-template/assignees{/user}",
+"branches_url": "https://api.github.com/repos/rjullien/plugin-template/branches{/branch}",
+"tags_url": "https://api.github.com/repos/rjullien/plugin-template/tags",
+"blobs_url": "https://api.github.com/repos/rjullien/plugin-template/git/blobs{/sha}",
+"git_tags_url": "https://api.github.com/repos/rjullien/plugin-template/git/tags{/sha}",
+"git_refs_url": "https://api.github.com/repos/rjullien/plugin-template/git/refs{/sha}",
+"trees_url": "https://api.github.com/repos/rjullien/plugin-template/git/trees{/sha}",
+"statuses_url": "https://api.github.com/repos/rjullien/plugin-template/statuses/{sha}",
+"languages_url": "https://api.github.com/repos/rjullien/plugin-template/languages",
+"stargazers_url": "https://api.github.com/repos/rjullien/plugin-template/stargazers",
+"contributors_url": "https://api.github.com/repos/rjullien/plugin-template/contributors",
+"subscribers_url": "https://api.github.com/repos/rjullien/plugin-template/subscribers",
+"subscription_url": "https://api.github.com/repos/rjullien/plugin-template/subscription",
+"commits_url": "https://api.github.com/repos/rjullien/plugin-template/commits{/sha}",
+"git_commits_url": "https://api.github.com/repos/rjullien/plugin-template/git/commits{/sha}",
+"comments_url": "https://api.github.com/repos/rjullien/plugin-template/comments{/number}",
+"issue_comment_url": "https://api.github.com/repos/rjullien/plugin-template/issues/comments{/number}",
+"contents_url": "https://api.github.com/repos/rjullien/plugin-template/contents/{+path}",
+"compare_url": "https://api.github.com/repos/rjullien/plugin-template/compare/{base}...{head}",
+"merges_url": "https://api.github.com/repos/rjullien/plugin-template/merges",
+"archive_url": "https://api.github.com/repos/rjullien/plugin-template/{archive_format}{/ref}",
+"downloads_url": "https://api.github.com/repos/rjullien/plugin-template/downloads",
+"issues_url": "https://api.github.com/repos/rjullien/plugin-template/issues{/number}",
+"pulls_url": "https://api.github.com/repos/rjullien/plugin-template/pulls{/number}",
+"milestones_url": "https://api.github.com/repos/rjullien/plugin-template/milestones{/number}",
+"notifications_url": "https://api.github.com/repos/rjullien/plugin-template/notifications{?since,all,participating}",
+"labels_url": "https://api.github.com/repos/rjullien/plugin-template/labels{/name}",
+"releases_url": "https://api.github.com/repos/rjullien/plugin-template/releases{/id}",
+"deployments_url": "https://api.github.com/repos/rjullien/plugin-template/deployments",
+"created_at": "2018-02-28T19:03:29Z",
+"updated_at": "2018-02-28T19:03:30Z",
+"pushed_at": "2018-02-28T19:26:09Z",
+"git_url": "git://github.com/rjullien/plugin-template.git",
+"ssh_url": "git@github.com:rjullien/plugin-template.git",
+"clone_url": "https://github.com/rjullien/plugin-template.git",
+"svn_url": "https://github.com/rjullien/plugin-template",
+"homepage": "",
+"size": 2149,
+"stargazers_count": 0,
+"watchers_count": 0,
+"language": "PHP",
+"has_issues": false,
+"has_projects": true,
+"has_downloads": true,
+"has_wiki": false,
+"has_pages": false,
+"forks_count": 0,
+"mirror_url": null,
+"archived": false,
+"open_issues_count": 0,
+"license": null,
+"forks": 0,
+"open_issues": 0,
+"watchers": 0,
+"default_branch": "master"
+}
+},
+"base": {
+"label": "Jeedom-Plugins-Extra:develop",
+"ref": "develop",
+"sha": "769cfc20c68665740730ae8e5e710f083d395d3f",
+"user": {
+"login": "Jeedom-Plugins-Extra",
+"id": 36200380,
+"avatar_url": "https://avatars2.githubusercontent.com/u/36200380?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/Jeedom-Plugins-Extra",
+"html_url": "https://github.com/Jeedom-Plugins-Extra",
+"followers_url": "https://api.github.com/users/Jeedom-Plugins-Extra/followers",
+"following_url": "https://api.github.com/users/Jeedom-Plugins-Extra/following{/other_user}",
+"gists_url": "https://api.github.com/users/Jeedom-Plugins-Extra/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/Jeedom-Plugins-Extra/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/Jeedom-Plugins-Extra/subscriptions",
+"organizations_url": "https://api.github.com/users/Jeedom-Plugins-Extra/orgs",
+"repos_url": "https://api.github.com/users/Jeedom-Plugins-Extra/repos",
+"events_url": "https://api.github.com/users/Jeedom-Plugins-Extra/events{/privacy}",
+"received_events_url": "https://api.github.com/users/Jeedom-Plugins-Extra/received_events",
+"type": "Organization",
+"site_admin": false
+},
+"repo": {
+"id": 121390193,
+"name": "plugin-template",
+"full_name": "Jeedom-Plugins-Extra/plugin-template",
+"owner": {
+"login": "Jeedom-Plugins-Extra",
+"id": 36200380,
+"avatar_url": "https://avatars2.githubusercontent.com/u/36200380?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/Jeedom-Plugins-Extra",
+"html_url": "https://github.com/Jeedom-Plugins-Extra",
+"followers_url": "https://api.github.com/users/Jeedom-Plugins-Extra/followers",
+"following_url": "https://api.github.com/users/Jeedom-Plugins-Extra/following{/other_user}",
+"gists_url": "https://api.github.com/users/Jeedom-Plugins-Extra/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/Jeedom-Plugins-Extra/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/Jeedom-Plugins-Extra/subscriptions",
+"organizations_url": "https://api.github.com/users/Jeedom-Plugins-Extra/orgs",
+"repos_url": "https://api.github.com/users/Jeedom-Plugins-Extra/repos",
+"events_url": "https://api.github.com/users/Jeedom-Plugins-Extra/events{/privacy}",
+"received_events_url": "https://api.github.com/users/Jeedom-Plugins-Extra/received_events",
+"type": "Organization",
+"site_admin": false
+},
+"private": false,
+"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template",
+"description": "Plugin Template",
+"fork": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template",
+"forks_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/forks",
+"keys_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/keys{/key_id}",
+"collaborators_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/collaborators{/collaborator}",
+"teams_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/teams",
+"hooks_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/hooks",
+"issue_events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/events{/number}",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/events",
+"assignees_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/assignees{/user}",
+"branches_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/branches{/branch}",
+"tags_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/tags",
+"blobs_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/blobs{/sha}",
+"git_tags_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/tags{/sha}",
+"git_refs_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/refs{/sha}",
+"trees_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/trees{/sha}",
+"statuses_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/statuses/{sha}",
+"languages_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/languages",
+"stargazers_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/stargazers",
+"contributors_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/contributors",
+"subscribers_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/subscribers",
+"subscription_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/subscription",
+"commits_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/commits{/sha}",
+"git_commits_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/commits{/sha}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/comments{/number}",
+"issue_comment_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/comments{/number}",
+"contents_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/contents/{+path}",
+"compare_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/compare/{base}...{head}",
+"merges_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/merges",
+"archive_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/{archive_format}{/ref}",
+"downloads_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/downloads",
+"issues_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues{/number}",
+"pulls_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls{/number}",
+"milestones_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/milestones{/number}",
+"notifications_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/notifications{?since,all,participating}",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/labels{/name}",
+"releases_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/releases{/id}",
+"deployments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/deployments",
+"created_at": "2018-02-13T14:10:15Z",
+"updated_at": "2018-02-27T08:06:37Z",
+"pushed_at": "2018-02-27T21:47:56Z",
+"git_url": "git://github.com/Jeedom-Plugins-Extra/plugin-template.git",
+"ssh_url": "git@github.com:Jeedom-Plugins-Extra/plugin-template.git",
+"clone_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template.git",
+"svn_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template",
+"homepage": "",
+"size": 2149,
+"stargazers_count": 0,
+"watchers_count": 0,
+"language": "PHP",
+"has_issues": true,
+"has_projects": true,
+"has_downloads": true,
+"has_wiki": false,
+"has_pages": true,
+"forks_count": 2,
+"mirror_url": null,
+"archived": false,
+"open_issues_count": 10,
+"license": null,
+"forks": 2,
+"open_issues": 10,
+"watchers": 0,
+"default_branch": "master"
+}
+},
+"_links": {
+"self": {
+"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10"
+},
+"html": {
+"href": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10"
+},
+"issue": {
+"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10"
+},
+"comments": {
+"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/comments"
+},
+"review_comments": {
+"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10/comments"
+},
+"review_comment": {
+"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/comments{/number}"
+},
+"commits": {
+"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10/commits"
+},
+"statuses": {
+"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/statuses/4963400358cc17b1f29c16c4b424af915f188dc3"
+}
+},
+"author_association": "NONE",
+"merged": false,
+"mergeable": null,
+"rebaseable": null,
+"mergeable_state": "unknown",
+"merged_by": null,
+"comments": 0,
+"review_comments": 0,
+"maintainer_can_modify": true,
+"commits": 2,
+"additions": 1172,
+"deletions": 1155,
+"changed_files": 7
+}
+},
+"public": true,
+"created_at": "2018-02-28T19:32:55Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7311990877",
+"type": "PushEvent",
+"actor": {
+"id": 13416516,
+"login": "ticed35",
+"display_login": "ticed35",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ticed35",
+"avatar_url": "https://avatars.githubusercontent.com/u/13416516?"
+},
+"repo": {
+"id": 68639218,
+"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+},
+"payload": {
+"push_id": 2366395771,
+"size": 0,
+"distinct_size": 0,
+"ref": "refs/heads/develop",
+"head": "1f760d2cccb9f76f51f481e9815b2db8adfe30bc",
+"before": "1f760d2cccb9f76f51f481e9815b2db8adfe30bc",
+"commits": []
+},
+"public": true,
+"created_at": "2018-02-28T19:31:22Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7311840757",
+"type": "ForkEvent",
+"actor": {
+"id": 22872207,
+"login": "rjullien",
+"display_login": "rjullien",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"avatar_url": "https://avatars.githubusercontent.com/u/22872207?"
+},
+"repo": {
+"id": 121390193,
+"name": "Jeedom-Plugins-Extra/plugin-template",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template"
+},
+"payload": {
+"forkee": {
+"id": 123329086,
+"name": "plugin-template",
+"full_name": "rjullien/plugin-template",
+"owner": {
+"login": "rjullien",
+"id": 22872207,
+"avatar_url": "https://avatars3.githubusercontent.com/u/22872207?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/rjullien",
+"html_url": "https://github.com/rjullien",
+"followers_url": "https://api.github.com/users/rjullien/followers",
+"following_url": "https://api.github.com/users/rjullien/following{/other_user}",
+"gists_url": "https://api.github.com/users/rjullien/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/rjullien/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/rjullien/subscriptions",
+"organizations_url": "https://api.github.com/users/rjullien/orgs",
+"repos_url": "https://api.github.com/users/rjullien/repos",
+"events_url": "https://api.github.com/users/rjullien/events{/privacy}",
+"received_events_url": "https://api.github.com/users/rjullien/received_events",
+"type": "User",
+"site_admin": false
+},
+"private": false,
+"html_url": "https://github.com/rjullien/plugin-template",
+"description": "Plugin Template",
+"fork": true,
+"url": "https://api.github.com/repos/rjullien/plugin-template",
+"forks_url": "https://api.github.com/repos/rjullien/plugin-template/forks",
+"keys_url": "https://api.github.com/repos/rjullien/plugin-template/keys{/key_id}",
+"collaborators_url": "https://api.github.com/repos/rjullien/plugin-template/collaborators{/collaborator}",
+"teams_url": "https://api.github.com/repos/rjullien/plugin-template/teams",
+"hooks_url": "https://api.github.com/repos/rjullien/plugin-template/hooks",
+"issue_events_url": "https://api.github.com/repos/rjullien/plugin-template/issues/events{/number}",
+"events_url": "https://api.github.com/repos/rjullien/plugin-template/events",
+"assignees_url": "https://api.github.com/repos/rjullien/plugin-template/assignees{/user}",
+"branches_url": "https://api.github.com/repos/rjullien/plugin-template/branches{/branch}",
+"tags_url": "https://api.github.com/repos/rjullien/plugin-template/tags",
+"blobs_url": "https://api.github.com/repos/rjullien/plugin-template/git/blobs{/sha}",
+"git_tags_url": "https://api.github.com/repos/rjullien/plugin-template/git/tags{/sha}",
+"git_refs_url": "https://api.github.com/repos/rjullien/plugin-template/git/refs{/sha}",
+"trees_url": "https://api.github.com/repos/rjullien/plugin-template/git/trees{/sha}",
+"statuses_url": "https://api.github.com/repos/rjullien/plugin-template/statuses/{sha}",
+"languages_url": "https://api.github.com/repos/rjullien/plugin-template/languages",
+"stargazers_url": "https://api.github.com/repos/rjullien/plugin-template/stargazers",
+"contributors_url": "https://api.github.com/repos/rjullien/plugin-template/contributors",
+"subscribers_url": "https://api.github.com/repos/rjullien/plugin-template/subscribers",
+"subscription_url": "https://api.github.com/repos/rjullien/plugin-template/subscription",
+"commits_url": "https://api.github.com/repos/rjullien/plugin-template/commits{/sha}",
+"git_commits_url": "https://api.github.com/repos/rjullien/plugin-template/git/commits{/sha}",
+"comments_url": "https://api.github.com/repos/rjullien/plugin-template/comments{/number}",
+"issue_comment_url": "https://api.github.com/repos/rjullien/plugin-template/issues/comments{/number}",
+"contents_url": "https://api.github.com/repos/rjullien/plugin-template/contents/{+path}",
+"compare_url": "https://api.github.com/repos/rjullien/plugin-template/compare/{base}...{head}",
+"merges_url": "https://api.github.com/repos/rjullien/plugin-template/merges",
+"archive_url": "https://api.github.com/repos/rjullien/plugin-template/{archive_format}{/ref}",
+"downloads_url": "https://api.github.com/repos/rjullien/plugin-template/downloads",
+"issues_url": "https://api.github.com/repos/rjullien/plugin-template/issues{/number}",
+"pulls_url": "https://api.github.com/repos/rjullien/plugin-template/pulls{/number}",
+"milestones_url": "https://api.github.com/repos/rjullien/plugin-template/milestones{/number}",
+"notifications_url": "https://api.github.com/repos/rjullien/plugin-template/notifications{?since,all,participating}",
+"labels_url": "https://api.github.com/repos/rjullien/plugin-template/labels{/name}",
+"releases_url": "https://api.github.com/repos/rjullien/plugin-template/releases{/id}",
+"deployments_url": "https://api.github.com/repos/rjullien/plugin-template/deployments",
+"created_at": "2018-02-28T19:03:29Z",
+"updated_at": "2018-02-27T08:06:37Z",
+"pushed_at": "2018-02-27T21:47:56Z",
+"git_url": "git://github.com/rjullien/plugin-template.git",
+"ssh_url": "git@github.com:rjullien/plugin-template.git",
+"clone_url": "https://github.com/rjullien/plugin-template.git",
+"svn_url": "https://github.com/rjullien/plugin-template",
+"homepage": "",
+"size": 2149,
+"stargazers_count": 0,
+"watchers_count": 0,
+"language": null,
+"has_issues": false,
+"has_projects": true,
+"has_downloads": true,
+"has_wiki": false,
+"has_pages": false,
+"forks_count": 0,
+"mirror_url": null,
+"archived": false,
+"open_issues_count": 0,
+"license": null,
+"forks": 0,
+"open_issues": 0,
+"watchers": 0,
+"default_branch": "master",
+"public": true
+}
+},
+"public": true,
+"created_at": "2018-02-28T19:03:29Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7311805846",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 108865906,
+"name": "Jeedom-Plugins-Extra/plugin-sonybravia",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-sonybravia"
+},
+"payload": {
+"push_id": 2366303188,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "48625b6e989ae15ce309d50cddff1033f9f88685",
+"before": "c9d944dbc6f1995cbfc3764dba2588c58670c114",
+"commits": [
+{
+"sha": "48625b6e989ae15ce309d50cddff1033f9f88685",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "remove ?>",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-sonybravia/commits/48625b6e989ae15ce309d50cddff1033f9f88685"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T18:56:47Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7311554501",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 68639218,
+"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+},
+"payload": {
+"push_id": 2366174575,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "26b580ac20d735a9ffd2a89ee7a426a0ca660f3e",
+"before": "78983fe68c601425cb919d65562a4cabaf24a163",
+"commits": [
+{
+"sha": "26b580ac20d735a9ffd2a89ee7a426a0ca660f3e",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "Psr-2 indentation\n\n$_GET il ne faut pas accéder à $_GET directement ou à tout autres superglobales, il y a des traitements de sécurité à effectuer avant.",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/26b580ac20d735a9ffd2a89ee7a426a0ca660f3e"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T18:07:56Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7311542634",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 68639218,
+"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+},
+"payload": {
+"push_id": 2366168368,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "78983fe68c601425cb919d65562a4cabaf24a163",
+"before": "4d94065f2652e8816973b111255973f8933fe898",
+"commits": [
+{
+"sha": "78983fe68c601425cb919d65562a4cabaf24a163",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "remove ?>",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/78983fe68c601425cb919d65562a4cabaf24a163"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T18:05:33Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7311536687",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 68639218,
+"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+},
+"payload": {
+"push_id": 2366165319,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "1f760d2cccb9f76f51f481e9815b2db8adfe30bc",
+"before": "8e3b895930eb85a89c64483433e528c2fe29c75d",
+"commits": [
+{
+"sha": "1f760d2cccb9f76f51f481e9815b2db8adfe30bc",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "remove ?> + PSR-2 indentation\n\nstrict comparaison",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/1f760d2cccb9f76f51f481e9815b2db8adfe30bc"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T18:04:21Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7311518729",
+"type": "PushEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 68639218,
+"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+},
+"payload": {
+"push_id": 2366155976,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "8e3b895930eb85a89c64483433e528c2fe29c75d",
+"before": "f678ecdb9f97eaeaab57feec219c280918b03cf2",
+"commits": [
+{
+"sha": "8e3b895930eb85a89c64483433e528c2fe29c75d",
+"author": {
+"email": "4697568+ColonelMoutarde@users.noreply.github.com",
+"name": "ColonelMoutarde"
+},
+"message": "indentaion psr-2 remove unecessary $cmd\n\nPourquoi as-tu mis des $cmd = null partout ?\r\nIl y aurait un gros travail de refactorisation à faire. Fait moi un mp si tu veux",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/8e3b895930eb85a89c64483433e528c2fe29c75d"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T18:00:42Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310655911",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365719737,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "3af8f348db356ae74b4f9276dda44d586b641e11",
+"before": "0f12dd0128619a2b3342a617bc34d1aa6c46258b",
+"commits": [
+{
+"sha": "3af8f348db356ae74b4f9276dda44d586b641e11",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update init2.js",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/3af8f348db356ae74b4f9276dda44d586b641e11"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T15:35:08Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310589488",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365685695,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "0f12dd0128619a2b3342a617bc34d1aa6c46258b",
+"before": "e970e7257caa498861d4c24aa52c21ee3553aca5",
+"commits": [
+{
+"sha": "0f12dd0128619a2b3342a617bc34d1aa6c46258b",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update init2.js",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/0f12dd0128619a2b3342a617bc34d1aa6c46258b"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T15:24:52Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310556629",
+"type": "IssuesEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"action": "closed",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"id": 301028559,
+"number": 21,
+"title": "fab fa-github a la place de fab fa-github-square",
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [],
+"state": "closed",
+"locked": false,
+"assignee": {
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+},
+"assignees": [
+{
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+}
+],
+"milestone": null,
+"comments": 1,
+"created_at": "2018-02-28T13:44:05Z",
+"updated_at": "2018-02-28T15:19:42Z",
+"closed_at": "2018-02-28T15:19:42Z",
+"author_association": "CONTRIBUTOR",
+"body": ""
+}
+},
+"public": true,
+"created_at": "2018-02-28T15:19:42Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310556615",
+"type": "IssueCommentEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"action": "created",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"id": 301028559,
+"number": 21,
+"title": "fab fa-github a la place de fab fa-github-square",
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [],
+"state": "closed",
+"locked": false,
+"assignee": {
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+},
+"assignees": [
+{
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+}
+],
+"milestone": null,
+"comments": 0,
+"created_at": "2018-02-28T13:44:05Z",
+"updated_at": "2018-02-28T15:19:42Z",
+"closed_at": "2018-02-28T15:19:42Z",
+"author_association": "CONTRIBUTOR",
+"body": ""
+},
+"comment": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/comments/369272283",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21#issuecomment-369272283",
+"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"id": 369272283,
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"created_at": "2018-02-28T15:19:42Z",
+"updated_at": "2018-02-28T15:19:42Z",
+"author_association": "CONTRIBUTOR",
+"body": "fait"
+}
+},
+"public": true,
+"created_at": "2018-02-28T15:19:42Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310555550",
+"type": "IssueCommentEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"action": "created",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"id": 301022436,
+"number": 20,
+"title": "Badges membres",
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [],
+"state": "closed",
+"locked": false,
+"assignee": {
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+},
+"assignees": [
+{
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+}
+],
+"milestone": null,
+"comments": 0,
+"created_at": "2018-02-28T13:24:35Z",
+"updated_at": "2018-02-28T15:19:32Z",
+"closed_at": "2018-02-28T15:19:26Z",
+"author_association": "CONTRIBUTOR",
+"body": "- Ajouter un badge lien vers chat private Gitter : fab fa-gitter\r\n\r\n- Ajouter un badge liens vers profil forum jeedom : img src=\"img/Jeedom.png\" style=\"height:45px;margin-top:5px\" à la place de <i class=\"fa....\"\r\n\r\n- Ajouter un badge profil github : fab fa-github\r\n\r\n- Ajouter un compteur de follower github"
+},
+"comment": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/comments/369272226",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20#issuecomment-369272226",
+"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"id": 369272226,
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"created_at": "2018-02-28T15:19:32Z",
+"updated_at": "2018-02-28T15:19:32Z",
+"author_association": "CONTRIBUTOR",
+"body": "fait\r\n"
+}
+},
+"public": true,
+"created_at": "2018-02-28T15:19:32Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310554899",
+"type": "IssuesEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"action": "closed",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"id": 301022436,
+"number": 20,
+"title": "Badges membres",
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [],
+"state": "closed",
+"locked": false,
+"assignee": {
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+},
+"assignees": [
+{
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+}
+],
+"milestone": null,
+"comments": 0,
+"created_at": "2018-02-28T13:24:35Z",
+"updated_at": "2018-02-28T15:19:26Z",
+"closed_at": "2018-02-28T15:19:26Z",
+"author_association": "CONTRIBUTOR",
+"body": "- Ajouter un badge lien vers chat private Gitter : fab fa-gitter\r\n\r\n- Ajouter un badge liens vers profil forum jeedom : img src=\"img/Jeedom.png\" style=\"height:45px;margin-top:5px\" à la place de <i class=\"fa....\"\r\n\r\n- Ajouter un badge profil github : fab fa-github\r\n\r\n- Ajouter un compteur de follower github"
+}
+},
+"public": true,
+"created_at": "2018-02-28T15:19:26Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310531898",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365656064,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "e970e7257caa498861d4c24aa52c21ee3553aca5",
+"before": "fba6ec6474216bdd201f02293e166ef43c1ceec2",
+"commits": [
+{
+"sha": "e970e7257caa498861d4c24aa52c21ee3553aca5",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update init2.js",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/e970e7257caa498861d4c24aa52c21ee3553aca5"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T15:15:48Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310491804",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365635256,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "fba6ec6474216bdd201f02293e166ef43c1ceec2",
+"before": "c7c9a162d14c89c5c90d2eddf9f7f06c945e1846",
+"commits": [
+{
+"sha": "fba6ec6474216bdd201f02293e166ef43c1ceec2",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update init2.js",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/fba6ec6474216bdd201f02293e166ef43c1ceec2"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T15:09:18Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310450598",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365614145,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "c7c9a162d14c89c5c90d2eddf9f7f06c945e1846",
+"before": "7f7c4490d2926cd45b798b04f51c05e354edfdd6",
+"commits": [
+{
+"sha": "c7c9a162d14c89c5c90d2eddf9f7f06c945e1846",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update init2.js",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/c7c9a162d14c89c5c90d2eddf9f7f06c945e1846"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T15:02:36Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310447856",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365612751,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "7f7c4490d2926cd45b798b04f51c05e354edfdd6",
+"before": "9c95c2a42fef660f9f120d186dc4b5f754a2c44c",
+"commits": [
+{
+"sha": "7f7c4490d2926cd45b798b04f51c05e354edfdd6",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update style.css",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/7f7c4490d2926cd45b798b04f51c05e354edfdd6"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T15:02:10Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310401114",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365589337,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "9c95c2a42fef660f9f120d186dc4b5f754a2c44c",
+"before": "e905964b1396afd5c1c3f849ae3f72b178f4df89",
+"commits": [
+{
+"sha": "9c95c2a42fef660f9f120d186dc4b5f754a2c44c",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update index.html",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/9c95c2a42fef660f9f120d186dc4b5f754a2c44c"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T14:54:53Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310398590",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365588146,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "e905964b1396afd5c1c3f849ae3f72b178f4df89",
+"before": "2c41dfaf1a626acd152a891455e9525c7efe728e",
+"commits": [
+{
+"sha": "e905964b1396afd5c1c3f849ae3f72b178f4df89",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update init2.js",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/e905964b1396afd5c1c3f849ae3f72b178f4df89"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T14:54:30Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310253834",
+"type": "PushEvent",
+"actor": {
+"id": 13416516,
+"login": "ticed35",
+"display_login": "ticed35",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ticed35",
+"avatar_url": "https://avatars.githubusercontent.com/u/13416516?"
+},
+"repo": {
+"id": 68639218,
+"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+},
+"payload": {
+"push_id": 2365514533,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/develop",
+"head": "f678ecdb9f97eaeaab57feec219c280918b03cf2",
+"before": "d51ce21fe9a89d981901ddc6ad839af2c2b7d0f1",
+"commits": [
+{
+"sha": "f678ecdb9f97eaeaab57feec219c280918b03cf2",
+"author": {
+"email": "ticed35@hotmail.com",
+"name": "Cédric"
+},
+"message": "Ajout changelog",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/f678ecdb9f97eaeaab57feec219c280918b03cf2"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T14:30:45Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310246142",
+"type": "PushEvent",
+"actor": {
+"id": 4707496,
+"login": "byackee",
+"display_login": "byackee",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"avatar_url": "https://avatars.githubusercontent.com/u/4707496?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365510588,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "2c41dfaf1a626acd152a891455e9525c7efe728e",
+"before": "28294fee99a3d93e57d9eb0b91930c3c22ee6a2e",
+"commits": [
+{
+"sha": "2c41dfaf1a626acd152a891455e9525c7efe728e",
+"author": {
+"email": "vincent.fresnel@gmail.com",
+"name": "byackee"
+},
+"message": "Update init2.js",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/2c41dfaf1a626acd152a891455e9525c7efe728e"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T14:29:32Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310235830",
+"type": "PushEvent",
+"actor": {
+"id": 4707496,
+"login": "byackee",
+"display_login": "byackee",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"avatar_url": "https://avatars.githubusercontent.com/u/4707496?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365505244,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "28294fee99a3d93e57d9eb0b91930c3c22ee6a2e",
+"before": "d8d2d45905095afccce62b08d0f35dc3f99d7fef",
+"commits": [
+{
+"sha": "28294fee99a3d93e57d9eb0b91930c3c22ee6a2e",
+"author": {
+"email": "vincent.fresnel@gmail.com",
+"name": "byackee"
+},
+"message": "Update style.css",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/28294fee99a3d93e57d9eb0b91930c3c22ee6a2e"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T14:27:50Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7310003759",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2365386664,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "d8d2d45905095afccce62b08d0f35dc3f99d7fef",
+"before": "183760892d4634ec13daae6abd8b7848f4caf1cf",
+"commits": [
+{
+"sha": "d8d2d45905095afccce62b08d0f35dc3f99d7fef",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Add files via upload",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/d8d2d45905095afccce62b08d0f35dc3f99d7fef"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T13:46:51Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7309989000",
+"type": "IssuesEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"action": "opened",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"id": 301028559,
+"number": 21,
+"title": "fab fa-github a la place de fab fa-github-square",
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [],
+"state": "open",
+"locked": false,
+"assignee": {
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+},
+"assignees": [
+{
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+}
+],
+"milestone": null,
+"comments": 0,
+"created_at": "2018-02-28T13:44:05Z",
+"updated_at": "2018-02-28T13:44:05Z",
+"closed_at": null,
+"author_association": "CONTRIBUTOR",
+"body": ""
+}
+},
+"public": true,
+"created_at": "2018-02-28T13:44:05Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7309887953",
+"type": "IssuesEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"action": "opened",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"id": 301022436,
+"number": 20,
+"title": "Badges membres",
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [],
+"state": "open",
+"locked": false,
+"assignee": null,
+"assignees": [],
+"milestone": null,
+"comments": 0,
+"created_at": "2018-02-28T13:24:35Z",
+"updated_at": "2018-02-28T13:24:35Z",
+"closed_at": null,
+"author_association": "CONTRIBUTOR",
+"body": "- Ajouter un badge lien vers chat private Gitter : fab fa-gitter\r\n\r\n- Ajouter un badge liens vers profil forum jeedom : fas fa-rss-square\r\n\r\n- Ajouter un badge profil github : fab fa-github\r\n\r\n- Ajouter un compteur de follower github"
+}
+},
+"public": true,
+"created_at": "2018-02-28T13:24:35Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7309858012",
+"type": "GollumEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 120485912,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+},
+"payload": {
+"pages": [
+{
+"page_name": "Ajouter-un-plugin-existant-à-la-communauté",
+"title": "Ajouter un plugin existant à la communauté",
+"summary": null,
+"action": "edited",
+"sha": "81e55566833ce854115084595cb114c023e9b632",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Ajouter-un-plugin-existant-%C3%A0-la-communaut%C3%A9"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T13:18:30Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7309306635",
+"type": "PushEvent",
+"actor": {
+"id": 1536036,
+"login": "zoic21",
+"display_login": "zoic21",
+"gravatar_id": "",
+"url": "https://api.github.com/users/zoic21",
+"avatar_url": "https://avatars.githubusercontent.com/u/1536036?"
+},
+"repo": {
+"id": 55141874,
+"name": "Jeedom-Plugins-Extra/plugin-wes",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-wes"
+},
+"payload": {
+"push_id": 2365022460,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/beta",
+"head": "7dc77696051c28ee6b6bc45a57b42a666b937e13",
+"before": "cf13a1a31ade363473d6389edb539406bde046ae",
+"commits": [
+{
+"sha": "7dc77696051c28ee6b6bc45a57b42a666b937e13",
+"author": {
+"email": "www-data@jeedom-front-00.anexiti.lan",
+"name": "www-data"
+},
+"message": "[ROBOT] Action all",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-wes/commits/7dc77696051c28ee6b6bc45a57b42a666b937e13"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T11:18:00Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7309299912",
+"type": "PushEvent",
+"actor": {
+"id": 1536036,
+"login": "zoic21",
+"display_login": "zoic21",
+"gravatar_id": "",
+"url": "https://api.github.com/users/zoic21",
+"avatar_url": "https://avatars.githubusercontent.com/u/1536036?"
+},
+"repo": {
+"id": 28585733,
+"name": "Jeedom-Plugins-Extra/plugin-ipx800",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-ipx800"
+},
+"payload": {
+"push_id": 2365018953,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/beta",
+"head": "7728f44267d9f59d09ad2fa3dda2e72fb7781160",
+"before": "a6b668aab49ade07cb86b08ffa91ed18a319096a",
+"commits": [
+{
+"sha": "7728f44267d9f59d09ad2fa3dda2e72fb7781160",
+"author": {
+"email": "www-data@jeedom-front-00.anexiti.lan",
+"name": "www-data"
+},
+"message": "[ROBOT] Action all",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-ipx800/commits/7728f44267d9f59d09ad2fa3dda2e72fb7781160"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T11:16:32Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7309267827",
+"type": "PushEvent",
+"actor": {
+"id": 1536036,
+"login": "zoic21",
+"display_login": "zoic21",
+"gravatar_id": "",
+"url": "https://api.github.com/users/zoic21",
+"avatar_url": "https://avatars.githubusercontent.com/u/1536036?"
+},
+"repo": {
+"id": 55141783,
+"name": "Jeedom-Plugins-Extra/plugin-qualiteair",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-qualiteair"
+},
+"payload": {
+"push_id": 2365002423,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "67804b376ea957ae208d8bf55a2f882fba1734e6",
+"before": "2769e2982814fca4ca8b303446f470eed4fbaa9c",
+"commits": [
+{
+"sha": "67804b376ea957ae208d8bf55a2f882fba1734e6",
+"author": {
+"email": "www-data@jeedom-front-00.anexiti.lan",
+"name": "www-data"
+},
+"message": "[ROBOT] Action all",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-qualiteair/commits/67804b376ea957ae208d8bf55a2f882fba1734e6"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T11:09:43Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7309263815",
+"type": "PushEvent",
+"actor": {
+"id": 1536036,
+"login": "zoic21",
+"display_login": "zoic21",
+"gravatar_id": "",
+"url": "https://api.github.com/users/zoic21",
+"avatar_url": "https://avatars.githubusercontent.com/u/1536036?"
+},
+"repo": {
+"id": 28585747,
+"name": "Jeedom-Plugins-Extra/plugin-ecodevice",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-ecodevice"
+},
+"payload": {
+"push_id": 2365000282,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/beta",
+"head": "8177a6dcdf5745510ecc9ca1ccce233f92f1fc95",
+"before": "a55f2aef1b4fca875eb840fe88f5856907271bf5",
+"commits": [
+{
+"sha": "8177a6dcdf5745510ecc9ca1ccce233f92f1fc95",
+"author": {
+"email": "www-data@jeedom-front-00.anexiti.lan",
+"name": "www-data"
+},
+"message": "[ROBOT] Action all",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-ecodevice/commits/8177a6dcdf5745510ecc9ca1ccce233f92f1fc95"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T11:08:50Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7309251096",
+"type": "PushEvent",
+"actor": {
+"id": 1536036,
+"login": "zoic21",
+"display_login": "zoic21",
+"gravatar_id": "",
+"url": "https://api.github.com/users/zoic21",
+"avatar_url": "https://avatars.githubusercontent.com/u/1536036?"
+},
+"repo": {
+"id": 64965704,
+"name": "Jeedom-Plugins-Extra/plugin-livebox",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-livebox"
+},
+"payload": {
+"push_id": 2364993678,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "1dcbcc0f050377fb652759e8b04ccdc9c7504d90",
+"before": "0feee8f42d9feff7ffa5fc97f4b990c04c255097",
+"commits": [
+{
+"sha": "1dcbcc0f050377fb652759e8b04ccdc9c7504d90",
+"author": {
+"email": "www-data@jeedom-front-00.anexiti.lan",
+"name": "www-data"
+},
+"message": "[ROBOT] Action all",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-livebox/commits/1dcbcc0f050377fb652759e8b04ccdc9c7504d90"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T11:06:13Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7308692646",
+"type": "GollumEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 120485912,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+},
+"payload": {
+"pages": [
+{
+"page_name": "Gestion-de-sources---Git-&-Co",
+"title": "Gestion de sources   Git & Co",
+"summary": null,
+"action": "edited",
+"sha": "029ed4a80871ba8944f5096cf2eb1e37135ecc6f",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Gestion-de-sources---Git-%26-Co"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T09:17:41Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7308690979",
+"type": "GollumEvent",
+"actor": {
+"id": 4697568,
+"login": "ColonelMoutarde",
+"display_login": "ColonelMoutarde",
+"gravatar_id": "",
+"url": "https://api.github.com/users/ColonelMoutarde",
+"avatar_url": "https://avatars.githubusercontent.com/u/4697568?"
+},
+"repo": {
+"id": 120485912,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+},
+"payload": {
+"pages": [
+{
+"page_name": "Gestion-de-sources---Git-&-Co",
+"title": "Gestion de sources   Git & Co",
+"summary": null,
+"action": "edited",
+"sha": "963219874e5174180ea3de8cf04ee4ab635ff83a",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Gestion-de-sources---Git-%26-Co"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T09:17:19Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7308503346",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2364616755,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "183760892d4634ec13daae6abd8b7848f4caf1cf",
+"before": "3c8ea33bbfb38b4d413716622f696503e7f44c1d",
+"commits": [
+{
+"sha": "183760892d4634ec13daae6abd8b7848f4caf1cf",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update index.html",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/183760892d4634ec13daae6abd8b7848f4caf1cf"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T08:36:36Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7308465150",
+"type": "IssuesEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"action": "closed",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18",
+"id": 300828184,
+"number": 18,
+"title": "Limitations sur pages wiki et membres",
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [],
+"state": "closed",
+"locked": false,
+"assignee": {
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+},
+"assignees": [
+{
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+}
+],
+"milestone": null,
+"comments": 0,
+"created_at": "2018-02-27T23:07:09Z",
+"updated_at": "2018-02-28T08:27:50Z",
+"closed_at": "2018-02-28T08:27:50Z",
+"author_association": "CONTRIBUTOR",
+"body": "tous les wikis ne sont pas listés et 26 membres / 31"
+}
+},
+"public": true,
+"created_at": "2018-02-28T08:27:50Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7308462758",
+"type": "IssuesEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"action": "closed",
+"issue": {
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13",
+"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13/labels{/name}",
+"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13/comments",
+"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13/events",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13",
+"id": 300533413,
+"number": 13,
+"title": "Bandeau du bas figé et verrouillé en bas de fenetre \"par dessus\" tout le reste",
+"user": {
+"login": "cyrilphoenix71",
+"id": 18350629,
+"avatar_url": "https://avatars2.githubusercontent.com/u/18350629?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"html_url": "https://github.com/cyrilphoenix71",
+"followers_url": "https://api.github.com/users/cyrilphoenix71/followers",
+"following_url": "https://api.github.com/users/cyrilphoenix71/following{/other_user}",
+"gists_url": "https://api.github.com/users/cyrilphoenix71/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/cyrilphoenix71/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/cyrilphoenix71/subscriptions",
+"organizations_url": "https://api.github.com/users/cyrilphoenix71/orgs",
+"repos_url": "https://api.github.com/users/cyrilphoenix71/repos",
+"events_url": "https://api.github.com/users/cyrilphoenix71/events{/privacy}",
+"received_events_url": "https://api.github.com/users/cyrilphoenix71/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [],
+"state": "closed",
+"locked": false,
+"assignee": {
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+},
+"assignees": [
+{
+"login": "byackee",
+"id": 4707496,
+"avatar_url": "https://avatars2.githubusercontent.com/u/4707496?v=4",
+"gravatar_id": "",
+"url": "https://api.github.com/users/byackee",
+"html_url": "https://github.com/byackee",
+"followers_url": "https://api.github.com/users/byackee/followers",
+"following_url": "https://api.github.com/users/byackee/following{/other_user}",
+"gists_url": "https://api.github.com/users/byackee/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/byackee/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/byackee/subscriptions",
+"organizations_url": "https://api.github.com/users/byackee/orgs",
+"repos_url": "https://api.github.com/users/byackee/repos",
+"events_url": "https://api.github.com/users/byackee/events{/privacy}",
+"received_events_url": "https://api.github.com/users/byackee/received_events",
+"type": "User",
+"site_admin": false
+}
+],
+"milestone": null,
+"comments": 1,
+"created_at": "2018-02-27T08:26:59Z",
+"updated_at": "2018-02-28T08:27:16Z",
+"closed_at": "2018-02-28T08:27:16Z",
+"author_association": "CONTRIBUTOR",
+"body": ""
+}
+},
+"public": true,
+"created_at": "2018-02-28T08:27:16Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7308460748",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2364595406,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "3c8ea33bbfb38b4d413716622f696503e7f44c1d",
+"before": "9469219cf9a5e12276ae037e3e4c2555f4e2d8e4",
+"commits": [
+{
+"sha": "3c8ea33bbfb38b4d413716622f696503e7f44c1d",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update index.html",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/3c8ea33bbfb38b4d413716622f696503e7f44c1d"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T08:26:47Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7308460355",
+"type": "PushEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 121532989,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+},
+"payload": {
+"push_id": 2364595230,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "9469219cf9a5e12276ae037e3e4c2555f4e2d8e4",
+"before": "f2e42180d0120ef7fa317484bf89a420e903ac52",
+"commits": [
+{
+"sha": "9469219cf9a5e12276ae037e3e4c2555f4e2d8e4",
+"author": {
+"email": "cyrilphoenix71@gmail.com",
+"name": "cyrilphoenix71"
+},
+"message": "Update wiki.json",
+"distinct": true,
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/9469219cf9a5e12276ae037e3e4c2555f4e2d8e4"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T08:26:42Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+},
+{
+"id": "7308436560",
+"type": "GollumEvent",
+"actor": {
+"id": 18350629,
+"login": "cyrilphoenix71",
+"display_login": "cyrilphoenix71",
+"gravatar_id": "",
+"url": "https://api.github.com/users/cyrilphoenix71",
+"avatar_url": "https://avatars.githubusercontent.com/u/18350629?"
+},
+"repo": {
+"id": 120485912,
+"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+},
+"payload": {
+"pages": [
+{
+"page_name": "05-Idées-à-faire-naître",
+"title": "05 Idées à faire naître",
+"summary": null,
+"action": "edited",
+"sha": "0fbb706389c7e3a5d7b4b4367a2f5ba7a8e46d1a",
+"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/05-Id%C3%A9es-%C3%A0-faire-na%C3%AEtre"
+}
+]
+},
+"public": true,
+"created_at": "2018-02-28T08:20:54Z",
+"org": {
+"id": 36200380,
+"login": "Jeedom-Plugins-Extra",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
+}
+}
+]
