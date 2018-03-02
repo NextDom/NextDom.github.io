@@ -11,12 +11,14 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 gems:
+- jekyll-auth
 - jekyll-paginate
 - jekyll-seo-tag
 exclude:
 - vendor
 plugins:
 - jekyll-seo-tag
+- jekyll-auth
 title: "Documentation Jeedom-Plugins-Extra"
 description: "Ceci est la documentation de la team Jeedom-Plugins-Extra."
 author: "Jeedom-Plugins-Extra"
