@@ -19,6 +19,7 @@ exclude:
 plugins:
 - jekyll-seo-tag
 - jekyll-auth
+include: ['.htaccess']
 title: "Documentation Jeedom-Plugins-Extra"
 description: "Ceci est la documentation de la team Jeedom-Plugins-Extra."
 author: "Jeedom-Plugins-Extra"
