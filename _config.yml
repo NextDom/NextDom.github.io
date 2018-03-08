@@ -16,6 +16,7 @@ gems:
 - jekyll-seo-tag
 exclude:
 - vendor
+- json/user.json
 plugins:
 - jekyll-seo-tag
 - jekyll-auth
