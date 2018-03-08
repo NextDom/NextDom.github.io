@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin page for Jeedom-Plugins-Extra "
+AuthUserFile /volume1/web/documentation/admin/.htpasswd
+Require valid-user
