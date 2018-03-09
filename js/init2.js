@@ -1,28 +1,12 @@
-var username;
-var password;
-
-
     $(document).ready(function() {
-      $('.modal').modal();
-      
-      $('#modalTrigger').on('click', function() {
-        $('#modal1').modal('open');
-      });
+    	$('.tooltipped').tooltip({delay: 50});
+    
     });
   
-$(function(){
-	
-	$.getJSON("json/user.json",function(data){
-    	username = data.username;
-		password = data.password;
-});
-
 	$('.button-collapse').sideNav();
 	$('.parallax').parallax();
 	$('select').material_select();
 	$('ul.tabs').tabs();
-
-
 
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open('GET', 'https://api.github.com', true);
@@ -31,66 +15,27 @@ $(function(){
 		 if (xmlhttp.readyState === 4) {
 
 		      if (xmlhttp.status === 403) { 	
-		    	auth("generateRepos","json/repos.json");
-				auth("generateTeam","json/members.json");
-				auth("generateWiki","json/wiki.json");
-				auth("generateChat","json/chat.json");
-				auth("generateDeveloper","json/developer.json");
-				auth("generateEvents","json/events.json");
+		    	generateRepos("json/repos.json");
+				generateTeam("json/members.json");
+				generateWiki("json/wiki.json");
+				generateChat("json/chat.json");
+				generateDeveloper("json/developer.json");
+				generateEvents("json/events.json");
 			} else {
-				auth("generateRepos", "https://api.github.com/orgs/Jeedom-Plugins-Extra/repos?per_page=100");
-				auth("generateTeam", "https://api.github.com/orgs/Jeedom-Plugins-Extra/members");
-				auth("generateWiki", "json/wiki.json");
-				auth("generateChat", "json/chat.json");
-				auth("generateDeveloper","json/developer.json");
-				auth("generateEvents","https://api.github.com/orgs/Jeedom-Plugins-Extra/events?per_page=40");
+				generateRepos("https://api.github.com/orgs/Jeedom-Plugins-Extra/repos?per_page=100");
+				generateTeam("json/members.json");
+				generateWiki("json/wiki.json");
+				generateChat("json/chat.json");
+				generateDeveloper("json/developer.json");
+				generateEvents("https://api.github.com/orgs/Jeedom-Plugins-Extra/events?per_page=40");
 			}
 		}
 	}
-});
 
-function auth(fonction, _url){
-$.ajax
-({
-  type: "GET",
-  url: _url,
-  dataType: 'json',
-  async: false,
-  headers: {
-    "Authorization": "Basic " + btoa(username + ":" + password)
-  },
-  data: {},
-  success: function (reponse){
-  switch (fonction){
-      case "generateRepos":
-      generateRepos(reponse);
-      break;
-      case "generateTeam":
-		generateTeam(reponse);
-		break;
-		case "generateWiki":
-		generateWiki(reponse);
-		break;
-		case "generateChat":
-		generateChat(reponse);
-		break;
-		case "generateDeveloper":
-		generateDeveloper(reponse);
-		break;
-		case "generateEvents":
-		generateEvents(reponse);
-		break;
-  }
-
-
-  }
-});
-}
-
-function generateRepos(data){
+function generateRepos(_json){
 var nbrissues = 0;
 var nbrrepos = 0;
-	//$.getJSON(_json,function(data){
+	$.getJSON(_json,function(data){
 		$.each(data, function(i) {
 			$('#pluginmodal').append('\
 		   <div id="modal'+i+'" class="modal">\
@@ -124,17 +69,15 @@ var nbrrepos = 0;
 				$('#ul_listPluginThird').append('\
                 	<div class="col s8 m4">\
         	        	<div style="padding:10px" class="card medium hoverable sticky-action">\
-                        	<span class="card-title-2 center-align"><a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'><img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="35%" height="35%" class="center">\</a></span>\
+                        	<span class="card-title-2 center-align badge1" data-badge="'+data[i].open_issues+'"><a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'><img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="35%" height="35%" class="center">\</a></span>\
 		                    <div class="card-text">\
 		                    	'+data[i].description+'\
 		                    </div>\
                         	<div style="margin:15px" class="card-action center-align">\
-                        	                                	<a class = "btn-floating btn waves-effect waves-light blue-grey"  href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
+                        	    <a class = "btn-floating btn waves-effect waves-light blue-grey" href='+data[i].owner.html_url+'/'+data[i].owner.login+'/wiki/03-Liste-Plugins-&-Roadmap#'+data[i].name+'><i class ="fas fa-info"></i></a>\
                             	<a class = "btn-floating btn waves-effect waves-light bg-orange" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-bug"></i></a>\
-								<a class = "btn-floating btn waves-effect waves-light modal-trigger" id="modalTrigger" href="#modal1"><i class="fas fa-bug"></i></a>\
 								<a class = "btn-floating btn waves-effect waves-light light-green"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR><i class = "fas fa-book"></i></a>\
 	                        	<a class = "btn-floating btn waves-effect waves-light grey"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-history"></i></a>\
-    		                <button class="btn-large" id="modalTrigger">Modal trigger 2</button>\
     		                </div>\
                         </div>\
                         ');
@@ -145,7 +88,7 @@ var nbrrepos = 0;
         $('#issuesdata').html('<font size="5">'+nbrissues+'</font>');
 		$('#repodata').html('<font size="5">'+nbrrepos+'</font>');
 				
-    //}); // end requestJSON Ajax call
+    }); // end requestJSON Ajax call
 }
 
 
@@ -170,9 +113,9 @@ $.ajax
 });
 }
 
-function generateTeam(data){
+function generateTeam(_json){
 	var nbrmembres = 0;
-       // $.getJSON(_json,function(data){
+        $.getJSON(_json,function(data){
 			$.each(data, function(i) {$('#ul_listMembers').append('\
             	<div class="col m3">\
 	        		<div style="padding:5px" class="card hoverable sticky-action">\
@@ -194,12 +137,12 @@ function generateTeam(data){
 			nbrmembres = nbrmembres + 1;
             });
     	$('#membersdata').html('<font size="5">'+nbrmembres+'</font>');
-  // }); // end requestJSON Ajax call
+   }); // end requestJSON Ajax call
 }
 
-function generateWiki(data){
+function generateWiki(_json){
 //	requestJSON(_json, function(data) {
-//$.getJSON(_json,function(data){
+$.getJSON(_json,function(data){
 
 		$('#ul_listWiki').empty();
 		data.wiki.docs.sort(function (a, b) {
@@ -221,11 +164,11 @@ function generateWiki(data){
 	                </div>\
                 </div>');
 		}
-//	});
+	});
 }
 
-function generateChat(data){
-//$.getJSON(_json,function(data){
+function generateChat(_json){
+$.getJSON(_json,function(data){
 	$('#ul_listChat').empty();
 
 	for(var i in data.chat.docs){
@@ -241,11 +184,11 @@ function generateChat(data){
 				</div>\
 			</div>');
 	}
-	//});
+	});
 }
 
-function generateDeveloper(data){
-//$.getJSON(_json,function(data){
+function generateDeveloper(_json){
+$.getJSON(_json,function(data){
 		$('#ul_listDeveloper').empty();
 		data.developer.docs.sort(function (a, b) {
 			if (a.name.toLowerCase() > b.name.toLowerCase())
@@ -267,40 +210,40 @@ function generateDeveloper(data){
 					</div>\
 				</div>');
 		}
-//	});
+	});
 }
 
-function generateEvents(data){
+function generateEvents(_json){
     var events ="";
-//$.getJSON(_json,function(data){
+$.getJSON(_json,function(data){
 		$('#dataEvents').empty();
 		$.each(data, function(i) {
 		    switch( data[i].type){
 		        case "PushEvent":
-		              events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><font size="2"><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' <br>';
+		              events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><font size="2"><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' <br>';
 		        break;
 		        case "IssuesEvent":
-		            events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.issue.title + '<br>';
+		            events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.issue.title + '<br>';
 		        break;
 		        case "GollumEvent":
-		            events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.pages[0].title + '<br>';
+		            events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.pages[0].title + '<br>';
 		        break;
 		        case "DeleteEvent":
-		            events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.ref + ' <br>';
+		            events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.ref + ' <br>';
 		        break;
 		        case "IssueCommentEvent":
-		             events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.issue.title + '<br>';
+		             events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.issue.title + '<br>';
 		        break;
 		        case "ForkEvent":
-		             events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : <br>';
+		             events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : <br>';
 		        break;
 		         case "PullRequestEvent":
-		             events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.pull_request.title + '<br>';
+		             events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.pull_request.title + '<br>';
 		        break;
 		        default:
-		            events = events + '<a href='+data[i].html_url+'><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><font-size:12px><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' <br>';
+		            events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><font-size:12px><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' <br>';
 		    }
             $('#eventsdata').html(events);
 		});
-	//});
+	});
 }
