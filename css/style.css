@@ -188,7 +188,7 @@ line-height: 90px;
 padding-left: 90px;
 font-size: 18px;
 .h4{
-	margin:1.14rem 0 0.6rem 0;
+	margin:1.14rem 0 0.6rem 0 !important;
 	}
 }
 
@@ -309,4 +309,7 @@ transition: all 0.95s; }
 .info-box.hover-expand-effect:hover:after {
 width: 100%; }
 
-
+.chip {
+margin-top:10px !important;
+margin-bottom:0px !important;
+}
