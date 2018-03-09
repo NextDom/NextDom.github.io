@@ -100,6 +100,9 @@ text-align: center !important;
 display: block;
 margin-left: auto;
 margin-right: auto;
+border-bottom-style: ridge;
+border-bottom-width: 1px;
+border-bottom-color: lightgrey;
 }
 
 .card-title-2 {
@@ -250,7 +253,7 @@ display: inline-block;
 padding: 0px 10px; }
 .info-box .content .text {
 font-size: 13px;
-margin-top: 11px;
+margin-top: 14px;
 color: #555; }
 .info-box .content .number {
 font-weight: normal;
