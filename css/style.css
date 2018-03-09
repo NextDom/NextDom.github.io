@@ -20,7 +20,9 @@ background-color: #fff;
 height: 90px;
 }
 
-
+.navbar-fixed {
+height:80px;
+}
 
 .nav-header {
 background-color:#eee !important;
