@@ -40,7 +40,7 @@ var nbrrepos = 0;
 			$('#pluginmodal').append('\
 		   <div id="modal'+i+'" class="modal">\
 				<div class="modal-content">\
-					<h4>Création issue</h4>\
+					<h4>CrÃ©ation issue</h4>\
 					<div class="input-field col s6 offset-s1">\
                         <input id="username" type="text" class="validate">\
                         <label for="username">Username</label>\
@@ -220,28 +220,28 @@ $.getJSON(_json,function(data){
 		$.each(data, function(i) {
 		    switch( data[i].type){
 		        case "PushEvent":
-		              events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><font size="2"><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' <br>';
+		              events = events + '<div class="chip"><img src="'+data[i].actor.avatar_url+'"class="circle responsive-img"></a><font size="2"><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + '</div><br>';
 		        break;
 		        case "IssuesEvent":
-		            events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.issue.title + '<br>';
+		            events = events + '<div class="chip"><img src="'+data[i].actor.avatar_url+'" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.issue.title + '</div><br>';
 		        break;
 		        case "GollumEvent":
-		            events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.pages[0].title + '<br>';
+		            events = events + '<div class="chip"><img src="'+data[i].actor.avatar_url+'" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.pages[0].title + '</div><br>';
 		        break;
 		        case "DeleteEvent":
-		            events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.ref + ' <br>';
+		            events = events + '<div class="chip"><img src="'+data[i].actor.avatar_url+'" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' +  data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.ref + '</div><br>';
 		        break;
 		        case "IssueCommentEvent":
-		             events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.issue.title + '<br>';
+		             events = events + '<div class="chip"><img src="'+data[i].actor.avatar_url+'" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.issue.title + '</div><br>';
 		        break;
 		        case "ForkEvent":
-		             events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : <br>';
+		             events = events + '<div class="chip"><img src="'+data[i].actor.avatar_url+'" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + '</div><br>';
 		        break;
 		         case "PullRequestEvent":
-		             events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.pull_request.title + '<br>';
+		             events = events + '<div class="chip"><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' : ' + data[i].payload.pull_request.title + '</div><br>';
 		        break;
 		        default:
-		            events = events + '<a><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><font-size:12px><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + ' <br>';
+		            events = events + '<div class="chip"><img src="'+data[i].actor.avatar_url+'" width="30" height="30" style="vertical-align:middle; padding-top:5px" class="circle responsive-img"></a><font-size:12px><b> ' + data[i].created_at.substr(0, 10) + ' ' + data[i].type.replace("Event", "") + '</b> - ' + data[i].repo.name.substr(21) + '</div><br>';
 		    }
             $('#eventsdata').html(events);
 		});
