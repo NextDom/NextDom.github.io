@@ -146,8 +146,8 @@ position:relative;
 .badge1[data-badge]:after {
 content:attr(data-badge);
 position:absolute;
-top:-10px;
-right:-10px;
+top:-5px;
+right:-5px;
 font-size:.8em;
 font-weight: bold;
 background:red;
@@ -188,7 +188,7 @@ line-height: 90px;
 padding-left: 90px;
 font-size: 18px;
 .h4{
-	margin-bottom:0px;
+	margin:1.14rem 0 0.6rem 0;
 	}
 }
 
