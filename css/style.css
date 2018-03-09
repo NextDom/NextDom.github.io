@@ -187,10 +187,10 @@ font-size:1.2rem;
 line-height: 90px;
 padding-left: 90px;
 font-size: 18px;
-.h4{
+}
+.titre .h4{
 	margin:1.14rem 0 0.6rem 0 !important;
 	}
-}
 
 .bg-blue {
 background-color: #2196F3 !important;
