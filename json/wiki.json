@@ -16,5 +16,6 @@
   {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Les-automates-dans-Jeedom", "name": "Les automates"},  
   {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Les-commandes", "name": "Les commandes"},
   {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Les-plugins", "name": "Les plugins"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Optimiser-votre-Jeedom", "name": "Optimiser votre Jeedom"}
+  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Optimiser-votre-Jeedom", "name": "Optimiser votre Jeedom"},
+  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Ajout-d'un-template-a-votre-plugin", "name": "Ajout d'un template a votre plugin"}
   ]}}
