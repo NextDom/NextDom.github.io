@@ -150,6 +150,7 @@ font-size: 18px !important;
 position: relative;
 margin-left: 10px;
 margin-right: 10px;
+margin-top:10px;
 text-align: center !important;
 }
 
@@ -254,6 +255,7 @@ left:0 !important;
 width:100% !important;
 height:50px;
 padding-top: 15px !important;
+z-index:2;
 }
 
 /* Infobox ===================================== */
@@ -359,7 +361,7 @@ margin-bottom:0px !important;
 
     /* Position the tooltip */
     position: absolute;
-    margin-top:-70px;
+    margin-top:-75px;
     z-index: 2;
 }
 
