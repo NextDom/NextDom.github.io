@@ -43,10 +43,17 @@ function generateRepos(_json){
     var nbrissues = 0;
     var nbrrepos = 0;
     $.getJSON(_json,function(data){
+        data.sort(function (a, b) {
+            if (a.name.toLowerCase() > b.name.toLowerCase())
+            return 1;
+            if (a.name.toLowerCase() < b.name.toLowerCase())
+            return -1;
+            return 0;
+        });
         $.each(data, function(i) {
             if (data[i].name !='Jeedom-Plugins-Extra.github.io' && data[i].name !='Jeedom-Plugins-Extra' && data[i].name !='custom-jeedom'){
                 $('#ul_listPluginThird').append('\
-                <div class="col s8 m4">\
+                <div class="col s3 m3">\
                 <div style="padding:10px" class="card medium hoverable sticky-action">\
                 <span class="card-title-2 center-align badge1" data-badge="'+data[i].open_issues+'"><a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'><img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="35%" height="35%" class="center">\</a></span>\
                 <div class="card-text">\
@@ -107,6 +114,13 @@ function createissue(repos, titre_issue, body_issue){
 function generateTeam(_json){
     var nbrmembres = 0;
     $.getJSON(_json,function(data){
+        data.sort(function (a, b) {
+            if (a.login.toLowerCase() > b.name.toLowerCase())
+            return 1;
+            if (a.login.toLowerCase() < b.name.toLowerCase())
+            return -1;
+            return 0;
+        });
         $.each(data, function(i) {$('#ul_listMembers').append('\
         <div class="col m3">\
         <div style="padding:5px" class="card hoverable sticky-action">\
