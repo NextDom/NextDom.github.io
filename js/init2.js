@@ -117,9 +117,9 @@ function generateTeam(_json){
     var nbrmembres = 0;
     $.getJSON(_json,function(data){
         data.sort(function (a, b) {
-            if (a.login.toLowerCase() > b.name.toLowerCase())
+            if (a.login.toLowerCase() > b.login.toLowerCase())
             return 1;
-            if (a.login.toLowerCase() < b.name.toLowerCase())
+            if (a.login.toLowerCase() < b.login.toLowerCase())
             return -1;
             return 0;
         });
