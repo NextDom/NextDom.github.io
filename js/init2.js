@@ -53,7 +53,7 @@ function generateRepos(_json){
             return 0;
         });
         $.each(data, function(i) {
-            if (data[i].name !='Jeedom-Plugins-Extra.github.io' && data[i].name !='Jeedom-Plugins-Extra' && data[i].name !='custom-jeedom'){
+            if (data[i].name !='Jeedom-Plugins-Extra.github.io' && data[i].name !='Jeedom-Plugins-Extra' && data[i].name !='custom-jeedom'  && data[i].name !='extra-tools'){
                 $('#ul_listPluginThird').append('\
                 <div class="col s3 m3">\
                 <div style="padding:10px" class="card medium hoverable sticky-action">\
