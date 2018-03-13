@@ -35,11 +35,11 @@
 nav ul a, nav {
 color: #444;
 background-color: #fff;
-height: 90px;
+height: 80px;
 }
 
 .navbar-fixed {
-height:80px;
+height:70px;
 }
 
 a
@@ -57,7 +57,7 @@ height:100px;
 }
 
 .brand-logo img {
-height:80px;
+height:70px;
 margin-top:5px;
 }
 
@@ -75,10 +75,18 @@ color: #40535E !important;
 .collection a.collection-item {
 color: #40535E !important;
 }
-h1, h3, h4, h5, h6 {
+
+h1, h3, h5, h6 {
 font-weight: 300;
 line-height: 1.1;
 }
+
+h4 {
+font-weight: 300;
+line-height: 0.8;
+font-size: 1.9rem;
+}
+
 h2 {
 line-height: 0.5;
 color: #888;
@@ -174,7 +182,18 @@ display: inline-block;
 height: 47px;
 width: 47px;
 text-align: center;
+}
 
+.btn-xs i{
+font-size: 1.6rem;
+line-height: 40px;
+}
+
+.btn-xs {
+display: inline-block;
+height: 40px;
+width: 40px;
+text-align: center;
 }
 
 .btn i{
@@ -320,4 +339,28 @@ width: 100%; }
 .chip {
 margin-top:10px !important;
 margin-bottom:0px !important;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 0;
+	font-size: 0.8rem;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
