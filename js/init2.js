@@ -1,16 +1,16 @@
     $(document).ready(function() {
     	$('.tooltipped').tooltip({delay: 50});
-    
+
     });
 
 document.addEventListener("DOMContentLoaded", function(){
 	$('.preloader-background').delay(1700).fadeOut('slow');
-	
+
 	$('.preloader-wrapper')
 		.delay(1700)
 		.fadeOut();
 });
-  
+
 	$('.button-collapse').sideNav();
 	$('.parallax').parallax();
 	$('select').material_select();
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	xmlhttp.onreadystatechange=function() {
 		 if (xmlhttp.readyState === 4) {
 
-		      if (xmlhttp.status === 403) { 	
+		      if (xmlhttp.status === 403) {
 		    	generateRepos("json/repos.json");
 				generateTeam("json/members.json");
 				generateWiki("json/wiki.json");
@@ -95,7 +95,7 @@ var nbrrepos = 0;
         });
         $('#issuesdata').html('<font size="5">'+nbrissues+'</font>');
 		$('#repodata').html('<font size="5">'+nbrrepos+'</font>');
-				
+
     }); // end requestJSON Ajax call
 }
 

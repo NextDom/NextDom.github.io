@@ -19,15 +19,19 @@
 	align-items: center;
 	justify-content: center;
 	background-color: #eee;
-	
+
 	position: fixed;
 	z-index: 100;
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;	
+	bottom: 0;
 }
-
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 80%;
+}
 nav ul a, nav {
 color: #444;
 background-color: #fff;
@@ -36,6 +40,12 @@ height: 90px;
 
 .navbar-fixed {
 height:80px;
+}
+
+a
+{
+color: lightgrey;
+text-decoration: bold;
 }
 
 .nav-header {
@@ -48,7 +58,7 @@ height:100px;
 
 .brand-logo img {
 height:80px;
-margin-top:5px;	
+margin-top:5px;
 }
 
 p {
@@ -132,7 +142,7 @@ font-size: 18px !important;
 position: relative;
 margin-left: 10px;
 margin-right: 10px;
-text-align: center !important; 
+text-align: center !important;
 }
 
 .card-action {
