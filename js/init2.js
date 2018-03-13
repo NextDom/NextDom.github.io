@@ -25,6 +25,7 @@ xmlhttp.onreadystatechange=function() {
             generateRepos("json/repos.json");
             generateTeam("json/members.json");
             generateWiki("json/wiki.json");
+            generateTuto("json/tuto.json");
             generateChat("json/chat.json");
             generateDeveloper("json/developer.json");
             generateEvents("json/events.json");
@@ -32,6 +33,7 @@ xmlhttp.onreadystatechange=function() {
             generateRepos("https://api.github.com/orgs/Jeedom-Plugins-Extra/repos?per_page=100");
             generateTeam("json/members.json");
             generateWiki("json/wiki.json");
+            generateTuto("json/Tuto.json");
             generateChat("json/chat.json");
             generateDeveloper("json/developer.json");
             generateEvents("https://api.github.com/orgs/Jeedom-Plugins-Extra/events?per_page=40");
@@ -179,6 +181,33 @@ function generateWiki(_json){
             <div class="card-text">\
             <br>\
             <a class="center" href="'+data.wiki.docs[i].url+'" style="color:black; text-align:center">'+data.wiki.docs[i].name+'</a>\
+            <br>\
+            </div>\
+            </div>\
+            </div>');
+        }
+    });
+}
+
+function generateTuto(_json){
+    //	requestJSON(_json, function(data) {
+    $.getJSON(_json,function(data){
+
+        $('#ul_listTuto').empty();
+        data.tuto.docs.sort(function (a, b) {
+            if (a.name.toLowerCase() > b.name.toLowerCase())
+            return 1;
+            if (a.name.toLowerCase() < b.name.toLowerCase())
+            return -1;
+            return 0;
+        });
+        for(var i in data.tuto.docs){
+            $('#ul_listTuto').append('\
+            <div class="col s6 m6">\
+            <div class="card hoverable">\
+            <div class="card-text">\
+            <br>\
+            <a class="center" href="'+data.tuto.docs[i].url+'" style="color:black; text-align:center">'+data.tuto.docs[i].name+'</a>\
             <br>\
             </div>\
             </div>\
