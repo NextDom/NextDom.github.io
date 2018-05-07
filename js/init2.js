@@ -30,13 +30,13 @@ xmlhttp.onreadystatechange=function() {
             generateDeveloper("json/developer.json");
             generateEvents("json/events.json");
         } else {
-            generateRepos("https://api.github.com/orgs/Jeedom-Plugins-Extra/repos?per_page=100");
+            generateRepos("https://api.github.com/orgs/NextDom/repos?per_page=100");
             generateTeam("json/members.json");
             generateWiki("json/wiki.json");
             generateTuto("json/Tuto.json");
             generateChat("json/chat.json");
             generateDeveloper("json/developer.json");
-            generateEvents("https://api.github.com/orgs/Jeedom-Plugins-Extra/events?per_page=40");
+            generateEvents("https://api.github.com/orgs/NextDom/events?per_page=40");
         }
     }
 }
@@ -53,11 +53,11 @@ function generateRepos(_json){
             return 0;
         });
         $.each(data, function(i) {
-            if (data[i].name !='Jeedom-Plugins-Extra.github.io' && data[i].name !='Jeedom-Plugins-Extra' && data[i].name !='custom-jeedom'  && data[i].name !='extra-tools'){
+            if (data[i].name !='NextDom.github.io' && data[i].name !='NextDom' && data[i].name !='custom-jeedom'  && data[i].name !='extra-tools'){
                 $('#ul_listPluginThird').append('\
                 <div class="col s3 m3">\
                 <div style="padding:10px" class="card medium hoverable sticky-action">\
-                <span class="card-title-2 center-align badge1" data-badge="'+data[i].open_issues+'"><a href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'><img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="35%" height="35%" class="center">\</a></span>\
+                <span class="card-title-2 center-align badge1" data-badge="'+data[i].open_issues+'"><a href=https://github.com/NextDom/'+data[i].name+'><img src="'+data[i].html_url+'/blob/master/plugin_info/'+data[i].name.substr(7)+'_icon.png?raw=true" width="35%" height="35%" class="center">\</a></span>\
                 <div class="card-text">\
                 '+data[i].description+'\
                 </div>\
@@ -67,15 +67,15 @@ function generateRepos(_json){
                 <span class="tooltiptext">Roadmap</span>\
                 </div>\
                 <div class="tooltip">\
-                <a class = "btn-floating btn waves-effect waves-light bg-orange" href=https://github.com/Jeedom-Plugins-Extra/'+data[i].name+'/issues><i class="fas fa-bug"></i></a>\
+                <a class = "btn-floating btn waves-effect waves-light bg-orange" href=https://github.com/NextDom/'+data[i].name+'/issues><i class="fas fa-bug"></i></a>\
                 <span class="tooltiptext">Issues</span>\
                 </div>\
                 <div class="tooltip">\
-                <a class = "btn-floating btn waves-effect waves-light light-green"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR><i class = "fas fa-book"></i></a>\
+                <a class = "btn-floating btn waves-effect waves-light light-green"  href=https://NextDom.github.io/'+data[i].name+'/fr_FR><i class = "fas fa-book"></i></a>\
                 <span class="tooltiptext">Documentation</span>\
                 </div>\
                 <div class="tooltip">\
-                <a class = "btn-floating btn waves-effect waves-light grey"  href=https://jeedom-plugins-extra.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-history"></i></a>\
+                <a class = "btn-floating btn waves-effect waves-light grey"  href=https://NextDom.github.io/'+data[i].name+'/fr_FR/changelog><i class ="fas fa-history"></i></a>\
                 <span class="tooltiptext">Changelog</span>\
                 </div>\
                 </div>\
@@ -97,7 +97,7 @@ function createissue(repos, titre_issue, body_issue){
         $.ajax
         ({
             type: "POST",
-            url: 'https://api.github.com/repos/Jeedom-Plugins-Extra/'+ repos[i].name +'/issues',
+            url: 'https://api.github.com/repos/NextDom/'+ repos[i].name +'/issues',
             dataType: 'json',
             async: false,
             headers: {"Authorization": "Basic " + btoa(username + ":" + password)},
@@ -134,7 +134,7 @@ function generateTeam(_json){
         <div style="margin:5px" class="card-action center-align">\
         <img src=https://img.shields.io/github/followers/'+data[i].login+'.svg?style=social&logo=github&label=Follow><br>\
         <div class="tooltip">\
-        <a class = "btn-floating btn-xs waves-effect waves-light blue-grey" href=https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team#'+data[i].login+'><i class ="fas fa-user"></i></a>\
+        <a class = "btn-floating btn-xs waves-effect waves-light blue-grey" href=https://github.com/NextDom/NextDom/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team#'+data[i].login+'><i class ="fas fa-user"></i></a>\
         <span class="tooltiptext">Présentation</span>\
         </div>\
         <div class="tooltip">\

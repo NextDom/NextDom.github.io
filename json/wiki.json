@@ -1,14 +1,14 @@
 {"wiki": {"docs": [
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/01-Organisation-g%C3%A9n%C3%A9rale-de-la-Team", "name": "Organisation générale de la Team"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team", "name": "Présentation des membres de la Team"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/03-Liste-Plugins-&-Roadmap", "name": "Liste-Plugins-&-Roadmap"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/04-Logiciels,-Outils-et-Plugins-indispensables", "name": "Logiciels, Outils et Plugins indispensables"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Blocs-PHP-utiles", "name": "Blocs PHP utiles"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Bonnes-pratiques-pour-les-plugins", "name": "Bonnes pratiques pour les plugins"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Documentation-d'un-Plugin", "name": "Documentation d'un Plugin"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Gestion-des-droits-et-des-%C3%A9quipes-au-sein-de-l'organisation", "name": "Gestion des droits et des équipes"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/IMPERATIFS-avant-publication-plugin-par-la-Team", "name": "IMPERATIFS avant publication plugin"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Les-automates-dans-Jeedom", "name": "Les automates"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Les-commandes", "name": "Les commandes"},
-  {"url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Les-plugins", "name": "Les plugins"}
+  {"url": "https://github.com/NextDom/NextDom/wiki/01-Organisation-g%C3%A9n%C3%A9rale-de-la-Team", "name": "Organisation générale de la Team"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/02---Pr%C3%A9sentation-des-membres-de-la-Team", "name": "Présentation des membres de la Team"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/03-Liste-Plugins-&-Roadmap", "name": "Liste-Plugins-&-Roadmap"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/04-Logiciels,-Outils-et-Plugins-indispensables", "name": "Logiciels, Outils et Plugins indispensables"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/Blocs-PHP-utiles", "name": "Blocs PHP utiles"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/Bonnes-pratiques-pour-les-plugins", "name": "Bonnes pratiques pour les plugins"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/Documentation-d'un-Plugin", "name": "Documentation d'un Plugin"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/Gestion-des-droits-et-des-%C3%A9quipes-au-sein-de-l'organisation", "name": "Gestion des droits et des équipes"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/IMPERATIFS-avant-publication-plugin-par-la-Team", "name": "IMPERATIFS avant publication plugin"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/Les-automates-dans-Jeedom", "name": "Les automates"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/Les-commandes", "name": "Les commandes"},
+  {"url": "https://github.com/NextDom/NextDom/wiki/Les-plugins", "name": "Les plugins"}
   ]}}

@@ -4,12 +4,12 @@ var _titre = "";
 var _body = "";
 
 function createissuemanu(){
-    console.log("création issue 1");
+    console.log("crï¿½ation issue 1");
 _titre = document.getElementById("titre").value; 
 _body = document.getElementById("textarea1").value;
 _username = document.getElementById("username").value;
 _password = document.getElementById("password").value;
-auth("https://api.github.com/orgs/Jeedom-Plugins-Extra/repos?per_page=100");
+auth("https://api.github.com/orgs/NextDom/repos?per_page=100");
 }
 
 function auth(_url){
@@ -35,7 +35,7 @@ function createissue(repos, titre_issue, body_issue){
 $.ajax
 ({
   type: "POST",
-  url: 'https://api.github.com/repos/Jeedom-Plugins-Extra/'+ repos[i].name +'/issues',
+  url: 'https://api.github.com/repos/NextDom/'+ repos[i].name +'/issues',
   dataType: 'json',
   async: false,
   headers: {"Authorization": "Basic " + btoa(username + ":" + password)},

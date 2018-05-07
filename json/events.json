@@ -12,8 +12,8 @@
 },
 "repo": {
 "id": 120485912,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+"name": "NextDom/NextDom",
+"url": "https://api.github.com/repos/NextDom/NextDom"
 },
 "payload": {
 "pages": [
@@ -23,7 +23,7 @@
 "summary": null,
 "action": "edited",
 "sha": "cb836104e7a5415177f8269c7d7031af3ed9d4a7",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Bonnes-pratiques-pour-les-plugins"
+"html_url": "https://github.com/NextDom/NextDom/wiki/Bonnes-pratiques-pour-les-plugins"
 }
 ]
 },
@@ -31,9 +31,9 @@
 "created_at": "2018-03-01T09:07:20Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -50,8 +50,8 @@
 },
 "repo": {
 "id": 85234455,
-"name": "Jeedom-Plugins-Extra/plugin-jpi",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi"
+"name": "NextDom/plugin-jpi",
+"url": "https://api.github.com/repos/NextDom/plugin-jpi"
 },
 "payload": {
 "push_id": 2367858762,
@@ -69,7 +69,7 @@
 },
 "message": "remove ?>\n\ninit('action') mériterai un switch case...",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi/commits/b3efd87512ec4dd9fce50c3670fad39de87fceeb"
+"url": "https://api.github.com/repos/NextDom/plugin-jpi/commits/b3efd87512ec4dd9fce50c3670fad39de87fceeb"
 }
 ]
 },
@@ -77,9 +77,9 @@
 "created_at": "2018-03-01T08:43:13Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -96,8 +96,8 @@
 },
 "repo": {
 "id": 85234455,
-"name": "Jeedom-Plugins-Extra/plugin-jpi",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi"
+"name": "NextDom/plugin-jpi",
+"url": "https://api.github.com/repos/NextDom/plugin-jpi"
 },
 "payload": {
 "push_id": 2367855770,
@@ -115,7 +115,7 @@
 },
 "message": "indentation",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi/commits/8729096bd0d241817107af14f0ac6fcf143752ea"
+"url": "https://api.github.com/repos/NextDom/plugin-jpi/commits/8729096bd0d241817107af14f0ac6fcf143752ea"
 }
 ]
 },
@@ -123,9 +123,9 @@
 "created_at": "2018-03-01T08:41:55Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -142,8 +142,8 @@
 },
 "repo": {
 "id": 85234455,
-"name": "Jeedom-Plugins-Extra/plugin-jpi",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi"
+"name": "NextDom/plugin-jpi",
+"url": "https://api.github.com/repos/NextDom/plugin-jpi"
 },
 "payload": {
 "push_id": 2367854431,
@@ -161,7 +161,7 @@
 },
 "message": "remove ?> and unecesary method",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-jpi/commits/3b05e767df0d0a1745ac62fdc7a90a1229433d90"
+"url": "https://api.github.com/repos/NextDom/plugin-jpi/commits/3b05e767df0d0a1745ac62fdc7a90a1229433d90"
 }
 ]
 },
@@ -169,9 +169,9 @@
 "created_at": "2018-03-01T08:41:16Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -188,8 +188,8 @@
 },
 "repo": {
 "id": 55141744,
-"name": "Jeedom-Plugins-Extra/plugin-publiemeteo",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo"
+"name": "NextDom/plugin-publiemeteo",
+"url": "https://api.github.com/repos/NextDom/plugin-publiemeteo"
 },
 "payload": {
 "push_id": 2367846510,
@@ -207,7 +207,7 @@
 },
 "message": "remove ?> and indentation",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo/commits/532219d011a81c80760d27e31c2a9040183f06cb"
+"url": "https://api.github.com/repos/NextDom/plugin-publiemeteo/commits/532219d011a81c80760d27e31c2a9040183f06cb"
 }
 ]
 },
@@ -215,9 +215,9 @@
 "created_at": "2018-03-01T08:37:29Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -234,8 +234,8 @@
 },
 "repo": {
 "id": 55141744,
-"name": "Jeedom-Plugins-Extra/plugin-publiemeteo",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo"
+"name": "NextDom/plugin-publiemeteo",
+"url": "https://api.github.com/repos/NextDom/plugin-publiemeteo"
 },
 "payload": {
 "push_id": 2367837585,
@@ -253,7 +253,7 @@
 },
 "message": "remove ?> indentation and \\",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo/commits/bc9ecaf31e67165927a2cf8f652b7ac410823fb9"
+"url": "https://api.github.com/repos/NextDom/plugin-publiemeteo/commits/bc9ecaf31e67165927a2cf8f652b7ac410823fb9"
 }
 ]
 },
@@ -261,9 +261,9 @@
 "created_at": "2018-03-01T08:33:16Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -280,8 +280,8 @@
 },
 "repo": {
 "id": 55141744,
-"name": "Jeedom-Plugins-Extra/plugin-publiemeteo",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo"
+"name": "NextDom/plugin-publiemeteo",
+"url": "https://api.github.com/repos/NextDom/plugin-publiemeteo"
 },
 "payload": {
 "push_id": 2367833342,
@@ -299,7 +299,7 @@
 },
 "message": "remove ?> and https",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-publiemeteo/commits/6239d093da8fe4c0152cf26deef8718a27260a02"
+"url": "https://api.github.com/repos/NextDom/plugin-publiemeteo/commits/6239d093da8fe4c0152cf26deef8718a27260a02"
 }
 ]
 },
@@ -307,9 +307,9 @@
 "created_at": "2018-03-01T08:31:13Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -326,18 +326,18 @@
 },
 "repo": {
 "id": 121390193,
-"name": "Jeedom-Plugins-Extra/plugin-template",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template"
+"name": "NextDom/plugin-template",
+"url": "https://api.github.com/repos/NextDom/plugin-template"
 },
 "payload": {
 "action": "created",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
+"url": "https://api.github.com/repos/NextDom/plugin-template/issues/10",
+"repository_url": "https://api.github.com/repos/NextDom/plugin-template",
+"labels_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10/comments",
+"events_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10/events",
+"html_url": "https://github.com/NextDom/plugin-template/pull/10",
 "id": 301153443,
 "number": 10,
 "title": "Template de doc",
@@ -363,7 +363,7 @@
 "labels": [
 {
 "id": 851862529,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/labels/in%20progress",
+"url": "https://api.github.com/repos/NextDom/plugin-template/labels/in%20progress",
 "name": "in progress",
 "color": "ededed",
 "default": false
@@ -418,17 +418,17 @@
 "closed_at": null,
 "author_association": "NONE",
 "pull_request": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
-"diff_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.diff",
-"patch_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.patch"
+"url": "https://api.github.com/repos/NextDom/plugin-template/pulls/10",
+"html_url": "https://github.com/NextDom/plugin-template/pull/10",
+"diff_url": "https://github.com/NextDom/plugin-template/pull/10.diff",
+"patch_url": "https://github.com/NextDom/plugin-template/pull/10.patch"
 },
 "body": "* Structurer la doc avec un index incluant\r\n** presentation.md\r\n** configuration.md\r\n** faq.md\r\n** changelog.md\r\nUn template pour chaque partie\r\nsuppression de sample_index.md et mv de index.md en index-template.md\r\n\r\nadaptation de index-template.md a docs et a ce template\r\n\r\nResultat: https://rjullien.github.io/testPluginTemplate/fr_FR/\r\n\r\nJe n'ai pas modifié la baniere en haut, juste le contenue, je regarderais plus tard\r\nDites moi ce que vous en pensez ?"
 },
 "comment": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/comments/369401913",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10#issuecomment-369401913",
-"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
+"url": "https://api.github.com/repos/NextDom/plugin-template/issues/comments/369401913",
+"html_url": "https://github.com/NextDom/plugin-template/pull/10#issuecomment-369401913",
+"issue_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10",
 "id": 369401913,
 "user": {
 "login": "rjullien",
@@ -459,9 +459,9 @@
 "created_at": "2018-02-28T22:14:33Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -478,18 +478,18 @@
 },
 "repo": {
 "id": 121390193,
-"name": "Jeedom-Plugins-Extra/plugin-template",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template"
+"name": "NextDom/plugin-template",
+"url": "https://api.github.com/repos/NextDom/plugin-template"
 },
 "payload": {
 "action": "created",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
+"url": "https://api.github.com/repos/NextDom/plugin-template/issues/10",
+"repository_url": "https://api.github.com/repos/NextDom/plugin-template",
+"labels_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10/comments",
+"events_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10/events",
+"html_url": "https://github.com/NextDom/plugin-template/pull/10",
 "id": 301153443,
 "number": 10,
 "title": "Template de doc",
@@ -515,7 +515,7 @@
 "labels": [
 {
 "id": 851862529,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/labels/in%20progress",
+"url": "https://api.github.com/repos/NextDom/plugin-template/labels/in%20progress",
 "name": "in progress",
 "color": "ededed",
 "default": false
@@ -570,17 +570,17 @@
 "closed_at": null,
 "author_association": "NONE",
 "pull_request": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
-"diff_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.diff",
-"patch_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.patch"
+"url": "https://api.github.com/repos/NextDom/plugin-template/pulls/10",
+"html_url": "https://github.com/NextDom/plugin-template/pull/10",
+"diff_url": "https://github.com/NextDom/plugin-template/pull/10.diff",
+"patch_url": "https://github.com/NextDom/plugin-template/pull/10.patch"
 },
 "body": "* Structurer la doc avec un index incluant\r\n** presentation.md\r\n** configuration.md\r\n** faq.md\r\n** changelog.md\r\nUn template pour chaque partie\r\nsuppression de sample_index.md et mv de index.md en index-template.md\r\n\r\nadaptation de index-template.md a docs et a ce template\r\n\r\nResultat: https://rjullien.github.io/testPluginTemplate/fr_FR/\r\n\r\nJe n'ai pas modifié la baniere en haut, juste le contenue, je regarderais plus tard\r\nDites moi ce que vous en pensez ?"
 },
 "comment": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/comments/369389644",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10#issuecomment-369389644",
-"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
+"url": "https://api.github.com/repos/NextDom/plugin-template/issues/comments/369389644",
+"html_url": "https://github.com/NextDom/plugin-template/pull/10#issuecomment-369389644",
+"issue_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10",
 "id": 369389644,
 "user": {
 "login": "guenneguezt",
@@ -604,16 +604,16 @@
 "created_at": "2018-02-28T21:30:25Z",
 "updated_at": "2018-02-28T21:30:25Z",
 "author_association": "NONE",
-"body": "Je rajouterai en menu 4 bis la listes des equipements/commandes disponible.\r\nPour la partie changelog, j'aime pas trop mettre date et version car la date c'est celle du push et le numero de version le tag release. Ca fait doublon donc risque de ne pas être à jour.\r\nJ'aime bien le changelog suivant\r\nhttps://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/blob/master/docs/fr_FR/changelog.md"
+"body": "Je rajouterai en menu 4 bis la listes des equipements/commandes disponible.\r\nPour la partie changelog, j'aime pas trop mettre date et version car la date c'est celle du push et le numero de version le tag release. Ca fait doublon donc risque de ne pas être à jour.\r\nJ'aime bien le changelog suivant\r\nhttps://github.com/NextDom/plugin-bornetenda/blob/master/docs/fr_FR/changelog.md"
 }
 },
 "public": true,
 "created_at": "2018-02-28T21:31:07Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -630,8 +630,8 @@
 },
 "repo": {
 "id": 111082667,
-"name": "Jeedom-Plugins-Extra/plugin-Opening",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-Opening"
+"name": "NextDom/plugin-Opening",
+"url": "https://api.github.com/repos/NextDom/plugin-Opening"
 },
 "payload": {
 "forkee": {
@@ -731,9 +731,9 @@
 "created_at": "2018-02-28T21:02:21Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -750,19 +750,19 @@
 },
 "repo": {
 "id": 121390193,
-"name": "Jeedom-Plugins-Extra/plugin-template",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template"
+"name": "NextDom/plugin-template",
+"url": "https://api.github.com/repos/NextDom/plugin-template"
 },
 "payload": {
 "action": "opened",
 "number": 10,
 "pull_request": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10",
+"url": "https://api.github.com/repos/NextDom/plugin-template/pulls/10",
 "id": 172050246,
-"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10",
-"diff_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.diff",
-"patch_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10.patch",
-"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10",
+"html_url": "https://github.com/NextDom/plugin-template/pull/10",
+"diff_url": "https://github.com/NextDom/plugin-template/pull/10.diff",
+"patch_url": "https://github.com/NextDom/plugin-template/pull/10.patch",
+"issue_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10",
 "number": 10,
 "state": "open",
 "locked": false,
@@ -798,11 +798,11 @@
 "requested_teams": [],
 "labels": [],
 "milestone": null,
-"commits_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10/commits",
-"review_comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10/comments",
-"review_comment_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/comments{/number}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/comments",
-"statuses_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/statuses/4963400358cc17b1f29c16c4b424af915f188dc3",
+"commits_url": "https://api.github.com/repos/NextDom/plugin-template/pulls/10/commits",
+"review_comments_url": "https://api.github.com/repos/NextDom/plugin-template/pulls/10/comments",
+"review_comment_url": "https://api.github.com/repos/NextDom/plugin-template/pulls/comments{/number}",
+"comments_url": "https://api.github.com/repos/NextDom/plugin-template/issues/10/comments",
+"statuses_url": "https://api.github.com/repos/NextDom/plugin-template/statuses/4963400358cc17b1f29c16c4b424af915f188dc3",
 "head": {
 "label": "rjullien:develop",
 "ref": "develop",
@@ -919,99 +919,99 @@
 }
 },
 "base": {
-"label": "Jeedom-Plugins-Extra:develop",
+"label": "NextDom:develop",
 "ref": "develop",
 "sha": "769cfc20c68665740730ae8e5e710f083d395d3f",
 "user": {
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "id": 36200380,
 "avatar_url": "https://avatars2.githubusercontent.com/u/36200380?v=4",
 "gravatar_id": "",
-"url": "https://api.github.com/users/Jeedom-Plugins-Extra",
-"html_url": "https://github.com/Jeedom-Plugins-Extra",
-"followers_url": "https://api.github.com/users/Jeedom-Plugins-Extra/followers",
-"following_url": "https://api.github.com/users/Jeedom-Plugins-Extra/following{/other_user}",
-"gists_url": "https://api.github.com/users/Jeedom-Plugins-Extra/gists{/gist_id}",
-"starred_url": "https://api.github.com/users/Jeedom-Plugins-Extra/starred{/owner}{/repo}",
-"subscriptions_url": "https://api.github.com/users/Jeedom-Plugins-Extra/subscriptions",
-"organizations_url": "https://api.github.com/users/Jeedom-Plugins-Extra/orgs",
-"repos_url": "https://api.github.com/users/Jeedom-Plugins-Extra/repos",
-"events_url": "https://api.github.com/users/Jeedom-Plugins-Extra/events{/privacy}",
-"received_events_url": "https://api.github.com/users/Jeedom-Plugins-Extra/received_events",
+"url": "https://api.github.com/users/NextDom",
+"html_url": "https://github.com/NextDom",
+"followers_url": "https://api.github.com/users/NextDom/followers",
+"following_url": "https://api.github.com/users/NextDom/following{/other_user}",
+"gists_url": "https://api.github.com/users/NextDom/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/NextDom/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/NextDom/subscriptions",
+"organizations_url": "https://api.github.com/users/NextDom/orgs",
+"repos_url": "https://api.github.com/users/NextDom/repos",
+"events_url": "https://api.github.com/users/NextDom/events{/privacy}",
+"received_events_url": "https://api.github.com/users/NextDom/received_events",
 "type": "Organization",
 "site_admin": false
 },
 "repo": {
 "id": 121390193,
 "name": "plugin-template",
-"full_name": "Jeedom-Plugins-Extra/plugin-template",
+"full_name": "NextDom/plugin-template",
 "owner": {
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "id": 36200380,
 "avatar_url": "https://avatars2.githubusercontent.com/u/36200380?v=4",
 "gravatar_id": "",
-"url": "https://api.github.com/users/Jeedom-Plugins-Extra",
-"html_url": "https://github.com/Jeedom-Plugins-Extra",
-"followers_url": "https://api.github.com/users/Jeedom-Plugins-Extra/followers",
-"following_url": "https://api.github.com/users/Jeedom-Plugins-Extra/following{/other_user}",
-"gists_url": "https://api.github.com/users/Jeedom-Plugins-Extra/gists{/gist_id}",
-"starred_url": "https://api.github.com/users/Jeedom-Plugins-Extra/starred{/owner}{/repo}",
-"subscriptions_url": "https://api.github.com/users/Jeedom-Plugins-Extra/subscriptions",
-"organizations_url": "https://api.github.com/users/Jeedom-Plugins-Extra/orgs",
-"repos_url": "https://api.github.com/users/Jeedom-Plugins-Extra/repos",
-"events_url": "https://api.github.com/users/Jeedom-Plugins-Extra/events{/privacy}",
-"received_events_url": "https://api.github.com/users/Jeedom-Plugins-Extra/received_events",
+"url": "https://api.github.com/users/NextDom",
+"html_url": "https://github.com/NextDom",
+"followers_url": "https://api.github.com/users/NextDom/followers",
+"following_url": "https://api.github.com/users/NextDom/following{/other_user}",
+"gists_url": "https://api.github.com/users/NextDom/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/NextDom/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/NextDom/subscriptions",
+"organizations_url": "https://api.github.com/users/NextDom/orgs",
+"repos_url": "https://api.github.com/users/NextDom/repos",
+"events_url": "https://api.github.com/users/NextDom/events{/privacy}",
+"received_events_url": "https://api.github.com/users/NextDom/received_events",
 "type": "Organization",
 "site_admin": false
 },
 "private": false,
-"html_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template",
+"html_url": "https://github.com/NextDom/plugin-template",
 "description": "Plugin Template",
 "fork": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template",
-"forks_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/forks",
-"keys_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/keys{/key_id}",
-"collaborators_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/collaborators{/collaborator}",
-"teams_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/teams",
-"hooks_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/hooks",
-"issue_events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/events{/number}",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/events",
-"assignees_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/assignees{/user}",
-"branches_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/branches{/branch}",
-"tags_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/tags",
-"blobs_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/blobs{/sha}",
-"git_tags_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/tags{/sha}",
-"git_refs_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/refs{/sha}",
-"trees_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/trees{/sha}",
-"statuses_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/statuses/{sha}",
-"languages_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/languages",
-"stargazers_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/stargazers",
-"contributors_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/contributors",
-"subscribers_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/subscribers",
-"subscription_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/subscription",
-"commits_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/commits{/sha}",
-"git_commits_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/git/commits{/sha}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/comments{/number}",
-"issue_comment_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/comments{/number}",
-"contents_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/contents/{+path}",
-"compare_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/compare/{base}...{head}",
-"merges_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/merges",
-"archive_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/{archive_format}{/ref}",
-"downloads_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/downloads",
-"issues_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues{/number}",
-"pulls_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls{/number}",
-"milestones_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/milestones{/number}",
-"notifications_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/notifications{?since,all,participating}",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/labels{/name}",
-"releases_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/releases{/id}",
-"deployments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/deployments",
+"url": "https://api.github.com/repos/NextDom/plugin-template",
+"forks_url": "https://api.github.com/repos/NextDom/plugin-template/forks",
+"keys_url": "https://api.github.com/repos/NextDom/plugin-template/keys{/key_id}",
+"collaborators_url": "https://api.github.com/repos/NextDom/plugin-template/collaborators{/collaborator}",
+"teams_url": "https://api.github.com/repos/NextDom/plugin-template/teams",
+"hooks_url": "https://api.github.com/repos/NextDom/plugin-template/hooks",
+"issue_events_url": "https://api.github.com/repos/NextDom/plugin-template/issues/events{/number}",
+"events_url": "https://api.github.com/repos/NextDom/plugin-template/events",
+"assignees_url": "https://api.github.com/repos/NextDom/plugin-template/assignees{/user}",
+"branches_url": "https://api.github.com/repos/NextDom/plugin-template/branches{/branch}",
+"tags_url": "https://api.github.com/repos/NextDom/plugin-template/tags",
+"blobs_url": "https://api.github.com/repos/NextDom/plugin-template/git/blobs{/sha}",
+"git_tags_url": "https://api.github.com/repos/NextDom/plugin-template/git/tags{/sha}",
+"git_refs_url": "https://api.github.com/repos/NextDom/plugin-template/git/refs{/sha}",
+"trees_url": "https://api.github.com/repos/NextDom/plugin-template/git/trees{/sha}",
+"statuses_url": "https://api.github.com/repos/NextDom/plugin-template/statuses/{sha}",
+"languages_url": "https://api.github.com/repos/NextDom/plugin-template/languages",
+"stargazers_url": "https://api.github.com/repos/NextDom/plugin-template/stargazers",
+"contributors_url": "https://api.github.com/repos/NextDom/plugin-template/contributors",
+"subscribers_url": "https://api.github.com/repos/NextDom/plugin-template/subscribers",
+"subscription_url": "https://api.github.com/repos/NextDom/plugin-template/subscription",
+"commits_url": "https://api.github.com/repos/NextDom/plugin-template/commits{/sha}",
+"git_commits_url": "https://api.github.com/repos/NextDom/plugin-template/git/commits{/sha}",
+"comments_url": "https://api.github.com/repos/NextDom/plugin-template/comments{/number}",
+"issue_comment_url": "https://api.github.com/repos/NextDom/plugin-template/issues/comments{/number}",
+"contents_url": "https://api.github.com/repos/NextDom/plugin-template/contents/{+path}",
+"compare_url": "https://api.github.com/repos/NextDom/plugin-template/compare/{base}...{head}",
+"merges_url": "https://api.github.com/repos/NextDom/plugin-template/merges",
+"archive_url": "https://api.github.com/repos/NextDom/plugin-template/{archive_format}{/ref}",
+"downloads_url": "https://api.github.com/repos/NextDom/plugin-template/downloads",
+"issues_url": "https://api.github.com/repos/NextDom/plugin-template/issues{/number}",
+"pulls_url": "https://api.github.com/repos/NextDom/plugin-template/pulls{/number}",
+"milestones_url": "https://api.github.com/repos/NextDom/plugin-template/milestones{/number}",
+"notifications_url": "https://api.github.com/repos/NextDom/plugin-template/notifications{?since,all,participating}",
+"labels_url": "https://api.github.com/repos/NextDom/plugin-template/labels{/name}",
+"releases_url": "https://api.github.com/repos/NextDom/plugin-template/releases{/id}",
+"deployments_url": "https://api.github.com/repos/NextDom/plugin-template/deployments",
 "created_at": "2018-02-13T14:10:15Z",
 "updated_at": "2018-02-27T08:06:37Z",
 "pushed_at": "2018-02-27T21:47:56Z",
-"git_url": "git://github.com/Jeedom-Plugins-Extra/plugin-template.git",
-"ssh_url": "git@github.com:Jeedom-Plugins-Extra/plugin-template.git",
-"clone_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template.git",
-"svn_url": "https://github.com/Jeedom-Plugins-Extra/plugin-template",
+"git_url": "git://github.com/NextDom/plugin-template.git",
+"ssh_url": "git@github.com:NextDom/plugin-template.git",
+"clone_url": "https://github.com/NextDom/plugin-template.git",
+"svn_url": "https://github.com/NextDom/plugin-template",
 "homepage": "",
 "size": 2149,
 "stargazers_count": 0,
@@ -1035,28 +1035,28 @@
 },
 "_links": {
 "self": {
-"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10"
+"href": "https://api.github.com/repos/NextDom/plugin-template/pulls/10"
 },
 "html": {
-"href": "https://github.com/Jeedom-Plugins-Extra/plugin-template/pull/10"
+"href": "https://github.com/NextDom/plugin-template/pull/10"
 },
 "issue": {
-"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10"
+"href": "https://api.github.com/repos/NextDom/plugin-template/issues/10"
 },
 "comments": {
-"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/issues/10/comments"
+"href": "https://api.github.com/repos/NextDom/plugin-template/issues/10/comments"
 },
 "review_comments": {
-"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10/comments"
+"href": "https://api.github.com/repos/NextDom/plugin-template/pulls/10/comments"
 },
 "review_comment": {
-"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/comments{/number}"
+"href": "https://api.github.com/repos/NextDom/plugin-template/pulls/comments{/number}"
 },
 "commits": {
-"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/pulls/10/commits"
+"href": "https://api.github.com/repos/NextDom/plugin-template/pulls/10/commits"
 },
 "statuses": {
-"href": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template/statuses/4963400358cc17b1f29c16c4b424af915f188dc3"
+"href": "https://api.github.com/repos/NextDom/plugin-template/statuses/4963400358cc17b1f29c16c4b424af915f188dc3"
 }
 },
 "author_association": "NONE",
@@ -1078,9 +1078,9 @@
 "created_at": "2018-02-28T19:32:55Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1097,8 +1097,8 @@
 },
 "repo": {
 "id": 68639218,
-"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+"name": "NextDom/plugin-teleinfo",
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo"
 },
 "payload": {
 "push_id": 2366395771,
@@ -1113,9 +1113,9 @@
 "created_at": "2018-02-28T19:31:22Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1132,8 +1132,8 @@
 },
 "repo": {
 "id": 121390193,
-"name": "Jeedom-Plugins-Extra/plugin-template",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-template"
+"name": "NextDom/plugin-template",
+"url": "https://api.github.com/repos/NextDom/plugin-template"
 },
 "payload": {
 "forkee": {
@@ -1233,9 +1233,9 @@
 "created_at": "2018-02-28T19:03:29Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1252,8 +1252,8 @@
 },
 "repo": {
 "id": 108865906,
-"name": "Jeedom-Plugins-Extra/plugin-sonybravia",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-sonybravia"
+"name": "NextDom/plugin-sonybravia",
+"url": "https://api.github.com/repos/NextDom/plugin-sonybravia"
 },
 "payload": {
 "push_id": 2366303188,
@@ -1271,7 +1271,7 @@
 },
 "message": "remove ?>",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-sonybravia/commits/48625b6e989ae15ce309d50cddff1033f9f88685"
+"url": "https://api.github.com/repos/NextDom/plugin-sonybravia/commits/48625b6e989ae15ce309d50cddff1033f9f88685"
 }
 ]
 },
@@ -1279,9 +1279,9 @@
 "created_at": "2018-02-28T18:56:47Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1298,8 +1298,8 @@
 },
 "repo": {
 "id": 68639218,
-"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+"name": "NextDom/plugin-teleinfo",
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo"
 },
 "payload": {
 "push_id": 2366174575,
@@ -1317,7 +1317,7 @@
 },
 "message": "Psr-2 indentation\n\n$_GET il ne faut pas accéder à $_GET directement ou à tout autres superglobales, il y a des traitements de sécurité à effectuer avant.",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/26b580ac20d735a9ffd2a89ee7a426a0ca660f3e"
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo/commits/26b580ac20d735a9ffd2a89ee7a426a0ca660f3e"
 }
 ]
 },
@@ -1325,9 +1325,9 @@
 "created_at": "2018-02-28T18:07:56Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1344,8 +1344,8 @@
 },
 "repo": {
 "id": 68639218,
-"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+"name": "NextDom/plugin-teleinfo",
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo"
 },
 "payload": {
 "push_id": 2366168368,
@@ -1363,7 +1363,7 @@
 },
 "message": "remove ?>",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/78983fe68c601425cb919d65562a4cabaf24a163"
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo/commits/78983fe68c601425cb919d65562a4cabaf24a163"
 }
 ]
 },
@@ -1371,9 +1371,9 @@
 "created_at": "2018-02-28T18:05:33Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1390,8 +1390,8 @@
 },
 "repo": {
 "id": 68639218,
-"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+"name": "NextDom/plugin-teleinfo",
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo"
 },
 "payload": {
 "push_id": 2366165319,
@@ -1409,7 +1409,7 @@
 },
 "message": "remove ?> + PSR-2 indentation\n\nstrict comparaison",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/1f760d2cccb9f76f51f481e9815b2db8adfe30bc"
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo/commits/1f760d2cccb9f76f51f481e9815b2db8adfe30bc"
 }
 ]
 },
@@ -1417,9 +1417,9 @@
 "created_at": "2018-02-28T18:04:21Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1436,8 +1436,8 @@
 },
 "repo": {
 "id": 68639218,
-"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+"name": "NextDom/plugin-teleinfo",
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo"
 },
 "payload": {
 "push_id": 2366155976,
@@ -1455,7 +1455,7 @@
 },
 "message": "indentaion psr-2 remove unecessary $cmd\n\nPourquoi as-tu mis des $cmd = null partout ?\r\nIl y aurait un gros travail de refactorisation à faire. Fait moi un mp si tu veux",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/8e3b895930eb85a89c64483433e528c2fe29c75d"
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo/commits/8e3b895930eb85a89c64483433e528c2fe29c75d"
 }
 ]
 },
@@ -1463,9 +1463,9 @@
 "created_at": "2018-02-28T18:00:42Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1482,8 +1482,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365719737,
@@ -1501,7 +1501,7 @@
 },
 "message": "Update init2.js",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/3af8f348db356ae74b4f9276dda44d586b641e11"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/3af8f348db356ae74b4f9276dda44d586b641e11"
 }
 ]
 },
@@ -1509,9 +1509,9 @@
 "created_at": "2018-02-28T15:35:08Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1528,8 +1528,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365685695,
@@ -1547,7 +1547,7 @@
 },
 "message": "Update init2.js",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/0f12dd0128619a2b3342a617bc34d1aa6c46258b"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/0f12dd0128619a2b3342a617bc34d1aa6c46258b"
 }
 ]
 },
@@ -1555,9 +1555,9 @@
 "created_at": "2018-02-28T15:24:52Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1574,18 +1574,18 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "action": "closed",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21",
+"repository_url": "https://api.github.com/repos/NextDom/NextDom.github.io",
+"labels_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21/comments",
+"events_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21/events",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/21",
 "id": 301028559,
 "number": 21,
 "title": "fab fa-github a la place de fab fa-github-square",
@@ -1664,9 +1664,9 @@
 "created_at": "2018-02-28T15:19:42Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1683,18 +1683,18 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "action": "created",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21",
+"repository_url": "https://api.github.com/repos/NextDom/NextDom.github.io",
+"labels_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21/comments",
+"events_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21/events",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/21",
 "id": 301028559,
 "number": 21,
 "title": "fab fa-github a la place de fab fa-github-square",
@@ -1769,9 +1769,9 @@
 "body": ""
 },
 "comment": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/comments/369272283",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21#issuecomment-369272283",
-"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/comments/369272283",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/21#issuecomment-369272283",
+"issue_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21",
 "id": 369272283,
 "user": {
 "login": "cyrilphoenix71",
@@ -1802,9 +1802,9 @@
 "created_at": "2018-02-28T15:19:42Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1821,18 +1821,18 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "action": "created",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20",
+"repository_url": "https://api.github.com/repos/NextDom/NextDom.github.io",
+"labels_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20/comments",
+"events_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20/events",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/20",
 "id": 301022436,
 "number": 20,
 "title": "Badges membres",
@@ -1907,9 +1907,9 @@
 "body": "- Ajouter un badge lien vers chat private Gitter : fab fa-gitter\r\n\r\n- Ajouter un badge liens vers profil forum jeedom : img src=\"img/Jeedom.png\" style=\"height:45px;margin-top:5px\" à la place de <i class=\"fa....\"\r\n\r\n- Ajouter un badge profil github : fab fa-github\r\n\r\n- Ajouter un compteur de follower github"
 },
 "comment": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/comments/369272226",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20#issuecomment-369272226",
-"issue_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/comments/369272226",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/20#issuecomment-369272226",
+"issue_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20",
 "id": 369272226,
 "user": {
 "login": "cyrilphoenix71",
@@ -1940,9 +1940,9 @@
 "created_at": "2018-02-28T15:19:32Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -1959,18 +1959,18 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "action": "closed",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20",
+"repository_url": "https://api.github.com/repos/NextDom/NextDom.github.io",
+"labels_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20/comments",
+"events_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20/events",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/20",
 "id": 301022436,
 "number": 20,
 "title": "Badges membres",
@@ -2049,9 +2049,9 @@
 "created_at": "2018-02-28T15:19:26Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2068,8 +2068,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365656064,
@@ -2087,7 +2087,7 @@
 },
 "message": "Update init2.js",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/e970e7257caa498861d4c24aa52c21ee3553aca5"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/e970e7257caa498861d4c24aa52c21ee3553aca5"
 }
 ]
 },
@@ -2095,9 +2095,9 @@
 "created_at": "2018-02-28T15:15:48Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2114,8 +2114,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365635256,
@@ -2133,7 +2133,7 @@
 },
 "message": "Update init2.js",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/fba6ec6474216bdd201f02293e166ef43c1ceec2"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/fba6ec6474216bdd201f02293e166ef43c1ceec2"
 }
 ]
 },
@@ -2141,9 +2141,9 @@
 "created_at": "2018-02-28T15:09:18Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2160,8 +2160,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365614145,
@@ -2179,7 +2179,7 @@
 },
 "message": "Update init2.js",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/c7c9a162d14c89c5c90d2eddf9f7f06c945e1846"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/c7c9a162d14c89c5c90d2eddf9f7f06c945e1846"
 }
 ]
 },
@@ -2187,9 +2187,9 @@
 "created_at": "2018-02-28T15:02:36Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2206,8 +2206,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365612751,
@@ -2225,7 +2225,7 @@
 },
 "message": "Update style.css",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/7f7c4490d2926cd45b798b04f51c05e354edfdd6"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/7f7c4490d2926cd45b798b04f51c05e354edfdd6"
 }
 ]
 },
@@ -2233,9 +2233,9 @@
 "created_at": "2018-02-28T15:02:10Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2252,8 +2252,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365589337,
@@ -2271,7 +2271,7 @@
 },
 "message": "Update index.html",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/9c95c2a42fef660f9f120d186dc4b5f754a2c44c"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/9c95c2a42fef660f9f120d186dc4b5f754a2c44c"
 }
 ]
 },
@@ -2279,9 +2279,9 @@
 "created_at": "2018-02-28T14:54:53Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2298,8 +2298,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365588146,
@@ -2317,7 +2317,7 @@
 },
 "message": "Update init2.js",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/e905964b1396afd5c1c3f849ae3f72b178f4df89"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/e905964b1396afd5c1c3f849ae3f72b178f4df89"
 }
 ]
 },
@@ -2325,9 +2325,9 @@
 "created_at": "2018-02-28T14:54:30Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2344,8 +2344,8 @@
 },
 "repo": {
 "id": 68639218,
-"name": "Jeedom-Plugins-Extra/plugin-teleinfo",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo"
+"name": "NextDom/plugin-teleinfo",
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo"
 },
 "payload": {
 "push_id": 2365514533,
@@ -2363,7 +2363,7 @@
 },
 "message": "Ajout changelog",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-teleinfo/commits/f678ecdb9f97eaeaab57feec219c280918b03cf2"
+"url": "https://api.github.com/repos/NextDom/plugin-teleinfo/commits/f678ecdb9f97eaeaab57feec219c280918b03cf2"
 }
 ]
 },
@@ -2371,9 +2371,9 @@
 "created_at": "2018-02-28T14:30:45Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2390,8 +2390,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365510588,
@@ -2409,7 +2409,7 @@
 },
 "message": "Update init2.js",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/2c41dfaf1a626acd152a891455e9525c7efe728e"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/2c41dfaf1a626acd152a891455e9525c7efe728e"
 }
 ]
 },
@@ -2417,9 +2417,9 @@
 "created_at": "2018-02-28T14:29:32Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2436,8 +2436,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365505244,
@@ -2455,7 +2455,7 @@
 },
 "message": "Update style.css",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/28294fee99a3d93e57d9eb0b91930c3c22ee6a2e"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/28294fee99a3d93e57d9eb0b91930c3c22ee6a2e"
 }
 ]
 },
@@ -2463,9 +2463,9 @@
 "created_at": "2018-02-28T14:27:50Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2482,8 +2482,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2365386664,
@@ -2501,7 +2501,7 @@
 },
 "message": "Add files via upload",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/d8d2d45905095afccce62b08d0f35dc3f99d7fef"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/d8d2d45905095afccce62b08d0f35dc3f99d7fef"
 }
 ]
 },
@@ -2509,9 +2509,9 @@
 "created_at": "2018-02-28T13:46:51Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2528,18 +2528,18 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "action": "opened",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/21",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21",
+"repository_url": "https://api.github.com/repos/NextDom/NextDom.github.io",
+"labels_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21/comments",
+"events_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/21/events",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/21",
 "id": 301028559,
 "number": 21,
 "title": "fab fa-github a la place de fab fa-github-square",
@@ -2618,9 +2618,9 @@
 "created_at": "2018-02-28T13:44:05Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2637,18 +2637,18 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "action": "opened",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/20",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20",
+"repository_url": "https://api.github.com/repos/NextDom/NextDom.github.io",
+"labels_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20/comments",
+"events_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/20/events",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/20",
 "id": 301022436,
 "number": 20,
 "title": "Badges membres",
@@ -2689,9 +2689,9 @@
 "created_at": "2018-02-28T13:24:35Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2708,8 +2708,8 @@
 },
 "repo": {
 "id": 120485912,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+"name": "NextDom/NextDom",
+"url": "https://api.github.com/repos/NextDom/NextDom"
 },
 "payload": {
 "pages": [
@@ -2719,7 +2719,7 @@
 "summary": null,
 "action": "edited",
 "sha": "81e55566833ce854115084595cb114c023e9b632",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Ajouter-un-plugin-existant-%C3%A0-la-communaut%C3%A9"
+"html_url": "https://github.com/NextDom/NextDom/wiki/Ajouter-un-plugin-existant-%C3%A0-la-communaut%C3%A9"
 }
 ]
 },
@@ -2727,9 +2727,9 @@
 "created_at": "2018-02-28T13:18:30Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2746,8 +2746,8 @@
 },
 "repo": {
 "id": 55141874,
-"name": "Jeedom-Plugins-Extra/plugin-wes",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-wes"
+"name": "NextDom/plugin-wes",
+"url": "https://api.github.com/repos/NextDom/plugin-wes"
 },
 "payload": {
 "push_id": 2365022460,
@@ -2765,7 +2765,7 @@
 },
 "message": "[ROBOT] Action all",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-wes/commits/7dc77696051c28ee6b6bc45a57b42a666b937e13"
+"url": "https://api.github.com/repos/NextDom/plugin-wes/commits/7dc77696051c28ee6b6bc45a57b42a666b937e13"
 }
 ]
 },
@@ -2773,9 +2773,9 @@
 "created_at": "2018-02-28T11:18:00Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2792,8 +2792,8 @@
 },
 "repo": {
 "id": 28585733,
-"name": "Jeedom-Plugins-Extra/plugin-ipx800",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-ipx800"
+"name": "NextDom/plugin-ipx800",
+"url": "https://api.github.com/repos/NextDom/plugin-ipx800"
 },
 "payload": {
 "push_id": 2365018953,
@@ -2811,7 +2811,7 @@
 },
 "message": "[ROBOT] Action all",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-ipx800/commits/7728f44267d9f59d09ad2fa3dda2e72fb7781160"
+"url": "https://api.github.com/repos/NextDom/plugin-ipx800/commits/7728f44267d9f59d09ad2fa3dda2e72fb7781160"
 }
 ]
 },
@@ -2819,9 +2819,9 @@
 "created_at": "2018-02-28T11:16:32Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2838,8 +2838,8 @@
 },
 "repo": {
 "id": 55141783,
-"name": "Jeedom-Plugins-Extra/plugin-qualiteair",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-qualiteair"
+"name": "NextDom/plugin-qualiteair",
+"url": "https://api.github.com/repos/NextDom/plugin-qualiteair"
 },
 "payload": {
 "push_id": 2365002423,
@@ -2857,7 +2857,7 @@
 },
 "message": "[ROBOT] Action all",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-qualiteair/commits/67804b376ea957ae208d8bf55a2f882fba1734e6"
+"url": "https://api.github.com/repos/NextDom/plugin-qualiteair/commits/67804b376ea957ae208d8bf55a2f882fba1734e6"
 }
 ]
 },
@@ -2865,9 +2865,9 @@
 "created_at": "2018-02-28T11:09:43Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2884,8 +2884,8 @@
 },
 "repo": {
 "id": 28585747,
-"name": "Jeedom-Plugins-Extra/plugin-ecodevice",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-ecodevice"
+"name": "NextDom/plugin-ecodevice",
+"url": "https://api.github.com/repos/NextDom/plugin-ecodevice"
 },
 "payload": {
 "push_id": 2365000282,
@@ -2903,7 +2903,7 @@
 },
 "message": "[ROBOT] Action all",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-ecodevice/commits/8177a6dcdf5745510ecc9ca1ccce233f92f1fc95"
+"url": "https://api.github.com/repos/NextDom/plugin-ecodevice/commits/8177a6dcdf5745510ecc9ca1ccce233f92f1fc95"
 }
 ]
 },
@@ -2911,9 +2911,9 @@
 "created_at": "2018-02-28T11:08:50Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2930,8 +2930,8 @@
 },
 "repo": {
 "id": 64965704,
-"name": "Jeedom-Plugins-Extra/plugin-livebox",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-livebox"
+"name": "NextDom/plugin-livebox",
+"url": "https://api.github.com/repos/NextDom/plugin-livebox"
 },
 "payload": {
 "push_id": 2364993678,
@@ -2949,7 +2949,7 @@
 },
 "message": "[ROBOT] Action all",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/plugin-livebox/commits/1dcbcc0f050377fb652759e8b04ccdc9c7504d90"
+"url": "https://api.github.com/repos/NextDom/plugin-livebox/commits/1dcbcc0f050377fb652759e8b04ccdc9c7504d90"
 }
 ]
 },
@@ -2957,9 +2957,9 @@
 "created_at": "2018-02-28T11:06:13Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -2976,8 +2976,8 @@
 },
 "repo": {
 "id": 120485912,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+"name": "NextDom/NextDom",
+"url": "https://api.github.com/repos/NextDom/NextDom"
 },
 "payload": {
 "pages": [
@@ -2987,7 +2987,7 @@
 "summary": null,
 "action": "edited",
 "sha": "029ed4a80871ba8944f5096cf2eb1e37135ecc6f",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Gestion-de-sources---Git-%26-Co"
+"html_url": "https://github.com/NextDom/NextDom/wiki/Gestion-de-sources---Git-%26-Co"
 }
 ]
 },
@@ -2995,9 +2995,9 @@
 "created_at": "2018-02-28T09:17:41Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -3014,8 +3014,8 @@
 },
 "repo": {
 "id": 120485912,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+"name": "NextDom/NextDom",
+"url": "https://api.github.com/repos/NextDom/NextDom"
 },
 "payload": {
 "pages": [
@@ -3025,7 +3025,7 @@
 "summary": null,
 "action": "edited",
 "sha": "963219874e5174180ea3de8cf04ee4ab635ff83a",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/Gestion-de-sources---Git-%26-Co"
+"html_url": "https://github.com/NextDom/NextDom/wiki/Gestion-de-sources---Git-%26-Co"
 }
 ]
 },
@@ -3033,9 +3033,9 @@
 "created_at": "2018-02-28T09:17:19Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -3052,8 +3052,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2364616755,
@@ -3071,7 +3071,7 @@
 },
 "message": "Update index.html",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/183760892d4634ec13daae6abd8b7848f4caf1cf"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/183760892d4634ec13daae6abd8b7848f4caf1cf"
 }
 ]
 },
@@ -3079,9 +3079,9 @@
 "created_at": "2018-02-28T08:36:36Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -3098,18 +3098,18 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "action": "closed",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/18",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/18",
+"repository_url": "https://api.github.com/repos/NextDom/NextDom.github.io",
+"labels_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/18/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/18/comments",
+"events_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/18/events",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/18",
 "id": 300828184,
 "number": 18,
 "title": "Limitations sur pages wiki et membres",
@@ -3188,9 +3188,9 @@
 "created_at": "2018-02-28T08:27:50Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -3207,18 +3207,18 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "action": "closed",
 "issue": {
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13",
-"repository_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"labels_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13/labels{/name}",
-"comments_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13/comments",
-"events_url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13/events",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/issues/13",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/13",
+"repository_url": "https://api.github.com/repos/NextDom/NextDom.github.io",
+"labels_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/13/labels{/name}",
+"comments_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/13/comments",
+"events_url": "https://api.github.com/repos/NextDom/NextDom.github.io/issues/13/events",
+"html_url": "https://github.com/NextDom/NextDom.github.io/issues/13",
 "id": 300533413,
 "number": 13,
 "title": "Bandeau du bas figé et verrouillé en bas de fenetre \"par dessus\" tout le reste",
@@ -3297,9 +3297,9 @@
 "created_at": "2018-02-28T08:27:16Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -3316,8 +3316,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2364595406,
@@ -3335,7 +3335,7 @@
 },
 "message": "Update index.html",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/3c8ea33bbfb38b4d413716622f696503e7f44c1d"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/3c8ea33bbfb38b4d413716622f696503e7f44c1d"
 }
 ]
 },
@@ -3343,9 +3343,9 @@
 "created_at": "2018-02-28T08:26:47Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -3362,8 +3362,8 @@
 },
 "repo": {
 "id": 121532989,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io"
+"name": "NextDom/NextDom.github.io",
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io"
 },
 "payload": {
 "push_id": 2364595230,
@@ -3381,7 +3381,7 @@
 },
 "message": "Update wiki.json",
 "distinct": true,
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra.github.io/commits/9469219cf9a5e12276ae037e3e4c2555f4e2d8e4"
+"url": "https://api.github.com/repos/NextDom/NextDom.github.io/commits/9469219cf9a5e12276ae037e3e4c2555f4e2d8e4"
 }
 ]
 },
@@ -3389,9 +3389,9 @@
 "created_at": "2018-02-28T08:26:42Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 },
@@ -3408,8 +3408,8 @@
 },
 "repo": {
 "id": 120485912,
-"name": "Jeedom-Plugins-Extra/Jeedom-Plugins-Extra",
-"url": "https://api.github.com/repos/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra"
+"name": "NextDom/NextDom",
+"url": "https://api.github.com/repos/NextDom/NextDom"
 },
 "payload": {
 "pages": [
@@ -3419,7 +3419,7 @@
 "summary": null,
 "action": "edited",
 "sha": "0fbb706389c7e3a5d7b4b4367a2f5ba7a8e46d1a",
-"html_url": "https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/wiki/05-Id%C3%A9es-%C3%A0-faire-na%C3%AEtre"
+"html_url": "https://github.com/NextDom/NextDom/wiki/05-Id%C3%A9es-%C3%A0-faire-na%C3%AEtre"
 }
 ]
 },
@@ -3427,9 +3427,9 @@
 "created_at": "2018-02-28T08:20:54Z",
 "org": {
 "id": 36200380,
-"login": "Jeedom-Plugins-Extra",
+"login": "NextDom",
 "gravatar_id": "",
-"url": "https://api.github.com/orgs/Jeedom-Plugins-Extra",
+"url": "https://api.github.com/orgs/NextDom",
 "avatar_url": "https://avatars.githubusercontent.com/u/36200380?"
 }
 }
