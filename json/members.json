@@ -418,25 +418,6 @@
     "site_admin": false
   },
   {
-    "login": "mika-nt28",
-    "id": 5501935,
-    "avatar_url": "https://avatars2.githubusercontent.com/u/5501935?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/mika-nt28",
-    "html_url": "https://github.com/mika-nt28",
-    "followers_url": "https://api.github.com/users/mika-nt28/followers",
-    "following_url": "https://api.github.com/users/mika-nt28/following{/other_user}",
-    "gists_url": "https://api.github.com/users/mika-nt28/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/mika-nt28/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/mika-nt28/subscriptions",
-    "organizations_url": "https://api.github.com/users/mika-nt28/orgs",
-    "repos_url": "https://api.github.com/users/mika-nt28/repos",
-    "events_url": "https://api.github.com/users/mika-nt28/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/mika-nt28/received_events",
-    "type": "User",
-    "site_admin": false
-  },
-  {
     "login": "redbug26",
     "id": 983902,
     "avatar_url": "https://avatars1.githubusercontent.com/u/983902?v=4",
