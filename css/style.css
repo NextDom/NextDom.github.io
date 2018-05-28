@@ -66,14 +66,14 @@ line-height: 2rem;
 }
 
 .jeedomcolorbg {
-background-color: #40535E !important;
+background-color: #33B8CC !important;
 }
 
 .jeedomcolor {
-color: #40535E !important;
+color: #33B8CC !important;
 }
 .collection a.collection-item {
-color: #40535E !important;
+color: #33B8CC !important;
 }
 
 h1, h3, h5, h6 {
@@ -110,10 +110,10 @@ background-color: rgba(64, 83, 94, 0.10) !important;
 }
 
 .tabs .tab a {
-color: #40535E !important;
+color: #33B8CC !important;
 }
 .tabs .indicator {
-background-color: #40535E !important;
+background-color: #33B8CC !important;
 }
 
 .tabs .tab a:hover {
