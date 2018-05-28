@@ -158,6 +158,9 @@ text-align: center !important;
 padding: 5px !important;
 }
 
+.blue_nextdom{
+	background-color: #33B8CC !important;
+}
 
 .badge1 {
 position:relative;
@@ -254,7 +257,7 @@ bottom:0 !important;
 left:0 !important;
 width:100% !important;
 height:50px;
-padding-top: 15px !important;
+padding-top: 0px !important;
 z-index:2;
 }
 
