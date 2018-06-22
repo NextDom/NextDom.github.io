@@ -1,8 +1,8 @@
-    $(document).onload(function () {
+    $(document).ready(function () {
         var title = 'zwave';
         title = title.replace('plugin-', '');
         $('#doc_title').append(title[0].toUpperCase() + title.substring(1))
-        document.title = 'Documentation Jeedom | ' + title[0].toUpperCase() + title.substring(1)
+        document.title = 'Documentation NextDom | ' + title[0].toUpperCase() + title.substring(1)
         $(".button-collapse").sideNav();
         $('meta[name=description]').remove();
         $('head').append('<meta name="description" content="Ceci est la documentation du plugin "' + title[0].toUpperCase() + title.substring(1) + '", lier à la solution domotique Jeedom.">');
