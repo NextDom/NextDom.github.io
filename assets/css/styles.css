@@ -87,3 +87,6 @@ nav ul a,nav {
 .dropdown-content li>a, .dropdown-content li>span{
 	color : #40535E !important;
 }
+.row {
+	margin-top:20px;
+}
