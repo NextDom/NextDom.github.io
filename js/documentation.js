@@ -1,4 +1,4 @@
-    $(document).ready(function () {
+    $(document).onload(function () {
         var title = 'zwave';
         title = title.replace('plugin-', '');
         $('#doc_title').append(title[0].toUpperCase() + title.substring(1))
