@@ -1,11 +1,8 @@
-
-
-
-    function buildDoc() {
+    $(document).ready(function () {
         var title = 'zwave';
         title = title.replace('plugin-', '');
         $('#doc_title').append(title[0].toUpperCase() + title.substring(1))
-        document.title = 'Documentation NextDom | ' + title[0].toUpperCase() + title.substring(1)
+        document.title = 'Documentation Jeedom | ' + title[0].toUpperCase() + title.substring(1)
         $(".button-collapse").sideNav();
         $('meta[name=description]').remove();
         $('head').append('<meta name="description" content="Ceci est la documentation du plugin "' + title[0].toUpperCase() + title.substring(1) + '", lier à la solution domotique Jeedom.">');
@@ -70,21 +67,21 @@
                 j = 1;
             }
         });
-    };
-
-    var idChapitre = null, nbrChapitre = 0, idAncre = null;
-    $('#div_content h1, #div_content h2').on('inview', function (event, isInView) {
-        nbrChapitre = $('a.active').length;
-        idAncre = $(this).attr('id');
-        if (isInView) {
-            $('a[href="#' + idAncre + '"]').addClass('active');
-            if (idChapitre != null) {
-                $('a[href="#' + idChapitre + '"]').removeClass('active');
-                idChapitre = null;
-            }
-        } else if (nbrChapitre > 1) {
-            $('a[href="#' + idAncre + '"]').removeClass('active');
-        } else {
-            idChapitre = idAncre;
-        }
     });
+
+var idChapitre = null, nbrChapitre = 0, idAncre = null;
+$('#div_content h1, #div_content h2').on('inview', function (event, isInView) {
+    nbrChapitre = $('a.active').length;
+    idAncre = $(this).attr('id');
+    if (isInView) {
+        $('a[href="#' + idAncre + '"]').addClass('active');
+        if (idChapitre != null) {
+            $('a[href="#' + idChapitre + '"]').removeClass('active');
+            idChapitre = null;
+        }
+    } else if (nbrChapitre > 1) {
+        $('a[href="#' + idAncre + '"]').removeClass('active');
+    } else {
+        idChapitre = idAncre;
+    }
+});
