@@ -71,12 +71,12 @@
                 return;
             }
         }
-        buildDoc();
     };
 </script>
     <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="../assets/js/jquery.inview.min.js"></script>
     <script type="text/javascript" src="../assets/js/jquery.toc.js"></script>
+    <script type="text/javascript" src="../js/documentation.js"></script>
 
 </head>
 
@@ -88,6 +88,11 @@
 
 <script type="text/javascript">
     includeHTML();
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    sleep(2000);
 </script>
 
 </body>
